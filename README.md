@@ -2,10 +2,12 @@
 
 ## Proxy Conf
 ### 1. Shadowrocket
-
-- [Shadowrocket BanList AD(by jsdelivr)](https://cdn.jsdelivr.net/gh/cnnas/conf/proxy/sr_banlist_ad.conf)
-- [Shadowrocket BanList AD](https://raw.githubusercontent.com/cnnas/conf/master/proxy/sr_banlist_ad.conf)
-
+- sr_banlist_ad
+    - [Shadowrocket BanList AD(by jsdelivr)](https://cdn.jsdelivr.net/gh/cnnas/conf/proxy/sr_banlist_ad.conf)
+    - [Shadowrocket BanList AD](https://raw.githubusercontent.com/cnnas/conf/master/proxy/sr_banlist_ad.conf)
+- sr_my
+    - [My Shadowrocket Conf(by jsdelivr)](https://cdn.jsdelivr.net/gh/cnnas/conf/proxy/sr_my.conf)
+    - [My Shadowrocket Conf](https://raw.githubusercontent.com/cnnas/conf/master/proxy/sr_my.conf)
 
 
 ## CA证书设置
