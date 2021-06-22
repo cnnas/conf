@@ -1,0 +1,41 @@
+# Name: Tencent.list
+# Add Time: 2021-06-22
+# Update Time: 2021-06-22
+# From: 
+#   - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Tencent.list
+#   - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentLolm.list
+#   - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentVideo.list
+# 
+
+# 内容：Tencent
+# 数量：19条
+DOMAIN-SUFFIX,foxmail.com
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,idqqimg.com
+DOMAIN-SUFFIX,igamecj.com
+DOMAIN-SUFFIX,myapp.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,qqmail.com
+DOMAIN-SUFFIX,qqurl.com
+DOMAIN-SUFFIX,smtcdns.com
+DOMAIN-SUFFIX,smtcdns.net
+DOMAIN-SUFFIX,soso.com
+DOMAIN-SUFFIX,tencent-cloud.net
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencentmind.com
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,weiyun.com
+
+# 内容：腾讯Lol手游
+# 数量：3条
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-SUFFIX,wr.pvp.net
+DOMAIN-SUFFIX,riotgames.com
+
+# 内容：TencentVideo 腾讯视频
+# 数量：2条
+DOMAIN-SUFFIX,v.smtcdns.com
+DOMAIN-SUFFIX,vv.video.qq.com

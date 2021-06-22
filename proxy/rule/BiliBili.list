@@ -1,0 +1,12 @@
+# Name: BiliBili.list
+# Add Time: 2021-06-22
+# Update Time: 2021-06-22
+# From: https://raw.githubusercontent.com/kairyou/surge-list/main/bilibili.list
+
+USER-AGENT,*Bilibili*
+USER-AGENT,*bili-*
+USER-AGENT,*%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9*
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,bilivideo.com

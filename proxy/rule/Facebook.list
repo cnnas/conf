@@ -1,0 +1,12 @@
+# Name: Facebook.list
+# Add Time: 2021-06-22
+# Update Time: 2021-06-22
+# From: https://raw.githubusercontent.com/kairyou/surge-list/main/facebook.list
+#
+
+DOMAIN-KEYWORD,.facebook.
+# facebook/IG
+DOMAIN-SUFFIX,fbcdn.net
+# IG
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com

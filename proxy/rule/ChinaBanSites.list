@@ -1,0 +1,36 @@
+# Name: ChinaBanSites.list
+# Add Time: 2021-06-22
+# Update Time: 2021-06-22
+# From: 
+# - https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Ruleset/FoxNow.list
+# 
+
+## 外媒
+# bbc
+DOMAIN-KEYWORD,uk-live
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.com
+
+# 内容：BBCiPlayer
+# 数量：14条
+USER-AGENT,BBCiPlayer*
+DOMAIN-KEYWORD,bbcfmt
+#DOMAIN-KEYWORD,uk-live
+DOMAIN,aod-dash-uk-live.akamaized.net
+DOMAIN,aod-hls-uk-live.akamaized.net
+DOMAIN,vod-dash-uk-live.akamaized.net
+DOMAIN,vod-thumb-uk-live.akamaized.net
+#DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbc.net.uk
+DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
+
+# 内容：FoxNow
+# 数量：4条
+USER-AGENT,FOX%20NOW*
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,uplynk.com

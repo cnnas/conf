@@ -1,0 +1,15 @@
+# Name: 360.list
+# Add Time: 2021-06-22
+# Update Time: 2021-06-22
+# From: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/360.list
+# 
+# 内容：360
+# 数量：8条
+DOMAIN-SUFFIX,360.com
+DOMAIN-SUFFIX,360kuai.com
+DOMAIN-SUFFIX,360safe.com
+DOMAIN-SUFFIX,dhrest.com
+DOMAIN-SUFFIX,qhres.com
+DOMAIN-SUFFIX,qhstatic.com
+DOMAIN-SUFFIX,qhupdate.com
+DOMAIN-SUFFIX,so.com

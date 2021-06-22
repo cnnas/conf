@@ -1,0 +1,14 @@
+# Name: Hulu.list
+# Add Time: 2021-06-22
+# Update Time: 2021-06-22
+# From: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Hulu.list
+# 
+# 内容：Hulu
+# 数量：7条
+DOMAIN-SUFFIX,cws-hulu.conviva.com
+DOMAIN-SUFFIX,hulu.com
+DOMAIN-SUFFIX,hulu.hb.omtrdc.net
+DOMAIN-SUFFIX,hulu.sc.omtrdc.net
+DOMAIN-SUFFIX,huluad.com
+DOMAIN-SUFFIX,huluim.com
+DOMAIN-SUFFIX,hulustream.com
