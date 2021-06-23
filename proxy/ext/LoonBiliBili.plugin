@@ -1,0 +1,14 @@
+# Name: LoonBiliBili.plugin
+# Add Time: 2021-06-23
+# Update Time: 2021-06-23
+# From: https://raw.githubusercontent.com/cnnas/conf/master/proxy/ext/LoonBiliBili.plugin
+# Description: Loon BiliBili 去广告插件
+# 
+
+[URL Rewrite]
+# > 哔哩哔哩
+^https?:\/\/app\.bilibili\.com\/x\/v\d\/splash\/ - reject-200
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash - reject-200
+
+[MITM]
+hostname = app.bilibili.com,manga.bilibili.com
