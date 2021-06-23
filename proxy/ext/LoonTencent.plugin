@@ -1,0 +1,16 @@
+# Name: LoonTencent.plugin
+# Add Time: 2021-06-23
+# Update Time: 2021-06-23
+# From: https://raw.githubusercontent.com/cnnas/conf/master/proxy/ext/LoonTencent.plugin
+# Description: Loon 腾讯 去广告插件
+# 
+
+[URL Rewrite]
+# >> 腾讯视频
+^https?:\/\/btrace.qq.com - reject-200
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject-200
+# ^https?:\/\/.+\.mp4.+&sdtfrom=v3004 - reject-200
+^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p201\.1\.mp4\? - reject-200
+
+[MITM]
+hostname = btrace.qq.com,vv.video.qq.com
