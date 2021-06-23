@@ -1,0 +1,17 @@
+# Name: ChinaBan.list
+# Add Time: 2021-06-23
+# Update Time: 2021-06-23
+# From: 
+# - 
+# 
+
+
+#clubhouse
+DOMAIN-SUFFIX,clubhouseapi.com,PROXY
+DOMAIN-SUFFIX,joinclubhouse.com,PROXY
+DOMAIN-SUFFIX,pubnubapi.com,PROXY
+DOMAIN-SUFFIX,datatheorem.com,PROXY
+
+# signal
+DOMAIN-SUFFIX,whispersystems.org,PROXY
+DOMAIN-SUFFIX,signal.org,PROXY
