@@ -3,3 +3,5 @@ USER-AGENT,Binance.*
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,zendesk.com
