@@ -1,7 +1,9 @@
 # 币安
 USER-AGENT,Binance.*
+DOMAIN-KEYWORD,binance
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,binance.cloud
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.gg
 DOMAIN-SUFFIX,zendesk.com
