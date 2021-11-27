@@ -31,3 +31,8 @@ DOMAIN-SUFFIX,get-scatter.com
 DOMAIN-SUFFIX,swft.pro
 DOMAIN-SUFFIX,mytokenpocket.vip
 DOMAIN-SUFFIX,bcebos.com
+
+# 鱼池
+#USER-AGENT,Binance.*
+DOMAIN-KEYWORD,f2pool
+DOMAIN-SUFFIX,f2pool.com
