@@ -1333,10 +1333,12 @@ function VQ2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
 function VR2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
   var server = String(Base64.decode(subs.replace("vmess://", "").split("?remarks")[0]).trim()).split("\u0000")[0]
   var node = ""
-  var ip = "vmess=" + server.split("@")[1] + ", " + "method=aes-128-gcm, " + "password=" + server.split("@")[0].split(":")[1] + ", "
+  var ip = "vmess=" + server.split("@")[1] + ", " + "method=chacha20-poly1305, " + "password=" + server.split("@")[0].split(":")[1] + ", "
   var tag = "tag=" + decodeURIComponent(subs.split("remarks=")[1].split("&")[0])
   var tfo = subs.indexOf("tfo=1") != -1 ? "fast-open=true, " : "fast-open=false, "
-  var udp = Pudp == 1 ? "udp-relay=false, " : "udp-relay=false, ";
+//   var udp = Pudp == 1 ? "udp-relay=false, " : "udp-relay=false, ";
+// hjtnt定制
+  var udp = Pudp == 1 ? "udp-relay=true, " : "udp-relay=true, ";
   node = ip + tfo + udp
   var obfs = subs.split("obfs=")[1].split("&")[0]
   if (obfs == "none") { //
@@ -1359,7 +1361,7 @@ function VR2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
     var tls13 = PTls13 == 1 ? "tls13=true, " : ""
     obfs = obfs + cert + tls13
   }
-  node = node + obfs + tag
+  node = node + obfs + ",aead=false " + tag
   return node
 }
 
