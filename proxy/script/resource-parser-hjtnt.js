@@ -175,7 +175,7 @@ var Pdel = mark0 && para1.indexOf("del=") != -1 ? para1.split("del=")[1].split("
 var typeU = para1.indexOf("type=") != -1 ? para1.split("type=")[1].split("&")[0] : "";
 var Pfcr = para1.indexOf("fcr=") != -1 ? para1.split("fcr=")[1].split("&")[0] : ""; // force-cellular 参数
 var Pvia = para1.indexOf("via=") != -1 ? para1.split("via=")[1].split("&")[0] : ""; // via-interface 参数
-var Paead = para1.indexOf("aead=") != -1 ? para1.split("aead=")[1].split("&")[0] : ""; // vmess aead 参数
+// var Paead = para1.indexOf("aead=") != -1 ? para1.split("aead=")[1].split("&")[0] : ""; // vmess aead 参数
 
 var typeQ = $resource.type? $resource.type:"unsupported"   //返回 field 类型参数
 
@@ -1214,16 +1214,16 @@ function Subs2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
 }
 
 // Vmess Aead  关闭-默认开启
-function AeadVmess(cnt) {
-  let paead = "aead=false"
-  if (/^vmess\s*\=/.test(cnt)) {
-    cnts = cnt.split(",")
-    cnts.push(paead)
-    //console.log(cnts)
-    cnt=cnts.join(", ")
-  }
-  return cnt
-}
+// function AeadVmess(cnt) {
+//   let paead = "aead=false"
+//   if (/^vmess\s*\=/.test(cnt)) {
+//     cnts = cnt.split(",")
+//     cnts.push(paead)
+//     //console.log(cnts)
+//     cnt=cnts.join(", ")
+//   }
+//   return cnt
+// }
 
 // qx 类型 tls/udp 验证问题t
 function QX_TLS(cnt,Pcert0,PTls13) {
