@@ -1322,7 +1322,7 @@ function VQ2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
   if (obfs.indexOf("obfs=over-tls") != -1 || obfs.indexOf("obfs=wss") != -1) {
     var cert = Pcert0 != 0 || subs.indexOf("allowInsecure=1") != -1 ? "tls-verification=false, " : "tls-verification=true, "
     var tls13 = PTls13 == 1 ? "tls13=true, " : ""
-    obfs = obfs + cert + tls13
+    obfs = obfs + cert + ",aead=false " + tls13
   }
   node = node + obfs + tag
   return node
