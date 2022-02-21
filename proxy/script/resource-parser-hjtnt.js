@@ -1192,7 +1192,8 @@ function Subs2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
             } catch (e) {
                 failedList.push(`<<<\nContent: ${list0[i]}\nError: ${e}`)
             }
-            if (Paead == -1) {node = AeadVmess(node)} // vmess 类型 aead 处理
+            // if (Paead == -1) {node = AeadVmess(node)} // vmess 类型 aead 处理
+            // node = AeadVmess(node)
             if (node instanceof Array) {
                 for (var j in node) {
                   node[j] = Pudp != 0 ? XUDP(node[j],Pudp) : node[j]
