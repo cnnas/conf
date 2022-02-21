@@ -1,7 +1,6 @@
 /** 
 ☑️ 资源解析器 ©𝐒𝐡𝐚𝐰𝐧  ⟦2022-02-14 12:15⟧
 from : https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Scripts/resource-parser.js
-# 添加 hjtnt vmess和ssr 定制 udp=true aead=false
 ----------------------------------------------------------
 🛠 发现 𝐁𝐔𝐆 请反馈: @ShawnKOP_bot
 ⛳️ 关注 🆃🅶 相关频道: https://t.me/QuanX_API
@@ -175,7 +174,7 @@ var Pdel = mark0 && para1.indexOf("del=") != -1 ? para1.split("del=")[1].split("
 var typeU = para1.indexOf("type=") != -1 ? para1.split("type=")[1].split("&")[0] : "";
 var Pfcr = para1.indexOf("fcr=") != -1 ? para1.split("fcr=")[1].split("&")[0] : ""; // force-cellular 参数
 var Pvia = para1.indexOf("via=") != -1 ? para1.split("via=")[1].split("&")[0] : ""; // via-interface 参数
-var Paead = para1.indexOf("aead=") != -1 ? para1.split("aead=")[1].split("&")[0] : ""; // vmess aead 参数
+var Paead = para1.indexOf("aead=") != -1 ? para1.split("aead=")[1].split("&")[0] : -1; // vmess aead 参数
 
 var typeQ = $resource.type? $resource.type:"unsupported"   //返回 field 类型参数
 
@@ -1193,7 +1192,6 @@ function Subs2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
                 failedList.push(`<<<\nContent: ${list0[i]}\nError: ${e}`)
             }
             if (Paead == -1) {node = AeadVmess(node)} // vmess 类型 aead 处理
-            node = AeadVmess(node)
             if (node instanceof Array) {
                 for (var j in node) {
                   node[j] = Pudp != 0 ? XUDP(node[j],Pudp) : node[j]
@@ -1300,8 +1298,7 @@ function VQ2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
   var ip = "vmess=" + server.split(",")[1].trim() + ":" + server.split(",")[2].trim() + ", " + "method=chacha20-poly1305, " + "password=" + server.split(",")[4].split("\"")[1] + ", "
   var tag = "tag=" + server.split("=")[0]
   var tfo = subs.indexOf("tfo=1") != -1 ? "fast-open=true, " : "fast-open=false, "
-//   var udp = Pudp == 1 ? "udp-relay=false, " : "udp-relay=false, "; // 不支持 vmess 类型 udp
-  var udp = Pudp == 1 ? "udp-relay=true, " : "udp-relay=true, "; // hjtnt强制支持udp
+  var udp = Pudp == 1 ? "udp-relay=false, " : "udp-relay=false, "; // 不支持 vmess 类型 udp
   node = ip + tfo + udp
   var obfs = ""
   if (server.indexOf("obfs=") == -1) { // 非 ws/http 类型
@@ -1324,7 +1321,7 @@ function VQ2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
   if (obfs.indexOf("obfs=over-tls") != -1 || obfs.indexOf("obfs=wss") != -1) {
     var cert = Pcert0 != 0 || subs.indexOf("allowInsecure=1") != -1 ? "tls-verification=false, " : "tls-verification=true, "
     var tls13 = PTls13 == 1 ? "tls13=true, " : ""
-    obfs = obfs + cert + ",aead=false " + tls13
+    obfs = obfs + cert + tls13
   }
   node = node + obfs + tag
   return node
@@ -1338,9 +1335,7 @@ function VR2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
   var ip = "vmess=" + server.split("@")[1] + ", " + "method=chacha20-poly1305, " + "password=" + server.split("@")[0].split(":")[1] + ", "
   var tag = "tag=" + decodeURIComponent(subs.split("remarks=")[1].split("&")[0])
   var tfo = subs.indexOf("tfo=1") != -1 ? "fast-open=true, " : "fast-open=false, "
-//   var udp = Pudp == 1 ? "udp-relay=false, " : "udp-relay=false, ";
-// hjtnt定制
-  var udp = Pudp == 1 ? "udp-relay=true, " : "udp-relay=true, ";
+  var udp = Pudp == 1 ? "udp-relay=false, " : "udp-relay=false, ";
   node = ip + tfo + udp
   var obfs = subs.split("obfs=")[1].split("&")[0]
   if (obfs == "none") { //
@@ -1363,7 +1358,7 @@ function VR2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
     var tls13 = PTls13 == 1 ? "tls13=true, " : ""
     obfs = obfs + cert + tls13
   }
-  node = node + obfs + ",aead=false " + tag
+  node = node + obfs + tag
   return node
 }
 
