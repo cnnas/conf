@@ -174,7 +174,7 @@ var Pdel = mark0 && para1.indexOf("del=") != -1 ? para1.split("del=")[1].split("
 var typeU = para1.indexOf("type=") != -1 ? para1.split("type=")[1].split("&")[0] : "";
 var Pfcr = para1.indexOf("fcr=") != -1 ? para1.split("fcr=")[1].split("&")[0] : ""; // force-cellular 参数
 var Pvia = para1.indexOf("via=") != -1 ? para1.split("via=")[1].split("&")[0] : ""; // via-interface 参数
-var Paead = para1.indexOf("aead=") != -1 ? para1.split("aead=")[1].split("&")[0] : -1; // vmess aead 参数
+var Paead = para1.indexOf("aead=") != -1 ? para1.split("aead=")[1].split("&")[0] : ""; // vmess aead 参数
 
 var typeQ = $resource.type? $resource.type:"unsupported"   //返回 field 类型参数
 
@@ -1298,8 +1298,9 @@ function VQ2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
   var ip = "vmess=" + server.split(",")[1].trim() + ":" + server.split(",")[2].trim() + ", " + "method=chacha20-poly1305, " + "password=" + server.split(",")[4].split("\"")[1] + ", "
   var tag = "tag=" + server.split("=")[0]
   var tfo = subs.indexOf("tfo=1") != -1 ? "fast-open=true, " : "fast-open=false, "
-  var udp = Pudp == 1 ? "udp-relay=false, " : "udp-relay=false, "; // 不支持 vmess 类型 udp
-  node = ip + tfo + udp
+  var udp = Pudp == 1 ? "udp-relay=true, " : "udp-relay=true, "; // 不支持 vmess 类型 udp
+  var tmpaead = "aead=false, "; // 不支持 vmess 类型 udp
+  node = ip + tfo + udp + tmpaead
   var obfs = ""
   if (server.indexOf("obfs=") == -1) { // 非 ws/http 类型
     obfs = server.indexOf("over-tls=true") != -1 ? "obfs=over-tls, " : "" //over-tls
@@ -1335,8 +1336,12 @@ function VR2QX(subs, Pudp, Ptfo, Pcert0, PTls13) {
   var ip = "vmess=" + server.split("@")[1] + ", " + "method=chacha20-poly1305, " + "password=" + server.split("@")[0].split(":")[1] + ", "
   var tag = "tag=" + decodeURIComponent(subs.split("remarks=")[1].split("&")[0])
   var tfo = subs.indexOf("tfo=1") != -1 ? "fast-open=true, " : "fast-open=false, "
-  var udp = Pudp == 1 ? "udp-relay=false, " : "udp-relay=false, ";
-  node = ip + tfo + udp
+  // var udp = Pudp == 1 ? "udp-relay=false, " : "udp-relay=false, ";
+  var udp = Pudp == 1 ? "udp-relay=true, " : "udp-relay=true, "; // 不支持 vmess 类型 udp
+  var tmpaead = "aead=false, "; // 不支持 vmess 类型 udp
+  node = ip + tfo + udp + tmpaead
+
+  // node = ip + tfo + udp
   var obfs = subs.split("obfs=")[1].split("&")[0]
   if (obfs == "none") { //
     obfs = subs.indexOf("tls=1") != -1 ? "obfs=over-tls, " : "" //over-tls
