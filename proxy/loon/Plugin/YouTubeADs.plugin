@@ -5,12 +5,12 @@
 # ^https?:\/\/[\w-]+\.googlevideo\.com\/.+&(oad|ctier) _ reject
 
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
-^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad reject
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad _ reject
 
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break reject
-^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads reject
-^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) reject
-^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break _ reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads _ reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) _ reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext _ reject
 
 
 [MITM]
