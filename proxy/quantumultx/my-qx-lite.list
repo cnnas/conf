@@ -175,3 +175,19 @@ DOMAIN-SUFFIX,redditstatic.com,PROXY
 DOMAIN-SUFFIX,hostloc.com,PROXY
 
 #---------------------BBS End--------------------
+
+#---------------------Pron Start--------------------
+
+# netflav.com | javtsunami.com 国内可以直接访问
+DOMAIN-SUFFIX,missav.com,PROXY
+DOMAIN-SUFFIX,jable.tv,PROXY
+DOMAIN-SUFFIX,avgle.com,PROXY
+DOMAIN-SUFFIX,pornhub.com,PROXY
+DOMAIN-SUFFIX,porntrex.com,PROXY
+DOMAIN-SUFFIX,javgg.net,PROXY
+DOMAIN-SUFFIX,hpjav.tv,PROXY
+DOMAIN-SUFFIX,avgle.com,PROXY
+
+
+
+#---------------------Pron End--------------------
