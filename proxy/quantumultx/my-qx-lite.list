@@ -79,7 +79,6 @@ DOMAIN-SUFFIX,opensea.io,PROXY
 DOMAIN-SUFFIX,rightbtc.com,PROXY
 DOMAIN-SUFFIX,solv.finance,PROXY
 DOMAIN-SUFFIX,topbtc.com,PROXY
-DOMAIN-SUFFIX,tronscan.org,PROXY
 DOMAIN-SUFFIX,uniswap.org,PROXY
 DOMAIN-SUFFIX,xbtce.com,PROXY
 DOMAIN-SUFFIX,yobit.net,PROXY
@@ -93,7 +92,7 @@ DOMAIN-SUFFIX,poocoin.app,PROXY
 DOMAIN-SUFFIX,imtoken.fans,PROXY
 DOMAIN-SUFFIX,sensorsdata.cn,PROXY
 DOMAIN-SUFFIX,token.im,PROXY
-##---tokenpocket---
+###---tokenpocket---
 DOMAIN-SUFFIX,tokenpocket.pro,PROXY
 DOMAIN-SUFFIX,transit.finance,PROXY
 DOMAIN-SUFFIX,get-scatter.com,PROXY
@@ -101,6 +100,9 @@ DOMAIN-SUFFIX,swft.pro,PROXY
 DOMAIN-SUFFIX,mytokenpocket.vip,PROXY
 DOMAIN-SUFFIX,bcebos.com,PROXY
 DOMAIN-SUFFIX,swft.pro,PROXY
+###---tronlink---
+DOMAIN-SUFFIX,tronlink.org,PROXY
+DOMAIN-SUFFIX,tronscan.org,PROXY
 
 ##---区块链资讯---
 DOMAIN-SUFFIX,ccn.com,PROXY
@@ -187,7 +189,16 @@ DOMAIN-SUFFIX,porntrex.com,PROXY
 DOMAIN-SUFFIX,javgg.net,PROXY
 DOMAIN-SUFFIX,hpjav.tv,PROXY
 DOMAIN-SUFFIX,avgle.com,PROXY
+DOMAIN-SUFFIX,haijiao.com,PROXY
+DOMAIN-SUFFIX,haijiao.com,PROXY
 
 
 
 #---------------------Pron End--------------------
+
+#---------------------Media Start--------------------
+#fuckgfw private
+DOMAIN-SUFFIX,amnesty.org,PROXY
+DOMAIN-SUFFIX,pincong.rocks,PROXY
+DOMAIN-SUFFIX,rfa.org,PROXY
+#---------------------Media End--------------------
