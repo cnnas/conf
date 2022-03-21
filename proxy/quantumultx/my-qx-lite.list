@@ -10,8 +10,7 @@ DOMAIN-SUFFIX,bcex.ca,PROXY
 DOMAIN-SUFFIX,bibox.com,PROXY
 DOMAIN-SUFFIX,big.one,PROXY
 DOMAIN-SUFFIX,bigone.com,PROXY
-DOMAIN-SUFFIX,binance.com,PROXY
-DOMAIN-SUFFIX,bnbstatic.com,PROXY
+
 DOMAIN-SUFFIX,bit-z.com,PROXY
 DOMAIN-SUFFIX,bitz.ai,PROXY
 DOMAIN-SUFFIX,bitbay.net,PROXY
@@ -48,8 +47,6 @@ DOMAIN-SUFFIX,exrates.me,PROXY
 DOMAIN-SUFFIX,exx.com,PROXY
 DOMAIN-SUFFIX,fatbtc.com,PROXY
 DOMAIN-SUFFIX,ftx.com,PROXY
-DOMAIN-SUFFIX,gate.io,PROXY
-DOMAIN-SUFFIX,gatecoin.com,PROXY
 DOMAIN-SUFFIX,hbg.com,PROXY
 DOMAIN-SUFFIX,hitbtc.com,PROXY
 DOMAIN-SUFFIX,huobi.co,PROXY
@@ -68,21 +65,54 @@ DOMAIN-SUFFIX,liquiditytp.com,PROXY
 DOMAIN-SUFFIX,livecoin.net,PROXY
 DOMAIN-SUFFIX,localbitcoins.com,PROXY
 DOMAIN-SUFFIX,mercatox.com,PROXY
-DOMAIN-SUFFIX,mexc.com,PROXY
 DOMAIN-SUFFIX,oanda.com,PROXY
+
+##---币安及其生态---
+DOMAIN-SUFFIX,binance.com,PROXY
+DOMAIN-SUFFIX,bnbstatic.com,PROXY
+DOMAIN-SUFFIX,binance.cloud,PROXY
+### safepal
+DOMAIN-SUFFIX,isafepal.com,PROXY
+### cake
+DOMAIN-SUFFIX,pancakeswap.finance,PROXY
+DOMAIN-SUFFIX,pancakeswap.com,PROXY
+DOMAIN-SUFFIX,pancakeswap.finance,PROXY
+
+##---Gate芝麻开门---
+DOMAIN-SUFFIX,gate.io,PROXY
+DOMAIN-SUFFIX,gate.ac,PROXY
+DOMAIN-SUFFIX,gate.ac,PROXY
+DOMAIN-SUFFIX,gatecoin.com,PROXY
+
+
+##---OKX交易所---
 DOMAIN-SUFFIX,oex.com,PROXY
 DOMAIN-SUFFIX,okex.com,PROXY
+DOMAIN-SUFFIX,okx.com,PROXY
+
+##---MEXC抹茶---
+DOMAIN-SUFFIX,mexc.com,PROXY
+DOMAIN-SUFFIX,fpjs.io,PROXY
+
+##---小交易所---
+DOMAIN-SUFFIX,zb.com,PROXY
+
+##---NFT交易所---
+DOMAIN-SUFFIX,opensea.io,PROXY
+
+##---OTC---
 DOMAIN-SUFFIX,otcbtc.com,PROXY
 DOMAIN-SUFFIX,paxful.com,PROXY
+
 DOMAIN-SUFFIX,poolin.com,PROXY
-DOMAIN-SUFFIX,opensea.io,PROXY
+
 DOMAIN-SUFFIX,rightbtc.com,PROXY
 DOMAIN-SUFFIX,solv.finance,PROXY
 DOMAIN-SUFFIX,topbtc.com,PROXY
 DOMAIN-SUFFIX,uniswap.org,PROXY
 DOMAIN-SUFFIX,xbtce.com,PROXY
 DOMAIN-SUFFIX,yobit.net,PROXY
-DOMAIN-SUFFIX,zb.com,PROXY
+DOMAIN-SUFFIX,aicoin.com,PROXY
 DOMAIN-SUFFIX,sushi.com,PROXY
 
 ##---区块链Dapp---
@@ -100,9 +130,20 @@ DOMAIN-SUFFIX,swft.pro,PROXY
 DOMAIN-SUFFIX,mytokenpocket.vip,PROXY
 DOMAIN-SUFFIX,bcebos.com,PROXY
 DOMAIN-SUFFIX,swft.pro,PROXY
+
 ###---tronlink---
 DOMAIN-SUFFIX,tronlink.org,PROXY
 DOMAIN-SUFFIX,tronscan.org,PROXY
+DOMAIN-SUFFIX,trongrid.io,PROXY
+DOMAIN-SUFFIX,tronstack.io,PROXY
+DOMAIN-SUFFIX,nileex.io,PROXY
+DOMAIN-SUFFIX,tronex.io,PROXY
+DOMAIN-SUFFIX,sunswap.com,PROXY
+DOMAIN-SUFFIX,sun.io,PROXY
+DOMAIN-SUFFIX,justswap.io,PROXY
+
+
+
 
 ##---区块链资讯---
 DOMAIN-SUFFIX,ccn.com,PROXY
@@ -156,9 +197,10 @@ DOMAIN-SUFFIX,jetbrains.com,PROXY
 ##---Heroku---
 DOMAIN-SUFFIX,jsfiddle.net,PROXY
 
-##---CloudFront---
+##---CloudFront/Cloudflare---
 DOMAIN-SUFFIX,cloudfront.net,PROXY
 DOMAIN-SUFFIX,cloudflare-ipfs.com,PROXY
+DOMAIN-SUFFIX,cloudflareinsights.com,PROXY
 
 #---------------------Tools End--------------------
 
