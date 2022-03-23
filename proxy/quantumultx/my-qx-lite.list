@@ -71,17 +71,19 @@ DOMAIN-SUFFIX,oanda.com,PROXY
 DOMAIN-SUFFIX,binance.com,PROXY
 DOMAIN-SUFFIX,bnbstatic.com,PROXY
 DOMAIN-SUFFIX,binance.cloud,PROXY
+DOMAIN-SUFFIX,binancezh.biz,PROXY
 ### safepal
 DOMAIN-SUFFIX,isafepal.com,PROXY
+DOMAIN-SUFFIX,safepal.io,PROXY
 ### cake
 DOMAIN-SUFFIX,pancakeswap.finance,PROXY
 DOMAIN-SUFFIX,pancakeswap.com,PROXY
-DOMAIN-SUFFIX,pancakeswap.finance,PROXY
 
 ##---Gate芝麻开门---
 DOMAIN-SUFFIX,gate.io,PROXY
 DOMAIN-SUFFIX,gate.ac,PROXY
-DOMAIN-SUFFIX,gate.ac,PROXY
+DOMAIN-SUFFIX,gate.info,PROXY
+DOMAIN-SUFFIX,gateio.fm,PROXY
 DOMAIN-SUFFIX,gatecoin.com,PROXY
 
 
@@ -92,6 +94,7 @@ DOMAIN-SUFFIX,okx.com,PROXY
 
 ##---MEXC抹茶---
 DOMAIN-SUFFIX,mexc.com,PROXY
+DOMAIN-SUFFIX,mexc.link,PROXY
 DOMAIN-SUFFIX,fpjs.io,PROXY
 
 ##---小交易所---
