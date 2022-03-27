@@ -83,8 +83,12 @@ DOMAIN-SUFFIX,pancakeswap.com,PROXY
 DOMAIN-SUFFIX,gate.io,PROXY
 DOMAIN-SUFFIX,gate.ac,PROXY
 DOMAIN-SUFFIX,gate.info,PROXY
+DOMAIN-SUFFIX,gateio.ch,PROXY
 DOMAIN-SUFFIX,gateio.fm,PROXY
 DOMAIN-SUFFIX,gatecoin.com,PROXY
+DOMAIN-SUFFIX,gateio.ch,PROXY
+
+
 
 
 ##---OKX交易所---
