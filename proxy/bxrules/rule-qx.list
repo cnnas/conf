@@ -1,640 +1,640 @@
-! ---------- BlockChain ----------
+# ---------- BlockChain ----------
 
 
-! #----- EX -----
-! ##----- 币安 -----
-||binance.com
-||bnbstatic.com
-||binance.cloud
-||binancezh.biz
-||binancezh.com
-||binancezh.cz
-! ##----- 火币 -----
-||huobi.co
-||huobi.com
-||huobi.me
-||huobi.pro
-||huobi.sc
-||huobipro.com
-! ##----- Gate芝麻开门 -----
-||gate.io
-||gate.ac
-||gate.info
-||gateio.ch
-||gateio.fm
-||gatecoin.com
-||gateio.ch
-||gateio.ws
-! ##----- OKX -----
-||oex.com
-||okex.com
-||okx.com
-! ##----- MEXC抹茶 -----
-||mexc.com
-||mexc.link
-||fpjs.io
-! ##----- bitcoke -----
-||bitcoke.com
-||bitcoke.work
-! ##----- 其他交易所 -----
-||zb.com
-||aex.com
-||allcoin.com
-||adcex.com
-||bcex.ca
-||bibox.com
-||big.one
-||bigone.com
-||bit-z.com
-||bitz.ai
-||bitbay.net
-||bitcoinworld.com
-||bitfinex.com
-||bithumb.com
-||bitinka.com.ar
-||bitmex.com
-||btc98.com
-||btcbank.bank
-||btctrade.im
-||bybit.com
-||bycsi.com
-||c2cx.com
-||chaoex.com
-||cobinhood.com
-||coin2co.in
-||coinbene.com
-||coinegg.com
-||coinex.com
-||coingi.com
-||coinrail.co.kr
-||cointiger.com
-||cointobe.com
-||coinut.com
-||dex-trade.com
-||discoins.com
-||dragonex.io
-||ebtcbank.com
-||etherdelta.com
-||etherscan.io
-||exmo.com
-||exrates.me
-||exx.com
-||fatbtc.com
-||ftx.com
-||hbg.com
-||hitbtc.com
-||bx.in.th
-||jex.com
-||kex.com
-||kspcoin.com
-||kucoin.com
-||lbank.info
-||liquiditytp.com
-||livecoin.net
-||localbitcoins.com
-||mercatox.com
-||oanda.com
+# #----- EX -----
+# ##----- 币安 -----
+DOMAIN-SUFFIX,binance.com,PROXY
+DOMAIN-SUFFIX,bnbstatic.com,PROXY
+DOMAIN-SUFFIX,binance.cloud,PROXY
+DOMAIN-SUFFIX,binancezh.biz,PROXY
+DOMAIN-SUFFIX,binancezh.com,PROXY
+DOMAIN-SUFFIX,binancezh.cz,PROXY
+# ##----- 火币 -----
+DOMAIN-SUFFIX,huobi.co,PROXY
+DOMAIN-SUFFIX,huobi.com,PROXY
+DOMAIN-SUFFIX,huobi.me,PROXY
+DOMAIN-SUFFIX,huobi.pro,PROXY
+DOMAIN-SUFFIX,huobi.sc,PROXY
+DOMAIN-SUFFIX,huobipro.com,PROXY
+# ##----- Gate芝麻开门 -----
+DOMAIN-SUFFIX,gate.io,PROXY
+DOMAIN-SUFFIX,gate.ac,PROXY
+DOMAIN-SUFFIX,gate.info,PROXY
+DOMAIN-SUFFIX,gateio.ch,PROXY
+DOMAIN-SUFFIX,gateio.fm,PROXY
+DOMAIN-SUFFIX,gatecoin.com,PROXY
+DOMAIN-SUFFIX,gateio.ch,PROXY
+DOMAIN-SUFFIX,gateio.ws,PROXY
+# ##----- OKX -----
+DOMAIN-SUFFIX,oex.com,PROXY
+DOMAIN-SUFFIX,okex.com,PROXY
+DOMAIN-SUFFIX,okx.com,PROXY
+# ##----- MEXC抹茶 -----
+DOMAIN-SUFFIX,mexc.com,PROXY
+DOMAIN-SUFFIX,mexc.link,PROXY
+DOMAIN-SUFFIX,fpjs.io,PROXY
+# ##----- bitcoke -----
+DOMAIN-SUFFIX,bitcoke.com,PROXY
+DOMAIN-SUFFIX,bitcoke.work,PROXY
+# ##----- 其他交易所 -----
+DOMAIN-SUFFIX,zb.com,PROXY
+DOMAIN-SUFFIX,aex.com,PROXY
+DOMAIN-SUFFIX,allcoin.com,PROXY
+DOMAIN-SUFFIX,adcex.com,PROXY
+DOMAIN-SUFFIX,bcex.ca,PROXY
+DOMAIN-SUFFIX,bibox.com,PROXY
+DOMAIN-SUFFIX,big.one,PROXY
+DOMAIN-SUFFIX,bigone.com,PROXY
+DOMAIN-SUFFIX,bit-z.com,PROXY
+DOMAIN-SUFFIX,bitz.ai,PROXY
+DOMAIN-SUFFIX,bitbay.net,PROXY
+DOMAIN-SUFFIX,bitcoinworld.com,PROXY
+DOMAIN-SUFFIX,bitfinex.com,PROXY
+DOMAIN-SUFFIX,bithumb.com,PROXY
+DOMAIN-SUFFIX,bitinka.com.ar,PROXY
+DOMAIN-SUFFIX,bitmex.com,PROXY
+DOMAIN-SUFFIX,btc98.com,PROXY
+DOMAIN-SUFFIX,btcbank.bank,PROXY
+DOMAIN-SUFFIX,btctrade.im,PROXY
+DOMAIN-SUFFIX,bybit.com,PROXY
+DOMAIN-SUFFIX,bycsi.com,PROXY
+DOMAIN-SUFFIX,c2cx.com,PROXY
+DOMAIN-SUFFIX,chaoex.com,PROXY
+DOMAIN-SUFFIX,cobinhood.com,PROXY
+DOMAIN-SUFFIX,coin2co.in,PROXY
+DOMAIN-SUFFIX,coinbene.com,PROXY
+DOMAIN-SUFFIX,coinegg.com,PROXY
+DOMAIN-SUFFIX,coinex.com,PROXY
+DOMAIN-SUFFIX,coingi.com,PROXY
+DOMAIN-SUFFIX,coinrail.co.kr,PROXY
+DOMAIN-SUFFIX,cointiger.com,PROXY
+DOMAIN-SUFFIX,cointobe.com,PROXY
+DOMAIN-SUFFIX,coinut.com,PROXY
+DOMAIN-SUFFIX,dex-trade.com,PROXY
+DOMAIN-SUFFIX,discoins.com,PROXY
+DOMAIN-SUFFIX,dragonex.io,PROXY
+DOMAIN-SUFFIX,ebtcbank.com,PROXY
+DOMAIN-SUFFIX,etherdelta.com,PROXY
+DOMAIN-SUFFIX,etherscan.io,PROXY
+DOMAIN-SUFFIX,exmo.com,PROXY
+DOMAIN-SUFFIX,exrates.me,PROXY
+DOMAIN-SUFFIX,exx.com,PROXY
+DOMAIN-SUFFIX,fatbtc.com,PROXY
+DOMAIN-SUFFIX,ftx.com,PROXY
+DOMAIN-SUFFIX,hbg.com,PROXY
+DOMAIN-SUFFIX,hitbtc.com,PROXY
+DOMAIN-SUFFIX,bx.in.th,PROXY
+DOMAIN-SUFFIX,jex.com,PROXY
+DOMAIN-SUFFIX,kex.com,PROXY
+DOMAIN-SUFFIX,kspcoin.com,PROXY
+DOMAIN-SUFFIX,kucoin.com,PROXY
+DOMAIN-SUFFIX,lbank.info,PROXY
+DOMAIN-SUFFIX,liquiditytp.com,PROXY
+DOMAIN-SUFFIX,livecoin.net,PROXY
+DOMAIN-SUFFIX,localbitcoins.com,PROXY
+DOMAIN-SUFFIX,mercatox.com,PROXY
+DOMAIN-SUFFIX,oanda.com,PROXY
 
-! #----- chain -----
-||rightbtc.com
-||solv.finance
-||topbtc.com
-||uniswap.org
-||xbtce.com
-||yobit.net
-||aicoin.com
-||sushi.com
+# #----- chain -----
+DOMAIN-SUFFIX,rightbtc.com,PROXY
+DOMAIN-SUFFIX,solv.finance,PROXY
+DOMAIN-SUFFIX,topbtc.com,PROXY
+DOMAIN-SUFFIX,uniswap.org,PROXY
+DOMAIN-SUFFIX,xbtce.com,PROXY
+DOMAIN-SUFFIX,yobit.net,PROXY
+DOMAIN-SUFFIX,aicoin.com,PROXY
+DOMAIN-SUFFIX,sushi.com,PROXY
 
-! #----- crypto dapp -----
-||solana.com
-||poocoin.app
-||fantom.network
+# #----- crypto dapp -----
+DOMAIN-SUFFIX,solana.com,PROXY
+DOMAIN-SUFFIX,poocoin.app,PROXY
+DOMAIN-SUFFIX,fantom.network,PROXY
 
-! #----- imtoken -----
-||imtoken.fans
-||sensorsdata.cn
-||token.im
-||improd.works
+# #----- imtoken -----
+DOMAIN-SUFFIX,imtoken.fans,PROXY
+DOMAIN-SUFFIX,sensorsdata.cn,PROXY
+DOMAIN-SUFFIX,token.im,PROXY
+DOMAIN-SUFFIX,improd.works,PROXY
 
-! #----- tokenpocket -----
-||tokenpocket.pro
-||transit.finance
-||get-scatter.com
-||swft.pro
-||mytokenpocket.vip
-||bcebos.com
-||swft.pro
+# #----- tokenpocket -----
+DOMAIN-SUFFIX,tokenpocket.pro,PROXY
+DOMAIN-SUFFIX,transit.finance,PROXY
+DOMAIN-SUFFIX,get-scatter.com,PROXY
+DOMAIN-SUFFIX,swft.pro,PROXY
+DOMAIN-SUFFIX,mytokenpocket.vip,PROXY
+DOMAIN-SUFFIX,bcebos.com,PROXY
+DOMAIN-SUFFIX,swft.pro,PROXY
 
-! #----- tronlink -----
-||tronlink.org
-||tronscan.org
-||tronscan.io
-||trongrid.io
-||tronstack.io
-||nileex.io
-||tronex.io
-||sunswap.com
-||sun.io
-||justswap.io
-||coin.top
+# #----- tronlink -----
+DOMAIN-SUFFIX,tronlink.org,PROXY
+DOMAIN-SUFFIX,tronscan.org,PROXY
+DOMAIN-SUFFIX,tronscan.io,PROXY
+DOMAIN-SUFFIX,trongrid.io,PROXY
+DOMAIN-SUFFIX,tronstack.io,PROXY
+DOMAIN-SUFFIX,nileex.io,PROXY
+DOMAIN-SUFFIX,tronex.io,PROXY
+DOMAIN-SUFFIX,sunswap.com,PROXY
+DOMAIN-SUFFIX,sun.io,PROXY
+DOMAIN-SUFFIX,justswap.io,PROXY
+DOMAIN-SUFFIX,coin.top,PROXY
 
-! #----- CRYPTO Tools -----
-||tradingview.com
-||poolin.com
-||debank.com
-||ethereum.org
-! #----- CRYPTO Wallet -----
-||zecwallet.co
-||zerion.io
-||mykey.org
-
-
-! #----- OTC/Swap/Dex -----
-||otcbtc.com
-||paxful.com
-||opensea.io
-||shibaswap.com
-||thegraph.com
-||swapspace.co
-||xchange.me
-||swapzone.io
-! ##----- safepal -----
-||isafepal.com
-||safepal.io
-||pvcliping.com
-! ##----- pancake -----
-||pancakeswap.finance
-||pancakeswap.com
-||pancakeswap.info
+# #----- CRYPTO Tools -----
+DOMAIN-SUFFIX,tradingview.com,PROXY
+DOMAIN-SUFFIX,poolin.com,PROXY
+DOMAIN-SUFFIX,debank.com,PROXY
+DOMAIN-SUFFIX,ethereum.org,PROXY
+# #----- CRYPTO Wallet -----
+DOMAIN-SUFFIX,zecwallet.co,PROXY
+DOMAIN-SUFFIX,zerion.io,PROXY
+DOMAIN-SUFFIX,mykey.org,PROXY
 
 
-! #----- CRYPTO NEWS ----- 
-||ccn.com
-||chainnews.com
-||coindesk.com
-||coingecko.com
-||coinmarketcap.com
-||cointelegraph.com
-||curve.fi
-||etherscan.io
-||ethfans.org
-||f2pool.com
-||gizadao.com
-||justswap.io
-||marsecosystem.com
-||metaverse.pro
-||nicehash.com
-||qkl123.com
-||crypto.com
-||mifengcha.com
-||blockcast.it
-||tokenlists.org
-||feixiaohao.com
-
-! ---------- Group ----------
-! #----- Facebook ----- 
-||accountkit.com
-||cdninstagram.com
-||f8.com
-||facebook.br
-||facebook.com
-||facebook.design
-||facebook.net
-||facebook.hu
-||facebook.in
-||facebook.nl
-||facebook.se
-||facebookmail.com
-||fb.com
-||fb.me
-||fb.watch
-||fbcdn.net
-||fbsbx.com
-||fbaddins.com
-||fbworkmail.com
-||m.me
-||messenger.com
-||oculus.com
-||oculuscdn.com
-||rocksdb.org
-||parse.com
-||thefacebook.com
-! ##----- Whatsapp -----
-||whatsapp.com
-||whatsapp.net
-! ##----- Instagram -----
-||instagram.com
-||cdninstagram.com
-
-! #----- Amazon -----
-||amazon.co.jp
-||amazon.com
-||amazonaws.com
-
-! #----- Google -----
-||abc.xyz
-||about.google
-||admob.com
-||adsense.com
-||advertisercommunity.com
-||agoogleaday.com
-||ai.google
-||ampproject.org
-||android.com
-||androidify.com
-||androidtv.com
-||api.ai
-||appspot.com
-||autodraw.com
-||466453.com
-||certificate-transparency.org
-||chrome.com
-||chromecast.com
-||chromeenterprise.google
-||chromeexperiments.com
-||chromercise.com
-||chromestatus.com
-||chromium.org
-||com.google
-||crbug.com
-||creativelab5.com
-||crisisresponse.google
-||crrev.com
-||data-vocabulary.org
-||debug.com
-||deepmind.com
-||deja.com
-||design.google
-||digisfera.com
-||dns.google
-||domains.google
-||duck.com
-||environment.google
-||feedburner.com
-||firebaseio.com
-||g.co
-||gcr.io
-||get.app
-||get.dev
-||get.how
-||get.page
-||getmdl.io
-||getoutline.org
-||ggpht.com
-||gmail.com
-||goo.gl
-||googleapis.cn
-||googleapis.com
-||googleapps.com
-||googleartproject.com
-||googleblog.com
-||googlebot.com
-||googlechinawebmaster.com
-||googlecode.com
-||googlecommerce.com
-||googledomains.com
-||googlearth.com
-||googleearth.com
-||googledrive.com
-||googlefiber.net
-||googlegroups.com
-||googlehosted.com
-||googleideas.com
-||googleinsidesearch.com
-||googlelabs.com
-||googlemail.com
-||googlemashups.com
-||googlepagecreator.com
-||googleplay.com
-||googleplus.com
-||googlescholar.comUSA
-||googlesource.com
-||googleusercontent.com
-||googlevideo.com
-||googleweblight.com
-||googlezip.net
-||groups.google.cn
-||grow.google
-||gstatic.com
-||gvt0.com
-||gvt1.com
-||gvt3.com
-||gwtproject.org
-||html5rocks.com
-||iam.soy
-||igoogle.com
-||itasoftware.com
-||lers.google
-||like.com
-||madewithcode.com
-||material.io
-||nic.google
-||on2.com
-||opensource.google
-||panoramio.com
-||picasaweb.com
-||pki.goog
-||plus.codes
-||polymer-project.org
-||pride.google
-||questvisual.com
-||admin.recaptcha.net
-||api.recaptcha.net
-||api-secure.recaptcha.net
-||api-verify.recaptcha.net
-||redhotlabs.com
-||registry.google
-||research.google
-||safety.google
-||savethedate.foo
-||schema.org
-||shattered.io
-||stories.google
-||sustainability.google
-||synergyse.com
-||teachparentstech.org
-||tensorflow.org
-||tfhub.dev
-||thinkwithgoogle.com
-||tiltbrush.com
-||translate.goog
-||translate.google
-||tv.google
-||urchin.com
-||waveprotocol.org
-||waymo.com
-||web.dev
-||webmproject.org
-||webrtc.org
-||whatbrowser.org
-||widevine.com
-||withgoogle.com
-||withyoutube.com
-||x.company
-||xn--ngstr-lra8j.com
-! ##----- blogspot -----
-||blog.google
-||blogblog.com
-||blogspot.com
-||blogspot.hk
-||blogspot.jp
-||blogspot.tw
-! ##----- Youtube -----
-||youtu.be
-||youtube.com
-||youtube-nocookie.com
-||youtubeeducation.com
-||youtubegaming.com
-||youtubekids.com
-||yt.be
-||ytimg.com
-||zynamics.com
-! ##----- Golang -----
-||gmodules.com
-||godoc.org
-||golang.org
-||go.dev
+# #----- OTC/Swap/Dex -----
+DOMAIN-SUFFIX,otcbtc.com,PROXY
+DOMAIN-SUFFIX,paxful.com,PROXY
+DOMAIN-SUFFIX,opensea.io,PROXY
+DOMAIN-SUFFIX,shibaswap.com,PROXY
+DOMAIN-SUFFIX,thegraph.com,PROXY
+DOMAIN-SUFFIX,swapspace.co,PROXY
+DOMAIN-SUFFIX,xchange.me,PROXY
+DOMAIN-SUFFIX,swapzone.io,PROXY
+# ##----- safepal -----
+DOMAIN-SUFFIX,isafepal.com,PROXY
+DOMAIN-SUFFIX,safepal.io,PROXY
+DOMAIN-SUFFIX,pvcliping.com,PROXY
+# ##----- pancake -----
+DOMAIN-SUFFIX,pancakeswap.finance,PROXY
+DOMAIN-SUFFIX,pancakeswap.com,PROXY
+DOMAIN-SUFFIX,pancakeswap.info,PROXY
 
 
+# #----- CRYPTO NEWS ----- 
+DOMAIN-SUFFIX,ccn.com,PROXY
+DOMAIN-SUFFIX,chainnews.com,PROXY
+DOMAIN-SUFFIX,coindesk.com,PROXY
+DOMAIN-SUFFIX,coingecko.com,PROXY
+DOMAIN-SUFFIX,coinmarketcap.com,PROXY
+DOMAIN-SUFFIX,cointelegraph.com,PROXY
+DOMAIN-SUFFIX,curve.fi,PROXY
+DOMAIN-SUFFIX,etherscan.io,PROXY
+DOMAIN-SUFFIX,ethfans.org,PROXY
+DOMAIN-SUFFIX,f2pool.com,PROXY
+DOMAIN-SUFFIX,gizadao.com,PROXY
+DOMAIN-SUFFIX,justswap.io,PROXY
+DOMAIN-SUFFIX,marsecosystem.com,PROXY
+DOMAIN-SUFFIX,metaverse.pro,PROXY
+DOMAIN-SUFFIX,nicehash.com,PROXY
+DOMAIN-SUFFIX,qkl123.com,PROXY
+DOMAIN-SUFFIX,crypto.com,PROXY
+DOMAIN-SUFFIX,mifengcha.com,PROXY
+DOMAIN-SUFFIX,blockcast.it,PROXY
+DOMAIN-SUFFIX,tokenlists.org,PROXY
+DOMAIN-SUFFIX,feixiaohao.com,PROXY
 
-! ---------- News ----------
-! #----- VOA -----
-||voa.mobi
-||voacambodia.com
-||voachineseblog.com
-||voacantonese.com
-||voachinese.com
-||voagd.com
-||voaindonesia.com
-||voanews.com
-||voatibetan.com
-||voatibetanenglish.com
-! #----- Yahoo -----
-||yahoo.com
-||yahoo.com.hk
-||yahoo.co.jp
-||data.flurry.com
-! #----- FT News -----
-||ft.com
-||ftchinese.com
-||ftacademy.cn
-! #----- NYTimes -----
-||nyt.com
-||nytchina.com
-||nytcn.me
-||nytco.com
-||nyti.ms
-||nytimes.com
-||nytimg.com
-||nytlog.com
-||nytstyle.com
-! #----- Bloomberg -----
-||bloomberg.cn
-||bloomberg.com
-||bloomberg.de
-||bloombergview.com
-||businessweek.com
-! #----- BBC -----
-||bbc.com
-||bbc.co.uk
-||bbci.co.uk
-||bbcchinese.com
-||bbc.in
+# ---------- Group ----------
+# #----- Facebook ----- 
+DOMAIN-SUFFIX,accountkit.com,PROXY
+DOMAIN-SUFFIX,cdninstagram.com,PROXY
+DOMAIN-SUFFIX,f8.com,PROXY
+DOMAIN-SUFFIX,facebook.br,PROXY
+DOMAIN-SUFFIX,facebook.com,PROXY
+DOMAIN-SUFFIX,facebook.design,PROXY
+DOMAIN-SUFFIX,facebook.net,PROXY
+DOMAIN-SUFFIX,facebook.hu,PROXY
+DOMAIN-SUFFIX,facebook.in,PROXY
+DOMAIN-SUFFIX,facebook.nl,PROXY
+DOMAIN-SUFFIX,facebook.se,PROXY
+DOMAIN-SUFFIX,facebookmail.com,PROXY
+DOMAIN-SUFFIX,fb.com,PROXY
+DOMAIN-SUFFIX,fb.me,PROXY
+DOMAIN-SUFFIX,fb.watch,PROXY
+DOMAIN-SUFFIX,fbcdn.net,PROXY
+DOMAIN-SUFFIX,fbsbx.com,PROXY
+DOMAIN-SUFFIX,fbaddins.com,PROXY
+DOMAIN-SUFFIX,fbworkmail.com,PROXY
+DOMAIN-SUFFIX,m.me,PROXY
+DOMAIN-SUFFIX,messenger.com,PROXY
+DOMAIN-SUFFIX,oculus.com,PROXY
+DOMAIN-SUFFIX,oculuscdn.com,PROXY
+DOMAIN-SUFFIX,rocksdb.org,PROXY
+DOMAIN-SUFFIX,parse.com,PROXY
+DOMAIN-SUFFIX,thefacebook.com,PROXY
+# ##----- Whatsapp -----
+DOMAIN-SUFFIX,whatsapp.com,PROXY
+DOMAIN-SUFFIX,whatsapp.net,PROXY
+# ##----- Instagram -----
+DOMAIN-SUFFIX,instagram.com,PROXY
+DOMAIN-SUFFIX,cdninstagram.com,PROXY
 
+# #----- Amazon -----
+DOMAIN-SUFFIX,amazon.co.jp,PROXY
+DOMAIN-SUFFIX,amazon.com,PROXY
+DOMAIN-SUFFIX,amazonaws.com,PROXY
 
-! ---------- Social Media ----------
-||medium.com
-! #----- Twitch -----
-||jtvnw.net
-||ttvnw.net
-||twitch.tv
-||twitchcdn.net
-
-! #----- Twitter -----
-||periscope.tv
-||pscp.tv
-||t.co
-||tweetdeck.com
-||twimg.com
-||twitpic.com
-||twitter.com
-||twitter.jp
-||vine.co
-
-! ---------- Drive ----------
-! #----- DropBox -----
-||dropbox.com
-! api.dropboxapi.com
-! notify.dropboxapi.com
-||dropboxusercontent.com
-
-! #----- Mega ----- 
-||mega.co.nz
-||mega.io
-||mega.nz
-||megaproxy.com
-||megarotic.com
-||megavideo.com
-
-
-! ---------- Search ----------
-! #----- WikiPedia -----
-||wikia.com
-||wikipedia.org
-! #----- DuckDuckGo -----
-||duckduckgo.com
-
-
-! ---------- Chat ----------
-||signal.org
-! #----- Telegram -----
-||t.me
-||tdesktop.com
-||telegram.dog
-||telegram.me
-||telegram.org
-||telegramdownload.com
-||telesco.pe
-||telegra.ph
-
-! #----- Line -----
-||line.me
-||line-apps.com
-
-! #----- Clubhouse -----
-||clubhouse.com
-||joinclubhouse.com
-||clubhouseapi.com
-||pubnubapi.com
-
-! #----- Tinder -----
-||gotinder.com
-! #----- Discord -----
-||discord.com
-||discord.gg
-||discordapp.com
-||discordapp.net
+# #----- Google -----
+DOMAIN-SUFFIX,abc.xyz,PROXY
+DOMAIN-SUFFIX,about.google,PROXY
+DOMAIN-SUFFIX,admob.com,PROXY
+DOMAIN-SUFFIX,adsense.com,PROXY
+DOMAIN-SUFFIX,advertisercommunity.com,PROXY
+DOMAIN-SUFFIX,agoogleaday.com,PROXY
+DOMAIN-SUFFIX,ai.google,PROXY
+DOMAIN-SUFFIX,ampproject.org,PROXY
+DOMAIN-SUFFIX,android.com,PROXY
+DOMAIN-SUFFIX,androidify.com,PROXY
+DOMAIN-SUFFIX,androidtv.com,PROXY
+DOMAIN-SUFFIX,api.ai,PROXY
+DOMAIN-SUFFIX,appspot.com,PROXY
+DOMAIN-SUFFIX,autodraw.com,PROXY
+DOMAIN-SUFFIX,466453.com,PROXY
+DOMAIN-SUFFIX,certificate-transparency.org,PROXY
+DOMAIN-SUFFIX,chrome.com,PROXY
+DOMAIN-SUFFIX,chromecast.com,PROXY
+DOMAIN-SUFFIX,chromeenterprise.google,PROXY
+DOMAIN-SUFFIX,chromeexperiments.com,PROXY
+DOMAIN-SUFFIX,chromercise.com,PROXY
+DOMAIN-SUFFIX,chromestatus.com,PROXY
+DOMAIN-SUFFIX,chromium.org,PROXY
+DOMAIN-SUFFIX,com.google,PROXY
+DOMAIN-SUFFIX,crbug.com,PROXY
+DOMAIN-SUFFIX,creativelab5.com,PROXY
+DOMAIN-SUFFIX,crisisresponse.google,PROXY
+DOMAIN-SUFFIX,crrev.com,PROXY
+DOMAIN-SUFFIX,data-vocabulary.org,PROXY
+DOMAIN-SUFFIX,debug.com,PROXY
+DOMAIN-SUFFIX,deepmind.com,PROXY
+DOMAIN-SUFFIX,deja.com,PROXY
+DOMAIN-SUFFIX,design.google,PROXY
+DOMAIN-SUFFIX,digisfera.com,PROXY
+DOMAIN-SUFFIX,dns.google,PROXY
+DOMAIN-SUFFIX,domains.google,PROXY
+DOMAIN-SUFFIX,duck.com,PROXY
+DOMAIN-SUFFIX,environment.google,PROXY
+DOMAIN-SUFFIX,feedburner.com,PROXY
+DOMAIN-SUFFIX,firebaseio.com,PROXY
+DOMAIN-SUFFIX,g.co,PROXY
+DOMAIN-SUFFIX,gcr.io,PROXY
+DOMAIN-SUFFIX,get.app,PROXY
+DOMAIN-SUFFIX,get.dev,PROXY
+DOMAIN-SUFFIX,get.how,PROXY
+DOMAIN-SUFFIX,get.page,PROXY
+DOMAIN-SUFFIX,getmdl.io,PROXY
+DOMAIN-SUFFIX,getoutline.org,PROXY
+DOMAIN-SUFFIX,ggpht.com,PROXY
+DOMAIN-SUFFIX,gmail.com,PROXY
+DOMAIN-SUFFIX,goo.gl,PROXY
+DOMAIN-SUFFIX,googleapis.cn,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
+DOMAIN-SUFFIX,googleapps.com,PROXY
+DOMAIN-SUFFIX,googleartproject.com,PROXY
+DOMAIN-SUFFIX,googleblog.com,PROXY
+DOMAIN-SUFFIX,googlebot.com,PROXY
+DOMAIN-SUFFIX,googlechinawebmaster.com,PROXY
+DOMAIN-SUFFIX,googlecode.com,PROXY
+DOMAIN-SUFFIX,googlecommerce.com,PROXY
+DOMAIN-SUFFIX,googledomains.com,PROXY
+DOMAIN-SUFFIX,googlearth.com,PROXY
+DOMAIN-SUFFIX,googleearth.com,PROXY
+DOMAIN-SUFFIX,googledrive.com,PROXY
+DOMAIN-SUFFIX,googlefiber.net,PROXY
+DOMAIN-SUFFIX,googlegroups.com,PROXY
+DOMAIN-SUFFIX,googlehosted.com,PROXY
+DOMAIN-SUFFIX,googleideas.com,PROXY
+DOMAIN-SUFFIX,googleinsidesearch.com,PROXY
+DOMAIN-SUFFIX,googlelabs.com,PROXY
+DOMAIN-SUFFIX,googlemail.com,PROXY
+DOMAIN-SUFFIX,googlemashups.com,PROXY
+DOMAIN-SUFFIX,googlepagecreator.com,PROXY
+DOMAIN-SUFFIX,googleplay.com,PROXY
+DOMAIN-SUFFIX,googleplus.com,PROXY
+DOMAIN-SUFFIX,googlescholar.comUSA,PROXY
+DOMAIN-SUFFIX,googlesource.com,PROXY
+DOMAIN-SUFFIX,googleusercontent.com,PROXY
+DOMAIN-SUFFIX,googlevideo.com,PROXY
+DOMAIN-SUFFIX,googleweblight.com,PROXY
+DOMAIN-SUFFIX,googlezip.net,PROXY
+DOMAIN-SUFFIX,groups.google.cn,PROXY
+DOMAIN-SUFFIX,grow.google,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+DOMAIN-SUFFIX,gvt0.com,PROXY
+DOMAIN-SUFFIX,gvt1.com,PROXY
+DOMAIN-SUFFIX,gvt3.com,PROXY
+DOMAIN-SUFFIX,gwtproject.org,PROXY
+DOMAIN-SUFFIX,html5rocks.com,PROXY
+DOMAIN-SUFFIX,iam.soy,PROXY
+DOMAIN-SUFFIX,igoogle.com,PROXY
+DOMAIN-SUFFIX,itasoftware.com,PROXY
+DOMAIN-SUFFIX,lers.google,PROXY
+DOMAIN-SUFFIX,like.com,PROXY
+DOMAIN-SUFFIX,madewithcode.com,PROXY
+DOMAIN-SUFFIX,material.io,PROXY
+DOMAIN-SUFFIX,nic.google,PROXY
+DOMAIN-SUFFIX,on2.com,PROXY
+DOMAIN-SUFFIX,opensource.google,PROXY
+DOMAIN-SUFFIX,panoramio.com,PROXY
+DOMAIN-SUFFIX,picasaweb.com,PROXY
+DOMAIN-SUFFIX,pki.goog,PROXY
+DOMAIN-SUFFIX,plus.codes,PROXY
+DOMAIN-SUFFIX,polymer-project.org,PROXY
+DOMAIN-SUFFIX,pride.google,PROXY
+DOMAIN-SUFFIX,questvisual.com,PROXY
+DOMAIN-SUFFIX,admin.recaptcha.net,PROXY
+DOMAIN-SUFFIX,api.recaptcha.net,PROXY
+DOMAIN-SUFFIX,api-secure.recaptcha.net,PROXY
+DOMAIN-SUFFIX,api-verify.recaptcha.net,PROXY
+DOMAIN-SUFFIX,redhotlabs.com,PROXY
+DOMAIN-SUFFIX,registry.google,PROXY
+DOMAIN-SUFFIX,research.google,PROXY
+DOMAIN-SUFFIX,safety.google,PROXY
+DOMAIN-SUFFIX,savethedate.foo,PROXY
+DOMAIN-SUFFIX,schema.org,PROXY
+DOMAIN-SUFFIX,shattered.io,PROXY
+DOMAIN-SUFFIX,stories.google,PROXY
+DOMAIN-SUFFIX,sustainability.google,PROXY
+DOMAIN-SUFFIX,synergyse.com,PROXY
+DOMAIN-SUFFIX,teachparentstech.org,PROXY
+DOMAIN-SUFFIX,tensorflow.org,PROXY
+DOMAIN-SUFFIX,tfhub.dev,PROXY
+DOMAIN-SUFFIX,thinkwithgoogle.com,PROXY
+DOMAIN-SUFFIX,tiltbrush.com,PROXY
+DOMAIN-SUFFIX,translate.goog,PROXY
+DOMAIN-SUFFIX,translate.google,PROXY
+DOMAIN-SUFFIX,tv.google,PROXY
+DOMAIN-SUFFIX,urchin.com,PROXY
+DOMAIN-SUFFIX,waveprotocol.org,PROXY
+DOMAIN-SUFFIX,waymo.com,PROXY
+DOMAIN-SUFFIX,web.dev,PROXY
+DOMAIN-SUFFIX,webmproject.org,PROXY
+DOMAIN-SUFFIX,webrtc.org,PROXY
+DOMAIN-SUFFIX,whatbrowser.org,PROXY
+DOMAIN-SUFFIX,widevine.com,PROXY
+DOMAIN-SUFFIX,withgoogle.com,PROXY
+DOMAIN-SUFFIX,withyoutube.com,PROXY
+DOMAIN-SUFFIX,x.company,PROXY
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
+# ##----- blogspot -----
+DOMAIN-SUFFIX,blog.google,PROXY
+DOMAIN-SUFFIX,blogblog.com,PROXY
+DOMAIN-SUFFIX,blogspot.com,PROXY
+DOMAIN-SUFFIX,blogspot.hk,PROXY
+DOMAIN-SUFFIX,blogspot.jp,PROXY
+DOMAIN-SUFFIX,blogspot.tw,PROXY
+# ##----- Youtube -----
+DOMAIN-SUFFIX,youtu.be,PROXY
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-SUFFIX,youtube-nocookie.com,PROXY
+DOMAIN-SUFFIX,youtubeeducation.com,PROXY
+DOMAIN-SUFFIX,youtubegaming.com,PROXY
+DOMAIN-SUFFIX,youtubekids.com,PROXY
+DOMAIN-SUFFIX,yt.be,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
+DOMAIN-SUFFIX,zynamics.com,PROXY
+# ##----- Golang -----
+DOMAIN-SUFFIX,gmodules.com,PROXY
+DOMAIN-SUFFIX,godoc.org,PROXY
+DOMAIN-SUFFIX,golang.org,PROXY
+DOMAIN-SUFFIX,go.dev,PROXY
 
 
 
-! ---------- IT Server ----------
-! #----- Github -----
-||github.blog
-||github.com
-||github.io
-||github.dev
-||githubusercontent.com
-||githubassets.com
-
-! #----- CloudFront/Cloudflare -----
-||cloudfront.net
-||cloudflare-ipfs.com
-||cloudflareinsights.com
-
-! #----- Heroku -----
-||herokuapp.com
-||heroku.com
-
-! #----- OpenWRT -----
-||openwrt.org
-
-! #----- other server -----
-||jsfiddle.net
-||airexplorer.net
-||rclone.org
-||wakatime.com
-||jetbrains.com
-||bootcdn.net
-||jsdelivr.com
-||gitbook.com
-
-
-! ---------- Tools ----------
-! #----- Note -----
-||evernote.com
-! #----- RSS -----
-||feedly.com
-||inoreader.com
-||feedburner.com
-||feedx.net
-! #----- zlib -----
-||zlibcdn.com
-||z-lib.org
-! #----- AnaConda -----
-||anaconda.cloud
-! #----- Andriod Tools -----
-||apkpure.com
-! #----- Mail Tools -----
-||protonmail.com
-! #----- Dev Tools -----
-||sublimetext.com
-||jetbrains.com
-||vercel.app
-||visualstudio.com
-||laravel-admin.org
-||travis-ci.org
-||evozi.com
-
-! ---------- Edu ----------
-! #----- EDX -----
-||nr-data.net
-||segment.io
-||branch.io
-||edx-cdn.org
-||edx-video.net
-||edx.org
-||hubspot.com
-||hubapi.com
-||cs50.net
-||harvard.edu
-||cs50.io
-||algolia.net
-||qualaroo.com
-! #----- Cake English -----
-||pstatic.net
-||branch.io
-||mycake.me
+# ---------- News ----------
+# #----- VOA -----
+DOMAIN-SUFFIX,voa.mobi,PROXY
+DOMAIN-SUFFIX,voacambodia.com,PROXY
+DOMAIN-SUFFIX,voachineseblog.com,PROXY
+DOMAIN-SUFFIX,voacantonese.com,PROXY
+DOMAIN-SUFFIX,voachinese.com,PROXY
+DOMAIN-SUFFIX,voagd.com,PROXY
+DOMAIN-SUFFIX,voaindonesia.com,PROXY
+DOMAIN-SUFFIX,voanews.com,PROXY
+DOMAIN-SUFFIX,voatibetan.com,PROXY
+DOMAIN-SUFFIX,voatibetanenglish.com,PROXY
+# #----- Yahoo -----
+DOMAIN-SUFFIX,yahoo.com,PROXY
+DOMAIN-SUFFIX,yahoo.com.hk,PROXY
+DOMAIN-SUFFIX,yahoo.co.jp,PROXY
+DOMAIN-SUFFIX,data.flurry.com,PROXY
+# #----- FT News -----
+DOMAIN-SUFFIX,ft.com,PROXY
+DOMAIN-SUFFIX,ftchinese.com,PROXY
+DOMAIN-SUFFIX,ftacademy.cn,PROXY
+# #----- NYTimes -----
+DOMAIN-SUFFIX,nyt.com,PROXY
+DOMAIN-SUFFIX,nytchina.com,PROXY
+DOMAIN-SUFFIX,nytcn.me,PROXY
+DOMAIN-SUFFIX,nytco.com,PROXY
+DOMAIN-SUFFIX,nyti.ms,PROXY
+DOMAIN-SUFFIX,nytimes.com,PROXY
+DOMAIN-SUFFIX,nytimg.com,PROXY
+DOMAIN-SUFFIX,nytlog.com,PROXY
+DOMAIN-SUFFIX,nytstyle.com,PROXY
+# #----- Bloomberg -----
+DOMAIN-SUFFIX,bloomberg.cn,PROXY
+DOMAIN-SUFFIX,bloomberg.com,PROXY
+DOMAIN-SUFFIX,bloomberg.de,PROXY
+DOMAIN-SUFFIX,bloombergview.com,PROXY
+DOMAIN-SUFFIX,businessweek.com,PROXY
+# #----- BBC -----
+DOMAIN-SUFFIX,bbc.com,PROXY
+DOMAIN-SUFFIX,bbc.co.uk,PROXY
+DOMAIN-SUFFIX,bbci.co.uk,PROXY
+DOMAIN-SUFFIX,bbcchinese.com,PROXY
+DOMAIN-SUFFIX,bbc.in,PROXY
 
 
-! ---------- Forum ----------
+# ---------- Social Media ----------
+DOMAIN-SUFFIX,medium.com,PROXY
+# #----- Twitch -----
+DOMAIN-SUFFIX,jtvnw.net,PROXY
+DOMAIN-SUFFIX,ttvnw.net,PROXY
+DOMAIN-SUFFIX,twitch.tv,PROXY
+DOMAIN-SUFFIX,twitchcdn.net,PROXY
 
-! #----- Reddit -----
-||redd.it
-||reddit.com
-||redditlist.com
-||redditmedia.com
-||redditstatic.com
+# #----- Twitter -----
+DOMAIN-SUFFIX,periscope.tv,PROXY
+DOMAIN-SUFFIX,pscp.tv,PROXY
+DOMAIN-SUFFIX,t.co,PROXY
+DOMAIN-SUFFIX,tweetdeck.com,PROXY
+DOMAIN-SUFFIX,twimg.com,PROXY
+DOMAIN-SUFFIX,twitpic.com,PROXY
+DOMAIN-SUFFIX,twitter.com,PROXY
+DOMAIN-SUFFIX,twitter.jp,PROXY
+DOMAIN-SUFFIX,vine.co,PROXY
+
+# ---------- Drive ----------
+# #----- DropBox -----
+DOMAIN-SUFFIX,dropbox.com,PROXY
+# api.dropboxapi.com
+# notify.dropboxapi.com
+DOMAIN-SUFFIX,dropboxusercontent.com,PROXY
+
+# #----- Mega ----- 
+DOMAIN-SUFFIX,mega.co.nz,PROXY
+DOMAIN-SUFFIX,mega.io,PROXY
+DOMAIN-SUFFIX,mega.nz,PROXY
+DOMAIN-SUFFIX,megaproxy.com,PROXY
+DOMAIN-SUFFIX,megarotic.com,PROXY
+DOMAIN-SUFFIX,megavideo.com,PROXY
 
 
-||amnesty.org
-||rfa.org
+# ---------- Search ----------
+# #----- WikiPedia -----
+DOMAIN-SUFFIX,wikia.com,PROXY
+DOMAIN-SUFFIX,wikipedia.org,PROXY
+# #----- DuckDuckGo -----
+DOMAIN-SUFFIX,duckduckgo.com,PROXY
 
-! ----- China Forum -----
-||v2ex.com
-||pincong.rocks
-||hostloc.com
+
+# ---------- Chat ----------
+DOMAIN-SUFFIX,signal.org,PROXY
+# #----- Telegram -----
+DOMAIN-SUFFIX,t.me,PROXY
+DOMAIN-SUFFIX,tdesktop.com,PROXY
+DOMAIN-SUFFIX,telegram.dog,PROXY
+DOMAIN-SUFFIX,telegram.me,PROXY
+DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-SUFFIX,telegramdownload.com,PROXY
+DOMAIN-SUFFIX,telesco.pe,PROXY
+DOMAIN-SUFFIX,telegra.ph,PROXY
+
+# #----- Line -----
+DOMAIN-SUFFIX,line.me,PROXY
+DOMAIN-SUFFIX,line-apps.com,PROXY
+
+# #----- Clubhouse -----
+DOMAIN-SUFFIX,clubhouse.com,PROXY
+DOMAIN-SUFFIX,joinclubhouse.com,PROXY
+DOMAIN-SUFFIX,clubhouseapi.com,PROXY
+DOMAIN-SUFFIX,pubnubapi.com,PROXY
+
+# #----- Tinder -----
+DOMAIN-SUFFIX,gotinder.com,PROXY
+# #----- Discord -----
+DOMAIN-SUFFIX,discord.com,PROXY
+DOMAIN-SUFFIX,discord.gg,PROXY
+DOMAIN-SUFFIX,discordapp.com,PROXY
+DOMAIN-SUFFIX,discordapp.net,PROXY
 
 
-! ---------- AV ----------
-||missav.com
-||jable.tv
-||avgle.com
 
-||porntrex.com
-||javgg.net
-||hpjav.tv
-||avgle.com
-||haijiao.com
-||mm4now.com
-! #----- PornHub -----
-||pornhub.com
-||pornhubpremium.com
-! #----- BHC百花 -----
-||bhc348.top
-||bhc521.com
+# ---------- IT Server ----------
+# #----- Github -----
+DOMAIN-SUFFIX,github.blog,PROXY
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,github.io,PROXY
+DOMAIN-SUFFIX,github.dev,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
+DOMAIN-SUFFIX,githubassets.com,PROXY
 
-! ---------- ENT ----------
-||vimeo.com
-||vimeocdn.com
+# #----- CloudFront/Cloudflare -----
+DOMAIN-SUFFIX,cloudfront.net,PROXY
+DOMAIN-SUFFIX,cloudflare-ipfs.com,PROXY
+DOMAIN-SUFFIX,cloudflareinsights.com,PROXY
 
-! ---------- Other ----------# ---------- Other ----------
+# #----- Heroku -----
+DOMAIN-SUFFIX,herokuapp.com,PROXY
+DOMAIN-SUFFIX,heroku.com,PROXY
+
+# #----- OpenWRT -----
+DOMAIN-SUFFIX,openwrt.org,PROXY
+
+# #----- other server -----
+DOMAIN-SUFFIX,jsfiddle.net,PROXY
+DOMAIN-SUFFIX,airexplorer.net,PROXY
+DOMAIN-SUFFIX,rclone.org,PROXY
+DOMAIN-SUFFIX,wakatime.com,PROXY
+DOMAIN-SUFFIX,jetbrains.com,PROXY
+DOMAIN-SUFFIX,bootcdn.net,PROXY
+DOMAIN-SUFFIX,jsdelivr.com,PROXY
+DOMAIN-SUFFIX,gitbook.com,PROXY
+
+
+# ---------- Tools ----------
+# #----- Note -----
+DOMAIN-SUFFIX,evernote.com,PROXY
+# #----- RSS -----
+DOMAIN-SUFFIX,feedly.com,PROXY
+DOMAIN-SUFFIX,inoreader.com,PROXY
+DOMAIN-SUFFIX,feedburner.com,PROXY
+DOMAIN-SUFFIX,feedx.net,PROXY
+# #----- zlib -----
+DOMAIN-SUFFIX,zlibcdn.com,PROXY
+DOMAIN-SUFFIX,z-lib.org,PROXY
+# #----- AnaConda -----
+DOMAIN-SUFFIX,anaconda.cloud,PROXY
+# #----- Andriod Tools -----
+DOMAIN-SUFFIX,apkpure.com,PROXY
+# #----- Mail Tools -----
+DOMAIN-SUFFIX,protonmail.com,PROXY
+# #----- Dev Tools -----
+DOMAIN-SUFFIX,sublimetext.com,PROXY
+DOMAIN-SUFFIX,jetbrains.com,PROXY
+DOMAIN-SUFFIX,vercel.app,PROXY
+DOMAIN-SUFFIX,visualstudio.com,PROXY
+DOMAIN-SUFFIX,laravel-admin.org,PROXY
+DOMAIN-SUFFIX,travis-ci.org,PROXY
+DOMAIN-SUFFIX,evozi.com,PROXY
+
+# ---------- Edu ----------
+# #----- EDX -----
+DOMAIN-SUFFIX,nr-data.net,PROXY
+DOMAIN-SUFFIX,segment.io,PROXY
+DOMAIN-SUFFIX,branch.io,PROXY
+DOMAIN-SUFFIX,edx-cdn.org,PROXY
+DOMAIN-SUFFIX,edx-video.net,PROXY
+DOMAIN-SUFFIX,edx.org,PROXY
+DOMAIN-SUFFIX,hubspot.com,PROXY
+DOMAIN-SUFFIX,hubapi.com,PROXY
+DOMAIN-SUFFIX,cs50.net,PROXY
+DOMAIN-SUFFIX,harvard.edu,PROXY
+DOMAIN-SUFFIX,cs50.io,PROXY
+DOMAIN-SUFFIX,algolia.net,PROXY
+DOMAIN-SUFFIX,qualaroo.com,PROXY
+# #----- Cake English -----
+DOMAIN-SUFFIX,pstatic.net,PROXY
+DOMAIN-SUFFIX,branch.io,PROXY
+DOMAIN-SUFFIX,mycake.me,PROXY
+
+
+# ---------- Forum ----------
+
+# #----- Reddit -----
+DOMAIN-SUFFIX,redd.it,PROXY
+DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,redditlist.com,PROXY
+DOMAIN-SUFFIX,redditmedia.com,PROXY
+DOMAIN-SUFFIX,redditstatic.com,PROXY
+
+
+DOMAIN-SUFFIX,amnesty.org,PROXY
+DOMAIN-SUFFIX,rfa.org,PROXY
+
+# ----- China Forum -----
+DOMAIN-SUFFIX,v2ex.com,PROXY
+DOMAIN-SUFFIX,pincong.rocks,PROXY
+DOMAIN-SUFFIX,hostloc.com,PROXY
+
+
+# ---------- AV ----------
+DOMAIN-SUFFIX,missav.com,PROXY
+DOMAIN-SUFFIX,jable.tv,PROXY
+DOMAIN-SUFFIX,avgle.com,PROXY
+
+DOMAIN-SUFFIX,porntrex.com,PROXY
+DOMAIN-SUFFIX,javgg.net,PROXY
+DOMAIN-SUFFIX,hpjav.tv,PROXY
+DOMAIN-SUFFIX,avgle.com,PROXY
+DOMAIN-SUFFIX,haijiao.com,PROXY
+DOMAIN-SUFFIX,mm4now.com,PROXY
+# #----- PornHub -----
+DOMAIN-SUFFIX,pornhub.com,PROXY
+DOMAIN-SUFFIX,pornhubpremium.com,PROXY
+# #----- BHC百花 -----
+DOMAIN-SUFFIX,bhc348.top,PROXY
+DOMAIN-SUFFIX,bhc521.com,PROXY
+
+# ---------- ENT ----------
+DOMAIN-SUFFIX,vimeo.com,PROXY
+DOMAIN-SUFFIX,vimeocdn.com,PROXY
+
+# ---------- Other ----------

@@ -54,7 +54,7 @@ def get_conf():
             # line = conv_qx_str(line)
             # print(line, end = '')
             rule_str_gfw = rule_str_gfw + conv_gfw_str(line)
-            rule_str_qx = rule_str_gfw + conv_qx_str(line)
+            rule_str_qx = rule_str_qx + conv_qx_str(line)
         f.close()
         
         gen_gfw_file(rule_str_gfw)
