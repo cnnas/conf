@@ -1,0 +1,596 @@
+! ---------- BlockChain ----------
+
+
+
+
+! #----- EX -----
+! ##----- 币安 -----
+||binance.com
+||bnbstatic.com
+||binance.cloud
+||binancezh.biz
+! ##----- 火币 -----
+||huobi.co
+||huobi.com
+||huobi.me
+||huobi.pro
+||huobi.sc
+||huobipro.com
+! ##----- Gate芝麻开门 -----
+||gate.io
+||gate.ac
+||gate.info
+||gateio.ch
+||gateio.fm
+||gatecoin.com
+||gateio.ch
+! ##----- OKX -----
+||oex.com
+||okex.com
+||okx.com
+! ##----- MEXC抹茶 -----
+||mexc.com
+||mexc.link
+||fpjs.io
+! ##----- 其他交易所 -----
+||zb.com
+||aex.com
+||allcoin.com
+||adcex.com
+||bcex.ca
+||bibox.com
+||big.one
+||bigone.com
+||bit-z.com
+||bitz.ai
+||bitbay.net
+||bitcoinworld.com
+||bitfinex.com
+||bithumb.com
+||bitinka.com.ar
+||bitmex.com
+||btc98.com
+||btcbank.bank
+||btctrade.im
+||bybit.com
+||bycsi.com
+||c2cx.com
+||chaoex.com
+||cobinhood.com
+||coin2co.in
+||coinbene.com
+||coinegg.com
+||coinex.com
+||coingi.com
+||coinrail.co.kr
+||cointiger.com
+||cointobe.com
+||coinut.com
+||dex-trade.com
+||discoins.com
+||dragonex.io
+||ebtcbank.com
+||etherdelta.com
+||etherscan.io
+||exmo.com
+||exrates.me
+||exx.com
+||fatbtc.com
+||ftx.com
+||hbg.com
+||hitbtc.com
+||bx.in.th
+||jex.com
+||kex.com
+||kspcoin.com
+||kucoin.com
+||lbank.info
+||liquiditytp.com
+||livecoin.net
+||localbitcoins.com
+||mercatox.com
+||oanda.com
+
+! #----- chain -----
+||rightbtc.com
+||solv.finance
+||topbtc.com
+||uniswap.org
+||xbtce.com
+||yobit.net
+||aicoin.com
+||sushi.com
+
+! #----- crypto dapp -----
+||solana.com
+||poocoin.app
+
+! #----- imtoken -----
+||imtoken.fans
+||sensorsdata.cn
+||token.im
+||improd.works
+
+! #----- tokenpocket -----
+||tokenpocket.pro
+||transit.finance
+||get-scatter.com
+||swft.pro
+||mytokenpocket.vip
+||bcebos.com
+||swft.pro
+
+! #----- tronlink -----
+||tronlink.org
+||tronscan.org
+||tronscan.io
+||trongrid.io
+||tronstack.io
+||nileex.io
+||tronex.io
+||sunswap.com
+||sun.io
+||justswap.io
+||coin.top
+
+! #----- CRYPTO Tools -----
+||tradingview.com
+||poolin.com
+
+! #----- CRYPTO Wallet -----
+||zecwallet.co
+
+! #----- OTC/Swap/Dex -----
+||otcbtc.com
+||paxful.com
+||opensea.io
+! ##----- safepal -----
+||isafepal.com
+||safepal.io
+||pvcliping.com
+! ##----- pancake -----
+||pancakeswap.finance
+||pancakeswap.com
+
+
+! #----- CRYPTO NEWS ----- 
+||ccn.com
+||chainnews.com
+||coindesk.com
+||coingecko.com
+||coinmarketcap.com
+||cointelegraph.com
+||curve.fi
+||etherscan.io
+||ethfans.org
+||f2pool.com
+||gizadao.com
+||justswap.io
+||marsecosystem.com
+||metaverse.pro
+||nicehash.com
+||qkl123.com
+||crypto.com
+
+! ---------- Group ----------
+! #----- Facebook ----- 
+||accountkit.com
+||cdninstagram.com
+||f8.com
+||facebook.br
+||facebook.com
+||facebook.design
+||facebook.net
+||facebook.hu
+||facebook.in
+||facebook.nl
+||facebook.se
+||facebookmail.com
+||fb.com
+||fb.me
+||fb.watch
+||fbcdn.net
+||fbsbx.com
+||fbaddins.com
+||fbworkmail.com
+||m.me
+||messenger.com
+||oculus.com
+||oculuscdn.com
+||rocksdb.org
+||parse.com
+||thefacebook.com
+! ##----- Whatsapp -----
+||whatsapp.com
+||whatsapp.net
+! ##----- Instagram -----
+||instagram.com
+||cdninstagram.com
+
+! #----- Amazon -----
+||amazon.co.jp
+||amazon.com
+||amazonaws.com
+
+! #----- Google -----
+||abc.xyz
+||about.google
+||admob.com
+||adsense.com
+||advertisercommunity.com
+||agoogleaday.com
+||ai.google
+||ampproject.org
+||android.com
+||androidify.com
+||androidtv.com
+||api.ai
+||appspot.com
+||autodraw.com
+||466453.com
+||certificate-transparency.org
+||chrome.com
+||chromecast.com
+||chromeenterprise.google
+||chromeexperiments.com
+||chromercise.com
+||chromestatus.com
+||chromium.org
+||com.google
+||crbug.com
+||creativelab5.com
+||crisisresponse.google
+||crrev.com
+||data-vocabulary.org
+||debug.com
+||deepmind.com
+||deja.com
+||design.google
+||digisfera.com
+||dns.google
+||domains.google
+||duck.com
+||environment.google
+||feedburner.com
+||firebaseio.com
+||g.co
+||gcr.io
+||get.app
+||get.dev
+||get.how
+||get.page
+||getmdl.io
+||getoutline.org
+||ggpht.com
+||gmail.com
+||gmodules.com
+||godoc.org
+||golang.org
+||goo.gl
+||googleapis.cn
+||googleapis.com
+||googleapps.com
+||googleartproject.com
+||googleblog.com
+||googlebot.com
+||googlechinawebmaster.com
+||googlecode.com
+||googlecommerce.com
+||googledomains.com
+||googlearth.com
+||googleearth.com
+||googledrive.com
+||googlefiber.net
+||googlegroups.com
+||googlehosted.com
+||googleideas.com
+||googleinsidesearch.com
+||googlelabs.com
+||googlemail.com
+||googlemashups.com
+||googlepagecreator.com
+||googleplay.com
+||googleplus.com
+||googlescholar.comUSA
+||googlesource.com
+||googleusercontent.com
+||googlevideo.com
+||googleweblight.com
+||googlezip.net
+||groups.google.cn
+||grow.google
+||gstatic.com
+||gvt0.com
+||gvt1.com
+||gvt3.com
+||gwtproject.org
+||html5rocks.com
+||iam.soy
+||igoogle.com
+||itasoftware.com
+||lers.google
+||like.com
+||madewithcode.com
+||material.io
+||nic.google
+||on2.com
+||opensource.google
+||panoramio.com
+||picasaweb.com
+||pki.goog
+||plus.codes
+||polymer-project.org
+||pride.google
+||questvisual.com
+||admin.recaptcha.net
+||api.recaptcha.net
+||api-secure.recaptcha.net
+||api-verify.recaptcha.net
+||redhotlabs.com
+||registry.google
+||research.google
+||safety.google
+||savethedate.foo
+||schema.org
+||shattered.io
+||stories.google
+||sustainability.google
+||synergyse.com
+||teachparentstech.org
+||tensorflow.org
+||tfhub.dev
+||thinkwithgoogle.com
+||tiltbrush.com
+||translate.goog
+||translate.google
+||tv.google
+||urchin.com
+||waveprotocol.org
+||waymo.com
+||web.dev
+||webmproject.org
+||webrtc.org
+||whatbrowser.org
+||widevine.com
+||withgoogle.com
+||withyoutube.com
+||x.company
+||xn--ngstr-lra8j.com
+! ##----- blogspot -----
+||blog.google
+||blogblog.com
+||blogspot.com
+||blogspot.hk
+||blogspot.jp
+||blogspot.tw
+! ##----- Youtube -----
+||youtu.be
+||youtube.com
+||youtube-nocookie.com
+||youtubeeducation.com
+||youtubegaming.com
+||youtubekids.com
+||yt.be
+||ytimg.com
+||zynamics.com
+
+
+
+! ---------- News ----------
+! #----- VOA -----
+||voa.mobi
+||voacambodia.com
+||voachineseblog.com
+||voacantonese.com
+||voachinese.com
+||voagd.com
+||voaindonesia.com
+||voanews.com
+||voatibetan.com
+||voatibetanenglish.com
+! #----- Yahoo -----
+||yahoo.com
+||yahoo.com.hk
+||yahoo.co.jp
+||data.flurry.com
+! #----- FT News -----
+||ft.com
+||ftchinese.com
+||ftacademy.cn
+! #----- NYTimes -----
+||nyt.com
+||nytchina.com
+||nytcn.me
+||nytco.com
+||nyti.ms
+||nytimes.com
+||nytimg.com
+||nytlog.com
+||nytstyle.com
+! #----- Bloomberg -----
+||bloomberg.cn
+||bloomberg.com
+||bloomberg.de
+||bloombergview.com
+||businessweek.com
+! #----- BBC -----
+||bbc.com
+||bbc.co.uk
+||bbci.co.uk
+||bbcchinese.com
+||bbc.in
+
+
+! ---------- Social Media ----------
+||medium.com
+! #----- Twitch -----
+||jtvnw.net
+||ttvnw.net
+||twitch.tv
+||twitchcdn.net
+
+! #----- Twitter -----
+||periscope.tv
+||pscp.tv
+||t.co
+||tweetdeck.com
+||twimg.com
+||twitpic.com
+||twitter.com
+||twitter.jp
+||vine.co
+
+! ---------- Drive ----------
+! #----- DropBox -----
+||dropbox.com
+||api.dropboxapi.com
+||notify.dropboxapi.com
+||dropboxusercontent.com
+
+! #----- Mega ----- 
+||mega.co.nz
+||mega.io
+||mega.nz
+||megaproxy.com
+||megarotic.com
+||megavideo.com
+
+
+! ---------- Search ----------
+! #----- WikiPedia -----
+||wikia.com
+||wikipedia.org
+! #----- DuckDuckGo -----
+||duckduckgo.com
+
+
+! ---------- Chat ----------
+||signal.org
+! #----- Telegram -----
+||t.me
+||tdesktop.com
+||telegram.dog
+||telegram.me
+||telegram.org
+||telegramdownload.com
+||telesco.pe
+||telegra.ph
+
+! #----- Line -----
+||line.me
+||line-apps.com
+
+! #----- Clubhouse -----
+||clubhouse.com
+||joinclubhouse.com
+||clubhouseapi.com
+||pubnubapi.com
+
+! #----- Tinder -----
+||gotinder.com
+! #----- Discord -----
+||discord.com
+||discord.gg
+||discordapp.com
+||discordapp.net
+
+
+
+! ---------- IT Server ----------
+! #----- Github -----
+||github.blog
+||github.com
+||github.io
+||github.dev
+||githubusercontent.com
+||githubassets.com
+
+! #----- CloudFront/Cloudflare -----
+||cloudfront.net
+||cloudflare-ipfs.com
+||cloudflareinsights.com
+
+! #----- Heroku -----
+||herokuapp.com
+||heroku.com
+
+! #----- OpenWRT -----
+||openwrt.org
+
+! #----- other server -----
+||jsfiddle.net
+||airexplorer.net
+||rclone.org
+||wakatime.com
+||jetbrains.com
+
+
+
+! ---------- Tools ----------
+
+! #----- RSS -----
+||feedly.com
+||inoreader.com
+||feedburner.com
+||feedx.net
+
+
+! ---------- Edu ----------
+! #----- EDX -----
+||nr-data.net
+||segment.io
+||branch.io
+||edx-cdn.org
+||edx-video.net
+||edx.org
+||hubspot.com
+||hubapi.com
+||cs50.net
+||harvard.edu
+||cs50.io
+||algolia.net
+||qualaroo.com
+! #----- Cake English -----
+||pstatic.net
+||branch.io
+||mycake.me
+
+
+! ---------- Forum ----------
+
+! #----- Reddit -----
+||redd.it
+||reddit.com
+||redditlist.com
+||redditmedia.com
+||redditstatic.com
+
+
+||amnesty.org
+||rfa.org
+
+! ----- China Forum -----
+||v2ex.com
+||pincong.rocks
+||hostloc.com
+
+
+! ---------- AV ----------
+||missav.com
+||jable.tv
+||avgle.com
+||pornhub.com
+||porntrex.com
+||javgg.net
+||hpjav.tv
+||avgle.com
+||haijiao.com
+||haijiao.com
+! #----- BHC百花 -----
+||bhc348.top
+||bhc521.com
+
+! ---------- Movie ----------
+
+
+! ---------- Other ----------# ---------- Other ----------
