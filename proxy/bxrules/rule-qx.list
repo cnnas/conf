@@ -566,6 +566,8 @@ DOMAIN-SUFFIX,anaconda.cloud,PROXY
 DOMAIN-SUFFIX,apkpure.com,PROXY
 # #----- Mail Tools -----
 DOMAIN-SUFFIX,protonmail.com,PROXY
+# #----- UI/UX -----
+DOMAIN-SUFFIX,flaticon.com,PROXY
 # #----- Dev Tools -----
 DOMAIN-SUFFIX,sublimetext.com,PROXY
 DOMAIN-SUFFIX,jetbrains.com,PROXY
@@ -629,6 +631,7 @@ DOMAIN-SUFFIX,mm4now.com,PROXY
 # #----- PornHub -----
 DOMAIN-SUFFIX,pornhub.com,PROXY
 DOMAIN-SUFFIX,pornhubpremium.com,PROXY
+DOMAIN-SUFFIX,phprcdn.com,PROXY
 # #----- BHC百花 -----
 DOMAIN-SUFFIX,bhc348.top,PROXY
 DOMAIN-SUFFIX,bhc521.com,PROXY
