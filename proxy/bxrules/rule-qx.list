@@ -158,6 +158,8 @@ DOMAIN-SUFFIX,thegraph.com,PROXY
 DOMAIN-SUFFIX,swapspace.co,PROXY
 DOMAIN-SUFFIX,xchange.me,PROXY
 DOMAIN-SUFFIX,swapzone.io,PROXY
+# ##----- Opensea seadn.io-----
+DOMAIN-SUFFIX,opensea.io,PROXY
 # ##----- safepal -----
 DOMAIN-SUFFIX,isafepal.com,PROXY
 DOMAIN-SUFFIX,safepal.io,PROXY
@@ -537,6 +539,10 @@ DOMAIN-SUFFIX,heroku.com,PROXY
 
 # #----- OpenWRT -----
 DOMAIN-SUFFIX,openwrt.org,PROXY
+# #----- Payment stripe可不设 -----
+# stripe.network
+# stripe.com
+
 
 # #----- other server -----
 DOMAIN-SUFFIX,jsfiddle.net,PROXY
@@ -596,6 +602,9 @@ DOMAIN-SUFFIX,qualaroo.com,PROXY
 DOMAIN-SUFFIX,pstatic.net,PROXY
 DOMAIN-SUFFIX,branch.io,PROXY
 DOMAIN-SUFFIX,mycake.me,PROXY
+# #----- freeCodeCamp -----
+# freecodecamp.org
+# algolia.net
 
 
 # ---------- Forum ----------
@@ -621,7 +630,7 @@ DOMAIN-SUFFIX,hostloc.com,PROXY
 DOMAIN-SUFFIX,missav.com,PROXY
 DOMAIN-SUFFIX,jable.tv,PROXY
 DOMAIN-SUFFIX,avgle.com,PROXY
-
+DOMAIN-SUFFIX,avmoo.com,PROXY
 DOMAIN-SUFFIX,porntrex.com,PROXY
 DOMAIN-SUFFIX,javgg.net,PROXY
 DOMAIN-SUFFIX,hpjav.tv,PROXY
