@@ -572,6 +572,7 @@ DOMAIN-SUFFIX,anaconda.cloud,PROXY
 DOMAIN-SUFFIX,apkpure.com,PROXY
 # #----- Mail Tools -----
 DOMAIN-SUFFIX,protonmail.com,PROXY
+DOMAIN-SUFFIX,proton.me,PROXY
 # #----- UI/UX -----
 DOMAIN-SUFFIX,flaticon.com,PROXY
 # #----- Dev Tools -----
@@ -624,6 +625,8 @@ DOMAIN-SUFFIX,rfa.org,PROXY
 DOMAIN-SUFFIX,v2ex.com,PROXY
 DOMAIN-SUFFIX,pincong.rocks,PROXY
 DOMAIN-SUFFIX,hostloc.com,PROXY
+DOMAIN-SUFFIX,2047.one,PROXY
+DOMAIN-SUFFIX,freewechat.com,PROXY
 
 
 # ---------- AV ----------
