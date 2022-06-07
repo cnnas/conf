@@ -138,6 +138,9 @@ DOMAIN-SUFFIX,sun.io,PROXY
 DOMAIN-SUFFIX,justswap.io,PROXY
 DOMAIN-SUFFIX,coin.top,PROXY
 
+# ##----- coinbase -----
+DOMAIN-SUFFIX,coinbase.com,PROXY
+
 # #----- CRYPTO Tools -----
 DOMAIN-SUFFIX,tradingview.com,PROXY
 DOMAIN-SUFFIX,poolin.com,PROXY
@@ -192,6 +195,13 @@ DOMAIN-SUFFIX,mifengcha.com,PROXY
 DOMAIN-SUFFIX,blockcast.it,PROXY
 DOMAIN-SUFFIX,tokenlists.org,PROXY
 DOMAIN-SUFFIX,feixiaohao.com,PROXY
+DOMAIN-SUFFIX,defidaonews.com,PROXY
+
+# ---------- Invest ----------
+# #----- Invest Media -----
+DOMAIN-SUFFIX,stocktwits.com,PROXY
+DOMAIN-SUFFIX,siftscience.com,PROXY
+
 
 # ---------- Group ----------
 # #----- Facebook ----- 
@@ -640,6 +650,7 @@ DOMAIN-SUFFIX,hpjav.tv,PROXY
 DOMAIN-SUFFIX,avgle.com,PROXY
 DOMAIN-SUFFIX,haijiao.com,PROXY
 DOMAIN-SUFFIX,mm4now.com,PROXY
+DOMAIN-SUFFIX,asiantolick.com,PROXY
 # #----- PornHub -----
 DOMAIN-SUFFIX,pornhub.com,PROXY
 DOMAIN-SUFFIX,pornhubpremium.com,PROXY
