@@ -47,14 +47,19 @@ def get_conf():
     if os.path.exists(CONF_RULE_SITE):
         rule_str_gfw = ''
         rule_str_qx = ''
+
+        with open(CONF_RULE_SITE, 'r', errors='ignore') as f:
+            lines = f.readlines()
         
-        f = open(CONF_RULE_SITE, 'r')               # 返回一个文件对象 
-        lines = f.readlines()
+        # f = open(CONF_RULE_SITE, 'r')               # 返回一个文件对象 
+        # lines = f.readlines()
         for line in lines:
             # line = conv_qx_str(line)
             # print(line, end = '')
             rule_str_gfw = rule_str_gfw + conv_gfw_str(line)
             rule_str_qx = rule_str_qx + conv_qx_str(line)
+
+
         f.close()
         
         gen_gfw_file(rule_str_gfw)
