@@ -2,21 +2,21 @@
 
 
 # #----- EX -----
-# ##----- Ұ -----
+# ##----- �Ұ� -----
 DOMAIN-SUFFIX,binance.com,PROXY
 DOMAIN-SUFFIX,bnbstatic.com,PROXY
 DOMAIN-SUFFIX,binance.cloud,PROXY
 DOMAIN-SUFFIX,binancezh.biz,PROXY
 DOMAIN-SUFFIX,binancezh.com,PROXY
 DOMAIN-SUFFIX,binancezh.cz,PROXY
-# ##-----  -----
+# ##----- ��� -----
 DOMAIN-SUFFIX,huobi.co,PROXY
 DOMAIN-SUFFIX,huobi.com,PROXY
 DOMAIN-SUFFIX,huobi.me,PROXY
 DOMAIN-SUFFIX,huobi.pro,PROXY
 DOMAIN-SUFFIX,huobi.sc,PROXY
 DOMAIN-SUFFIX,huobipro.com,PROXY
-# ##----- Gate֥鿪 -----
+# ##----- Gate֥�鿪�� -----
 DOMAIN-SUFFIX,gate.io,PROXY
 DOMAIN-SUFFIX,gate.ac,PROXY
 DOMAIN-SUFFIX,gate.info,PROXY
@@ -29,14 +29,14 @@ DOMAIN-SUFFIX,gateio.ws,PROXY
 DOMAIN-SUFFIX,oex.com,PROXY
 DOMAIN-SUFFIX,okex.com,PROXY
 DOMAIN-SUFFIX,okx.com,PROXY
-# ##----- MEXCĨ -----
+# ##----- MEXCĨ�� -----
 DOMAIN-SUFFIX,mexc.com,PROXY
 DOMAIN-SUFFIX,mexc.link,PROXY
 DOMAIN-SUFFIX,fpjs.io,PROXY
 # ##----- bitcoke -----
 DOMAIN-SUFFIX,bitcoke.com,PROXY
 DOMAIN-SUFFIX,bitcoke.work,PROXY
-# ##-----  -----
+# ##----- ���������� -----
 DOMAIN-SUFFIX,zb.com,PROXY
 DOMAIN-SUFFIX,aex.com,PROXY
 DOMAIN-SUFFIX,allcoin.com,PROXY
@@ -183,12 +183,10 @@ DOMAIN-SUFFIX,cointelegraph.com,PROXY
 DOMAIN-SUFFIX,curve.fi,PROXY
 DOMAIN-SUFFIX,etherscan.io,PROXY
 DOMAIN-SUFFIX,ethfans.org,PROXY
-DOMAIN-SUFFIX,f2pool.com,PROXY
 DOMAIN-SUFFIX,gizadao.com,PROXY
 DOMAIN-SUFFIX,justswap.io,PROXY
 DOMAIN-SUFFIX,marsecosystem.com,PROXY
 DOMAIN-SUFFIX,metaverse.pro,PROXY
-DOMAIN-SUFFIX,nicehash.com,PROXY
 DOMAIN-SUFFIX,qkl123.com,PROXY
 DOMAIN-SUFFIX,crypto.com,PROXY
 DOMAIN-SUFFIX,mifengcha.com,PROXY
@@ -196,6 +194,12 @@ DOMAIN-SUFFIX,blockcast.it,PROXY
 DOMAIN-SUFFIX,tokenlists.org,PROXY
 DOMAIN-SUFFIX,feixiaohao.com,PROXY
 DOMAIN-SUFFIX,defidaonews.com,PROXY
+
+# #----- Miner ----- 
+DOMAIN-SUFFIX,f2pool.com,PROXY
+DOMAIN-SUFFIX,nicehash.com,PROXY
+DOMAIN-SUFFIX,minerstat.com,PROXY
+DOMAIN-SUFFIX,hiveon.com,PROXY
 
 # ---------- Invest ----------
 # #----- Invest Media -----
@@ -549,7 +553,7 @@ DOMAIN-SUFFIX,heroku.com,PROXY
 
 # #----- OpenWRT -----
 DOMAIN-SUFFIX,openwrt.org,PROXY
-# #----- Payment stripeɲ -----
+# #----- Payment stripe�ɲ��� -----
 # stripe.network
 # stripe.com
 
@@ -655,7 +659,7 @@ DOMAIN-SUFFIX,asiantolick.com,PROXY
 DOMAIN-SUFFIX,pornhub.com,PROXY
 DOMAIN-SUFFIX,pornhubpremium.com,PROXY
 DOMAIN-SUFFIX,phprcdn.com,PROXY
-# #----- BHCٻ -----
+# #----- BHC�ٻ� -----
 DOMAIN-SUFFIX,xl5688.com,PROXY
 DOMAIN-SUFFIX,bhc348.top,PROXY
 DOMAIN-SUFFIX,bhc521.com,PROXY
