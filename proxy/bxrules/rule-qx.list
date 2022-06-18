@@ -2,21 +2,26 @@
 
 
 # #----- EX -----
-# ##----- �Ұ� -----
+# ##----- Binance -----
 DOMAIN-SUFFIX,binance.com,PROXY
 DOMAIN-SUFFIX,bnbstatic.com,PROXY
 DOMAIN-SUFFIX,binance.cloud,PROXY
 DOMAIN-SUFFIX,binancezh.biz,PROXY
 DOMAIN-SUFFIX,binancezh.com,PROXY
 DOMAIN-SUFFIX,binancezh.cz,PROXY
-# ##----- ��� -----
+DOMAIN-SUFFIX,binancefuture.com,PROXY
+DOMAIN-SUFFIX,binance.vision,PROXY
+DOMAIN-SUFFIX,bnbzh.info,PROXY
+DOMAIN-SUFFIX,bntrace.com,PROXY
+DOMAIN-SUFFIX,saasexch.com,PROXY
+# ##----- Huobi -----
 DOMAIN-SUFFIX,huobi.co,PROXY
 DOMAIN-SUFFIX,huobi.com,PROXY
 DOMAIN-SUFFIX,huobi.me,PROXY
 DOMAIN-SUFFIX,huobi.pro,PROXY
 DOMAIN-SUFFIX,huobi.sc,PROXY
 DOMAIN-SUFFIX,huobipro.com,PROXY
-# ##----- Gate֥�鿪�� -----
+# ##----- Gate֥  -----
 DOMAIN-SUFFIX,gate.io,PROXY
 DOMAIN-SUFFIX,gate.ac,PROXY
 DOMAIN-SUFFIX,gate.info,PROXY
@@ -36,6 +41,9 @@ DOMAIN-SUFFIX,fpjs.io,PROXY
 # ##----- bitcoke -----
 DOMAIN-SUFFIX,bitcoke.com,PROXY
 DOMAIN-SUFFIX,bitcoke.work,PROXY
+# ##----- ByBit -----
+DOMAIN-SUFFIX,bybit.com,PROXY
+DOMAIN-SUFFIX,bycsi.com,PROXY
 # ##----- ���������� -----
 DOMAIN-SUFFIX,zb.com,PROXY
 DOMAIN-SUFFIX,aex.com,PROXY
@@ -56,8 +64,6 @@ DOMAIN-SUFFIX,bitmex.com,PROXY
 DOMAIN-SUFFIX,btc98.com,PROXY
 DOMAIN-SUFFIX,btcbank.bank,PROXY
 DOMAIN-SUFFIX,btctrade.im,PROXY
-DOMAIN-SUFFIX,bybit.com,PROXY
-DOMAIN-SUFFIX,bycsi.com,PROXY
 DOMAIN-SUFFIX,c2cx.com,PROXY
 DOMAIN-SUFFIX,chaoex.com,PROXY
 DOMAIN-SUFFIX,cobinhood.com,PROXY
@@ -580,6 +586,8 @@ DOMAIN-SUFFIX,feedx.net,PROXY
 # #----- zlib -----
 DOMAIN-SUFFIX,zlibcdn.com,PROXY
 DOMAIN-SUFFIX,z-lib.org,PROXY
+DOMAIN-SUFFIX,hk1lib.org,PROXY
+DOMAIN-SUFFIX,usa1lib.org,PROXY
 # #----- AnaConda -----
 DOMAIN-SUFFIX,anaconda.cloud,PROXY
 # #----- Andriod Tools -----
