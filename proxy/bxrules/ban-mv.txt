@@ -1,0 +1,9 @@
+[Ban Media Video 1.0]
+! Title: 视频屏蔽规则： 抖音、快手、好看、斗鱼、芒果、优酷、新浪段视频
+! Version: 20220618
+
+! 好看视频
+||haokan.baidu.com^
+||liveshowstatic.baidu.com^
+||live.baidu.com^
+||mbd.baidu.com^
