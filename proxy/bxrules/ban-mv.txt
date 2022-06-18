@@ -7,3 +7,62 @@
 ||liveshowstatic.baidu.com^
 ||live.baidu.com^
 ||mbd.baidu.com^
+||baijiahao.baidu.com^
+||xiongzhang.baidu.com^
+||bdurl.net^
+
+
+! 抖音
+||douyinvod.com^
+||douyin.com^$important
+||douyincdn.com^$important
+||snssdk.com^$important
+||ixigua.com^$important
+||ixiguavideo.com^
+||amemv.com^$important
+||bytedance.net^$important
+||bdurl.net^$important
+||douyincdn.com^$important
+||yximgs.com^$important
+||dm.toutiao.com^
+||pstatp.com^
+
+! TikTok
+||tiktokv.com^
+
+! 快手
+||kuaishou.com^
+||kwaicdn.com^
+||kuaishoupay.com^
+
+
+! 火山
+||huoshan.com^
+
+
+||gifshow.com^
+
+||v.kandian.qq.com^
+||yximgs.com^
+||gifshow.com^
+||v.weishi.qq.com^
+||pearvideo.com^
+||miaopai.com^
+||qupai.me^
+||meipai.com^
+||huoshan.com^
+||ergengtv.com^
+
+
+||huawei.com^
+||huaweicloud.com^
+||ksapisrv.com^
+||meipai.com^
+||miaopai.com^
+||qupai.me^
+||snssdk.com^
+
+! 腾讯视频
+||v.kandian.qq.com^
+||v.weishi.qq.com^
+||weishi.qq.com^
