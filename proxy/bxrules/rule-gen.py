@@ -25,6 +25,11 @@ def gen_qx_file(str):
     f.write(str)
     f.close()
 
+def gen_file(str, file_name=''):
+    # 打开文件,不存在则创建
+    f = open(file_name, 'w')
+    f.write(str)
+    f.close()
 
 def conv_gfw_str(str):
     if str[0:1] == '#':
@@ -41,12 +46,21 @@ def conv_qx_str(str):
         str = "DOMAIN-SUFFIX," + str.replace('\n', '') + ",PROXY\n"
     return str
 
+def conv_ss_str(str):
+    if str[0:1] == '#':
+        return ''
+        # str = '!'+str[1:]
+    elif str[0:1]  not in ['\t','\n', ''] :
+        str = "server=/." + str.replace('\n', '') + "/127.0.0.1#7913\nipset=/." + str.replace('\n', '') + "/gfwlist\n"
+    return str
+
 
 def get_conf():
     CONF_RULE_SITE = RUN_DIR + "/rule-sites.conf"
     if os.path.exists(CONF_RULE_SITE):
         rule_str_gfw = ''
         rule_str_qx = ''
+        rule_str_ss = ''
 
         with open(CONF_RULE_SITE, 'r', errors='ignore') as f:
             lines = f.readlines()
@@ -58,12 +72,14 @@ def get_conf():
             # print(line, end = '')
             rule_str_gfw = rule_str_gfw + conv_gfw_str(line)
             rule_str_qx = rule_str_qx + conv_qx_str(line)
+            rule_str_ss = rule_str_ss + conv_ss_str(line)
 
 
         f.close()
         
         gen_gfw_file(rule_str_gfw)
         gen_qx_file(rule_str_qx)
+        gen_file(rule_str_ss, RUN_DIR + '/' + 'rule-ss.conf')
         # line = f.readline()               # 调用文件的 readline()方法 
         # while line: 
         #     # print line,                   # 后面跟 ',' 将忽略换行符 
