@@ -134,6 +134,7 @@ DOMAIN-SUFFIX,swft.pro,PROXY
 # #----- tronlink -----
 DOMAIN-SUFFIX,tronlink.org,PROXY
 DOMAIN-SUFFIX,tronscan.org,PROXY
+DOMAIN-SUFFIX,tronscanapi.com,PROXY
 DOMAIN-SUFFIX,tronscan.io,PROXY
 DOMAIN-SUFFIX,trongrid.io,PROXY
 DOMAIN-SUFFIX,tronstack.io,PROXY
