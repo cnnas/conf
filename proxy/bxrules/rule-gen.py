@@ -46,6 +46,14 @@ def conv_qx_str(str):
         str = "DOMAIN-SUFFIX," + str.replace('\n', '') + ",PROXY\n"
     return str
 
+def conv_loon_str(str):
+    if str[0:1] == '#':
+        return ''
+    elif str[0:1]  not in ['\t','\n', ''] :
+        str = "DOMAIN-SUFFIX," + str.replace('\n', '') + "\n"
+    return str
+
+
 def conv_ss_str(str):
     if str[0:1] == '#':
         return ''
@@ -61,6 +69,7 @@ def get_conf():
         rule_str_gfw = ''
         rule_str_qx = ''
         rule_str_ss = ''
+        rule_str_loon = ''
 
         with open(CONF_RULE_SITE, 'r', errors='ignore') as f:
             lines = f.readlines()
@@ -73,6 +82,7 @@ def get_conf():
             rule_str_gfw = rule_str_gfw + conv_gfw_str(line)
             rule_str_qx = rule_str_qx + conv_qx_str(line)
             rule_str_ss = rule_str_ss + conv_ss_str(line)
+            rule_str_loon = rule_str_loon + conv_loon_str(line)
 
 
         f.close()
@@ -80,6 +90,7 @@ def get_conf():
         gen_gfw_file(rule_str_gfw)
         gen_qx_file(rule_str_qx)
         gen_file(rule_str_ss, RUN_DIR + '/' + 'rule-ss.conf')
+        gen_file(rule_str_loon, RUN_DIR + '/' + 'rule-loon.conf')
         # line = f.readline()               # 调用文件的 readline()方法 
         # while line: 
         #     # print line,                   # 后面跟 ',' 将忽略换行符 
