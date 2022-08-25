@@ -201,6 +201,7 @@ DOMAIN-SUFFIX,blockcast.it,PROXY
 DOMAIN-SUFFIX,tokenlists.org,PROXY
 DOMAIN-SUFFIX,feixiaohao.com,PROXY
 DOMAIN-SUFFIX,defidaonews.com,PROXY
+DOMAIN-SUFFIX,techcrunch.com,PROXY
 
 # #----- Miner ----- 
 DOMAIN-SUFFIX,f2pool.com,PROXY
