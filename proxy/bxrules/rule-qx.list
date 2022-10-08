@@ -505,6 +505,7 @@ DOMAIN-SUFFIX,megavideo.com,PROXY
 # #----- WikiPedia -----
 DOMAIN-SUFFIX,wikia.com,PROXY
 DOMAIN-SUFFIX,wikipedia.org,PROXY
+DOMAIN-SUFFIX,wikimedia.org,PROXY
 # #----- DuckDuckGo -----
 DOMAIN-SUFFIX,duckduckgo.com,PROXY
 
