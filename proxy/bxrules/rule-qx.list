@@ -608,6 +608,8 @@ DOMAIN-SUFFIX,visualstudio.com,PROXY
 DOMAIN-SUFFIX,laravel-admin.org,PROXY
 DOMAIN-SUFFIX,travis-ci.org,PROXY
 DOMAIN-SUFFIX,evozi.com,PROXY
+# #----- GEO Tools -----
+DOMAIN-SUFFIX,organicmaps.app,PROXY
 
 # ---------- Edu ----------
 # #----- EDX -----
