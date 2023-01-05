@@ -610,6 +610,7 @@ DOMAIN-SUFFIX,travis-ci.org,PROXY
 DOMAIN-SUFFIX,evozi.com,PROXY
 # #----- GEO Tools -----
 DOMAIN-SUFFIX,organicmaps.app,PROXY
+DOMAIN-SUFFIX,openstreetmap.org,PROXY
 
 # ---------- Edu ----------
 # #----- EDX -----
