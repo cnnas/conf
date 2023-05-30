@@ -168,6 +168,7 @@ DOMAIN-SUFFIX,thegraph.com,PROXY
 DOMAIN-SUFFIX,swapspace.co,PROXY
 DOMAIN-SUFFIX,xchange.me,PROXY
 DOMAIN-SUFFIX,swapzone.io,PROXY
+DOMAIN-SUFFIX,metamask.io,PROXY
 # ##----- Opensea seadn.io-----
 DOMAIN-SUFFIX,opensea.io,PROXY
 # ##----- safepal -----
@@ -202,6 +203,8 @@ DOMAIN-SUFFIX,tokenlists.org,PROXY
 DOMAIN-SUFFIX,feixiaohao.com,PROXY
 DOMAIN-SUFFIX,defidaonews.com,PROXY
 DOMAIN-SUFFIX,techcrunch.com,PROXY
+DOMAIN-SUFFIX,blocktempo.com,PROXY
+DOMAIN-SUFFIX,mirror.xyz,PROXY
 
 # #----- Miner ----- 
 DOMAIN-SUFFIX,f2pool.com,PROXY
