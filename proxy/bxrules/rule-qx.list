@@ -180,7 +180,6 @@ DOMAIN-SUFFIX,pancakeswap.finance,PROXY
 DOMAIN-SUFFIX,pancakeswap.com,PROXY
 DOMAIN-SUFFIX,pancakeswap.info,PROXY
 
-
 # #----- CRYPTO NEWS ----- 
 DOMAIN-SUFFIX,ccn.com,PROXY
 DOMAIN-SUFFIX,chainnews.com,PROXY
@@ -204,7 +203,11 @@ DOMAIN-SUFFIX,feixiaohao.com,PROXY
 DOMAIN-SUFFIX,defidaonews.com,PROXY
 DOMAIN-SUFFIX,techcrunch.com,PROXY
 DOMAIN-SUFFIX,blocktempo.com,PROXY
+
+# ##----- mirror -----
 DOMAIN-SUFFIX,mirror.xyz,PROXY
+DOMAIN-SUFFIX,walletconnect.org,PROXY
+DOMAIN-SUFFIX,walletlink.org,PROXY
 
 # #----- Miner ----- 
 DOMAIN-SUFFIX,f2pool.com,PROXY
@@ -421,6 +424,18 @@ DOMAIN-SUFFIX,gmodules.com,PROXY
 DOMAIN-SUFFIX,godoc.org,PROXY
 DOMAIN-SUFFIX,golang.org,PROXY
 DOMAIN-SUFFIX,go.dev,PROXY
+
+# ##----- NetFlix -----
+DOMAIN-SUFFIX,netflix.com,PROXY
+DOMAIN-SUFFIX,fast.com,PROXY
+DOMAIN-SUFFIX,nflxvideo.net,PROXY
+DOMAIN-SUFFIX,flxvpn.net,PROXY
+DOMAIN-SUFFIX,netflix.net,PROXY
+DOMAIN-SUFFIX,nflxext.com,PROXY
+DOMAIN-SUFFIX,nflximg.com,PROXY
+DOMAIN-SUFFIX,nflximg.net,PROXY
+DOMAIN-SUFFIX,nflxsearch.net,PROXY
+DOMAIN-SUFFIX,nflxso.net,PROXY
 
 
 
@@ -641,6 +656,8 @@ DOMAIN-SUFFIX,mycake.me,PROXY
 # #----- freeCodeCamp -----
 # freecodecamp.org
 # algolia.net
+# #----- 学术期刊 -----
+DOMAIN-SUFFIX,ssrn.com,PROXY
 
 
 # ---------- Forum ----------
