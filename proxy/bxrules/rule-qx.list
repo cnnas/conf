@@ -597,10 +597,19 @@ DOMAIN-SUFFIX,gitbook.com,PROXY
 
 
 # ---------- Tools ----------
-# #----- OPENAI -----
+# #----- OPENAI & ChatGPT -----
 DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,auth0.com,PROXY
 DOMAIN-SUFFIX,sentry.io,PROXY
+DOMAIN-SUFFIX,pay.openai.com,PROXY
+DOMAIN-SUFFIX,identrust.com,PROXY
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net,PROXY
+DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
+DOMAIN-SUFFIX,ai.com,PROXY
+DOMAIN-SUFFIX,invoice.stripe.com,PROXY
+DOMAIN-SUFFIX,stripe.com,PROXY
+DOMAIN-SUFFIX,poe.com,PROXY
+DOMAIN-SUFFIX,bard.google.com,PROXY
 # #----- Note -----
 DOMAIN-SUFFIX,evernote.com,PROXY
 # #----- RSS -----
