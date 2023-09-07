@@ -121,6 +121,8 @@ DOMAIN-SUFFIX,imtoken.fans,PROXY
 DOMAIN-SUFFIX,sensorsdata.cn,PROXY
 DOMAIN-SUFFIX,token.im,PROXY
 DOMAIN-SUFFIX,improd.works,PROXY
+DOMAIN-SUFFIX,1rpc.io,PROXY
+DOMAIN-SUFFIX,improd.pro,PROXY
 
 # #----- tokenpocket -----
 DOMAIN-SUFFIX,tokenpocket.pro,PROXY
