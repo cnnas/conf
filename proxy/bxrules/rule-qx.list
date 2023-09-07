@@ -110,6 +110,9 @@ DOMAIN-SUFFIX,xbtce.com,PROXY
 DOMAIN-SUFFIX,yobit.net,PROXY
 DOMAIN-SUFFIX,aicoin.com,PROXY
 DOMAIN-SUFFIX,sushi.com,PROXY
+DOMAIN-SUFFIX,zksync.io,PROXY
+DOMAIN-SUFFIX,optimism.io,PROXY
+DOMAIN-SUFFIX,tpstatic.net,PROXY
 
 # #----- crypto dapp -----
 DOMAIN-SUFFIX,solana.com,PROXY
