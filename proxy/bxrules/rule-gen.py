@@ -11,8 +11,8 @@ def gen_gfw_file(str):
 
     GFW_RULE_NAME = RUN_DIR + '/' + 'rule-mini.txt'
     f = open(GFW_RULE_NAME, 'wb')
-    str = str.encode('utf-8')
-    tmp_str = base64.b64encode(str)
+    str64 = str.encode('utf-8')
+    tmp_str = base64.encodebytes(str64)
     f.write( tmp_str )
     # f.write( str(tmp_str, encoding = "utf-8") )
     f.close()
