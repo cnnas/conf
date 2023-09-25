@@ -281,6 +281,7 @@ DOMAIN-SUFFIX,amazon.com,PROXY
 DOMAIN-SUFFIX,amazonaws.com,PROXY
 
 # #----- Google -----
+DOMAIN-SUFFIX,google.com,PROXY
 DOMAIN-SUFFIX,abc.xyz,PROXY
 DOMAIN-SUFFIX,about.google,PROXY
 DOMAIN-SUFFIX,admob.com,PROXY
