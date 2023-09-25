@@ -44,7 +44,7 @@ DOMAIN-SUFFIX,bitcoke.work,PROXY
 # ##----- ByBit -----
 DOMAIN-SUFFIX,bybit.com,PROXY
 DOMAIN-SUFFIX,bycsi.com,PROXY
-# ##----- ���������� -----
+# ##-----  交易所 -----
 DOMAIN-SUFFIX,zb.com,PROXY
 DOMAIN-SUFFIX,aex.com,PROXY
 DOMAIN-SUFFIX,allcoin.com,PROXY
@@ -114,11 +114,15 @@ DOMAIN-SUFFIX,sushi.com,PROXY
 DOMAIN-SUFFIX,zksync.io,PROXY
 DOMAIN-SUFFIX,optimism.io,PROXY
 DOMAIN-SUFFIX,tpstatic.net,PROXY
+DOMAIN-SUFFIX,infura.io,PROXY
+DOMAIN-SUFFIX,harmony.one,PROXY
+DOMAIN-SUFFIX,onfinality.io,PROXY
 
 # #----- crypto dapp -----
 DOMAIN-SUFFIX,solana.com,PROXY
 DOMAIN-SUFFIX,poocoin.app,PROXY
 DOMAIN-SUFFIX,fantom.network,PROXY
+
 
 # #----- imtoken -----
 DOMAIN-SUFFIX,imtoken.fans,PROXY
@@ -175,6 +179,8 @@ DOMAIN-SUFFIX,xchange.me,PROXY
 DOMAIN-SUFFIX,swapzone.io,PROXY
 DOMAIN-SUFFIX,metamask.io,PROXY
 DOMAIN-SUFFIX,anyswap.exchange,PROXY
+DOMAIN-SUFFIX,cex.io,PROXY
+DOMAIN-SUFFIX,wizardia.io,PROXY
 # ##----- Opensea seadn.io-----
 DOMAIN-SUFFIX,opensea.io,PROXY
 # ##----- safepal -----
@@ -209,6 +215,8 @@ DOMAIN-SUFFIX,feixiaohao.com,PROXY
 DOMAIN-SUFFIX,defidaonews.com,PROXY
 DOMAIN-SUFFIX,techcrunch.com,PROXY
 DOMAIN-SUFFIX,blocktempo.com,PROXY
+DOMAIN-SUFFIX,wizardia.co,PROXY
+DOMAIN-SUFFIX,kanalabs.io,PROXY
 
 # ##----- mirror -----
 DOMAIN-SUFFIX,mirror.xyz,PROXY
@@ -225,6 +233,7 @@ DOMAIN-SUFFIX,hiveon.com,PROXY
 # #----- Invest Media -----
 DOMAIN-SUFFIX,stocktwits.com,PROXY
 DOMAIN-SUFFIX,siftscience.com,PROXY
+DOMAIN-SUFFIX,stocktwits.com,PROXY
 # #----- tipranks -----
 DOMAIN-SUFFIX,tipranks.com,PROXY
 DOMAIN-SUFFIX,appsflyer.com,PROXY
@@ -239,6 +248,7 @@ DOMAIN-SUFFIX,microsoft.com,PROXY
 DOMAIN-SUFFIX,sharepoint.com,PROXY
 DOMAIN-SUFFIX,live.com,PROXY
 DOMAIN-SUFFIX,office.net,PROXY
+DOMAIN-SUFFIX,microsoftonline.com,PROXY
 # ##----- microsoftTools -----
 DOMAIN-SUFFIX,visualstudio.com,PROXY
 # #----- Facebook ----- 
@@ -528,6 +538,7 @@ DOMAIN-SUFFIX,twitter.jp,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
 
 # ---------- Drive ----------
+DOMAIN-SUFFIX,terabox.com,PROXY
 # #----- DropBox -----
 DOMAIN-SUFFIX,dropbox.com,PROXY
 DOMAIN-SUFFIX,dropboxapi.com,PROXY
@@ -601,6 +612,7 @@ DOMAIN-SUFFIX,githubassets.com,PROXY
 DOMAIN-SUFFIX,cloudfront.net,PROXY
 DOMAIN-SUFFIX,cloudflare-ipfs.com,PROXY
 DOMAIN-SUFFIX,cloudflareinsights.com,PROXY
+DOMAIN-SUFFIX,cloudfunctions.net,PROXY
 
 # #----- Heroku -----
 DOMAIN-SUFFIX,herokuapp.com,PROXY
@@ -611,6 +623,7 @@ DOMAIN-SUFFIX,openwrt.org,PROXY
 # #----- Payment stripe�ɲ��� -----
 # stripe.network
 # stripe.com
+DOMAIN-SUFFIX,censys.io,PROXY
 
 
 # #----- other server -----
@@ -630,6 +643,9 @@ DOMAIN-SUFFIX,gleam.io,PROXY
 DOMAIN-SUFFIX,bit.ly,PROXY
 DOMAIN-SUFFIX,virtualbox.org,PROXY
 DOMAIN-SUFFIX,spreadsheet.dev,PROXY
+DOMAIN-SUFFIX,archive.org,PROXY
+DOMAIN-SUFFIX,ytscribe.com,PROXY
+DOMAIN-SUFFIX,aapanel.com,PROXY
 # #----- OPENAI & ChatGPT -----
 DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,auth0.com,PROXY
@@ -667,6 +683,9 @@ DOMAIN-SUFFIX,proton.me,PROXY
 DOMAIN-SUFFIX,mail.ru,PROXY
 # #----- UI/UX -----
 DOMAIN-SUFFIX,flaticon.com,PROXY
+DOMAIN-SUFFIX,icons8.com,PROXY
+DOMAIN-SUFFIX,iconfinder.com,PROXY
+DOMAIN-SUFFIX,iconscout.com,PROXY
 # #----- Dev Tools -----
 DOMAIN-SUFFIX,sublimetext.com,PROXY
 DOMAIN-SUFFIX,jetbrains.com,PROXY
@@ -723,6 +742,7 @@ DOMAIN-SUFFIX,stackoverflow.com,PROXY
 
 # ----- China Forum -----
 DOMAIN-SUFFIX,v2ex.com,PROXY
+DOMAIN-SUFFIX,hostloc.com,PROXY
 DOMAIN-SUFFIX,pincong.rocks,PROXY
 DOMAIN-SUFFIX,hostloc.com,PROXY
 DOMAIN-SUFFIX,2047.one,PROXY
@@ -766,3 +786,5 @@ DOMAIN-SUFFIX,vmert.com,PROXY
 DOMAIN-SUFFIX,dev.to,PROXY
 DOMAIN-SUFFIX,hackmd.io,PROXY
 DOMAIN-SUFFIX,antipodesmap.com,PROXY
+DOMAIN-SUFFIX,gamehacking.academy,PROXY
+DOMAIN-SUFFIX,lg.jp,PROXY
