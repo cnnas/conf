@@ -221,10 +221,16 @@ DOMAIN-SUFFIX,nicehash.com,PROXY
 DOMAIN-SUFFIX,minerstat.com,PROXY
 DOMAIN-SUFFIX,hiveon.com,PROXY
 
-# ---------- Invest ----------
+# ---------- Invest/Trade/Market ----------
 # #----- Invest Media -----
 DOMAIN-SUFFIX,stocktwits.com,PROXY
 DOMAIN-SUFFIX,siftscience.com,PROXY
+# #----- tipranks -----
+DOMAIN-SUFFIX,tipranks.com,PROXY
+DOMAIN-SUFFIX,appsflyer.com,PROXY
+# #----- sc -----
+DOMAIN-SUFFIX,sc.com,PROXY
+DOMAIN-SUFFIX,scdn.com,PROXY
 
 
 # ---------- Group ----------
@@ -509,6 +515,7 @@ DOMAIN-SUFFIX,twitch.tv,PROXY
 DOMAIN-SUFFIX,twitchcdn.net,PROXY
 
 # #----- Twitter -----
+DOMAIN-SUFFIX,x.com,PROXY
 DOMAIN-SUFFIX,periscope.tv,PROXY
 DOMAIN-SUFFIX,pscp.tv,PROXY
 DOMAIN-SUFFIX,t.co,PROXY
