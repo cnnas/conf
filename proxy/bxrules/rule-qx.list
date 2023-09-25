@@ -100,6 +100,7 @@ DOMAIN-SUFFIX,livecoin.net,PROXY
 DOMAIN-SUFFIX,localbitcoins.com,PROXY
 DOMAIN-SUFFIX,mercatox.com,PROXY
 DOMAIN-SUFFIX,oanda.com,PROXY
+DOMAIN-SUFFIX,traderwagon.com,PROXY
 
 # #----- chain -----
 DOMAIN-SUFFIX,rightbtc.com,PROXY
@@ -167,13 +168,13 @@ DOMAIN-SUFFIX,mykey.org,PROXY
 # #----- OTC/Swap/Dex -----
 DOMAIN-SUFFIX,otcbtc.com,PROXY
 DOMAIN-SUFFIX,paxful.com,PROXY
-DOMAIN-SUFFIX,opensea.io,PROXY
 DOMAIN-SUFFIX,shibaswap.com,PROXY
 DOMAIN-SUFFIX,thegraph.com,PROXY
 DOMAIN-SUFFIX,swapspace.co,PROXY
 DOMAIN-SUFFIX,xchange.me,PROXY
 DOMAIN-SUFFIX,swapzone.io,PROXY
 DOMAIN-SUFFIX,metamask.io,PROXY
+DOMAIN-SUFFIX,anyswap.exchange,PROXY
 # ##----- Opensea seadn.io-----
 DOMAIN-SUFFIX,opensea.io,PROXY
 # ##----- safepal -----
@@ -227,6 +228,13 @@ DOMAIN-SUFFIX,siftscience.com,PROXY
 
 
 # ---------- Group ----------
+# #----- Microsoft ----- 
+DOMAIN-SUFFIX,microsoft.com,PROXY
+DOMAIN-SUFFIX,sharepoint.com,PROXY
+DOMAIN-SUFFIX,live.com,PROXY
+DOMAIN-SUFFIX,office.net,PROXY
+# ##----- microsoftTools -----
+DOMAIN-SUFFIX,visualstudio.com,PROXY
 # #----- Facebook ----- 
 DOMAIN-SUFFIX,accountkit.com,PROXY
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
@@ -445,6 +453,7 @@ DOMAIN-SUFFIX,nflxso.net,PROXY
 
 
 # ---------- News ----------
+DOMAIN-SUFFIX,cnyes.com,PROXY
 # #----- VOA -----
 DOMAIN-SUFFIX,voa.mobi,PROXY
 DOMAIN-SUFFIX,voacambodia.com,PROXY
@@ -459,8 +468,10 @@ DOMAIN-SUFFIX,voatibetanenglish.com,PROXY
 # #----- Yahoo -----
 DOMAIN-SUFFIX,yahoo.com,PROXY
 DOMAIN-SUFFIX,yahoo.com.hk,PROXY
+DOMAIN-SUFFIX,yahoo.com.tw,PROXY
 DOMAIN-SUFFIX,yahoo.co.jp,PROXY
 DOMAIN-SUFFIX,data.flurry.com,PROXY
+DOMAIN-SUFFIX,yimg.com,PROXY
 # #----- FT News -----
 DOMAIN-SUFFIX,ft.com,PROXY
 DOMAIN-SUFFIX,ftchinese.com,PROXY
@@ -511,10 +522,9 @@ DOMAIN-SUFFIX,vine.co,PROXY
 # ---------- Drive ----------
 # #----- DropBox -----
 DOMAIN-SUFFIX,dropbox.com,PROXY
-# api.dropboxapi.com
-# notify.dropboxapi.com
+DOMAIN-SUFFIX,dropboxapi.com,PROXY
 DOMAIN-SUFFIX,dropboxusercontent.com,PROXY
-
+DOMAIN-SUFFIX,dropboxstatic.com,PROXY
 # #----- Mega ----- 
 DOMAIN-SUFFIX,mega.co.nz,PROXY
 DOMAIN-SUFFIX,mega.io,PROXY
@@ -522,6 +532,8 @@ DOMAIN-SUFFIX,mega.nz,PROXY
 DOMAIN-SUFFIX,megaproxy.com,PROXY
 DOMAIN-SUFFIX,megarotic.com,PROXY
 DOMAIN-SUFFIX,megavideo.com,PROXY
+# #----- myPika ----- 
+DOMAIN-SUFFIX,mypikpak.com,PROXY
 
 
 # ---------- Search ----------
@@ -562,10 +574,13 @@ DOMAIN-SUFFIX,discord.com,PROXY
 DOMAIN-SUFFIX,discord.gg,PROXY
 DOMAIN-SUFFIX,discordapp.com,PROXY
 DOMAIN-SUFFIX,discordapp.net,PROXY
-
+# #----- vk -----
+DOMAIN-SUFFIX,userapi.com,PROXY
+DOMAIN-SUFFIX,vk.com,PROXY
 
 
 # ---------- IT Server ----------
+DOMAIN-SUFFIX,digitalocean.com,PROXY
 # #----- Github -----
 DOMAIN-SUFFIX,github.blog,PROXY
 DOMAIN-SUFFIX,github.com,PROXY
@@ -602,6 +617,11 @@ DOMAIN-SUFFIX,gitbook.com,PROXY
 
 
 # ---------- Tools ----------
+DOMAIN-SUFFIX,proxifier.com,PROXY
+DOMAIN-SUFFIX,gleam.io,PROXY
+DOMAIN-SUFFIX,bit.ly,PROXY
+DOMAIN-SUFFIX,virtualbox.org,PROXY
+DOMAIN-SUFFIX,spreadsheet.dev,PROXY
 # #----- OPENAI & ChatGPT -----
 DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,auth0.com,PROXY
@@ -622,7 +642,9 @@ DOMAIN-SUFFIX,feedly.com,PROXY
 DOMAIN-SUFFIX,inoreader.com,PROXY
 DOMAIN-SUFFIX,feedburner.com,PROXY
 DOMAIN-SUFFIX,feedx.net,PROXY
+DOMAIN-SUFFIX,rsshub.app,PROXY
 # #----- zlib -----
+DOMAIN-SUFFIX,singlelogin.re,PROXY
 DOMAIN-SUFFIX,zlibcdn.com,PROXY
 DOMAIN-SUFFIX,z-lib.org,PROXY
 DOMAIN-SUFFIX,hk1lib.org,PROXY
@@ -634,6 +656,7 @@ DOMAIN-SUFFIX,apkpure.com,PROXY
 # #----- Mail Tools -----
 DOMAIN-SUFFIX,protonmail.com,PROXY
 DOMAIN-SUFFIX,proton.me,PROXY
+DOMAIN-SUFFIX,mail.ru,PROXY
 # #----- UI/UX -----
 DOMAIN-SUFFIX,flaticon.com,PROXY
 # #----- Dev Tools -----
@@ -644,6 +667,7 @@ DOMAIN-SUFFIX,visualstudio.com,PROXY
 DOMAIN-SUFFIX,laravel-admin.org,PROXY
 DOMAIN-SUFFIX,travis-ci.org,PROXY
 DOMAIN-SUFFIX,evozi.com,PROXY
+DOMAIN-SUFFIX,postman.com,PROXY
 # #----- GEO Tools -----
 DOMAIN-SUFFIX,organicmaps.app,PROXY
 DOMAIN-SUFFIX,openstreetmap.org,PROXY
@@ -686,6 +710,8 @@ DOMAIN-SUFFIX,redditstatic.com,PROXY
 
 DOMAIN-SUFFIX,amnesty.org,PROXY
 DOMAIN-SUFFIX,rfa.org,PROXY
+# #----- Tech Forum -----
+DOMAIN-SUFFIX,stackoverflow.com,PROXY
 
 # ----- China Forum -----
 DOMAIN-SUFFIX,v2ex.com,PROXY
@@ -711,13 +737,24 @@ DOMAIN-SUFFIX,asiantolick.com,PROXY
 DOMAIN-SUFFIX,pornhub.com,PROXY
 DOMAIN-SUFFIX,pornhubpremium.com,PROXY
 DOMAIN-SUFFIX,phprcdn.com,PROXY
-# #----- BHC-porn-----
+# #----- china-porn-----
 DOMAIN-SUFFIX,xl5688.com,PROXY
 DOMAIN-SUFFIX,bhc348.top,PROXY
 DOMAIN-SUFFIX,bhc521.com,PROXY
+DOMAIN-SUFFIX,bhc346.top,PROXY
+DOMAIN-SUFFIX,t66y.com,PROXY
 
 # ---------- ENT ----------
 DOMAIN-SUFFIX,vimeo.com,PROXY
 DOMAIN-SUFFIX,vimeocdn.com,PROXY
 
+# ----- Blog -----
+DOMAIN-SUFFIX,bulianglin.com,PROXY
+DOMAIN-SUFFIX,merlinblog.xyz,PROXY
+# ---------- Other Blog ----------
+
 # ---------- Other ----------
+DOMAIN-SUFFIX,vmert.com,PROXY
+DOMAIN-SUFFIX,dev.to,PROXY
+DOMAIN-SUFFIX,hackmd.io,PROXY
+DOMAIN-SUFFIX,antipodesmap.com,PROXY
