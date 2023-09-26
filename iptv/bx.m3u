@@ -209,5 +209,5 @@ https://cntv.sbs/tv?auth=230918&id=zgtq
 https://iptv.2151512.com/LoveNature-4K
 #EXTINF:-1,tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://epg.112114.eu.org/logo/民视新闻台.png" group-title="国际新闻",民视新闻 直连
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-
-
+#EXTINF:-1,tvg-id="SkySports" tvg-name="天空体育" tvg-logo="https://imgtg.i555.xyz/file/4be8a1a1a77195e91b241.png" group-title="体育",SkySports 直连
+http://a16e00c6.ucomist.net/iptv/UPKY3Y8BF6KNX8/7336/index.m3u8
