@@ -203,11 +203,110 @@ https://cntv.sbs/tv?auth=230918&id=cetv2
 https://cntv.sbs/tv?auth=230918&id=cetv4
 #EXTINF:-1 tvg-id="" tvg-name="中国天气" tvg-logo="https://live.fanmingming.com/tv/中国天气.png" group-title="数字",中国天气
 https://cntv.sbs/tv?auth=230918&id=zgtq
+#EXTINF:-1 tvg-id="" tvg-name="广州新闻" tvg-logo="https://live.fanmingming.com/tv/广州新闻.png" group-title="新闻",广州新闻
+https://justsometime.gztv.com/sec/xinwen.m3u8 
 
 
-#EXTINF:-1,tvg-id="" tvg-name="爱自然" tvg-logo="https://epg.112114.eu.org/logo/爱自然.png" group-title="纪录片",爱自然4k 代理
+#EXTINF:-1 tvg-id="" tvg-name="黑莓电影" tvg-logo="https://live.fanmingming.com/tv/黑莓电影.png" group-title="电影",黑莓电影
+http://111.40.196.32:443/PLTV/88888888/224/3221225610/1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="黑莓电影" tvg-logo="https://live.fanmingming.com/tv/黑莓电影.png" group-title="电影",黑莓电影 IPV6
+http://[2409:8087:2001:20:2800:0:df6e:eb09]:80/wh7f454c46tw1557681271_-1627945614/ott.mobaibox.com/PLTV/3/224/3221227520/index.m3u8?icpid=3&RTS=1674385968&from=40&popid=40&hms_devid=2037&prioritypopid=40&vqe=3
+#EXTINF:-1 tvg-id="" tvg-name="东森电影" tvg-logo="" group-title="电影",东森电影
+http://50.7.238.114:8278/ettvmovie/playlist.m3u8?tid=MDED1943740419437404&ct=19225&tsum=120834a4218c4b5c3bb19efb8116f859
+#EXTINF:-1 tvg-id="" tvg-name="好莱坞电影" tvg-logo="" group-title="电影",好莱坞电影
+http://198.16.100.90:8278/hollywoodmovies_twn/playlist.m3u8?tid=MD8D9429794794297947&ct=19193&tsum=fbe097bcbe37adad90e8bef964cac161
+#EXTINF:-1 tvg-id="" tvg-name="newtv动作电影" tvg-logo="https://epg.112114.eu.org/logo/newtv.png" group-title="电影",newtv动作电影
+http://111.40.196.31:443/PLTV/88888888/224/3221225620/1.m3u8
+#EXTINF:-1,tvg-id="龍祥電影" tvg-name="龍祥電影" tvg-logo="" group-title="电影",龍祥電影
+http://50.7.238.114:8278/cb7a1fec69/playlist.m3u8?tid=md05ab4002297&ct=18335&tsum=ebe4254ee0e073c2d3c9789e679c00a5
+#EXTINF:-1,tvg-id="星卫电影" tvg-name="星卫电影" tvg-logo="" group-title="电影",星卫电影
+http://50.7.238.114:8278/xingwei_movie/playlist.m3u8?tid=MBAB2096754620967546&ct=18392&tsum=2c800c1f0b6cc98d2404608c294dcbc2
+
+
+#EXTINF:-1,tvg-id="" tvg-name="爱自然" tvg-logo="https://epg.112114.eu.org/logo/爱自然.png" group-title="纪录片",爱自然4k 加速
 https://iptv.2151512.com/LoveNature-4K
-#EXTINF:-1,tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://epg.112114.eu.org/logo/民视新闻台.png" group-title="国际新闻",民视新闻 直连
+#EXTINF:-1,tvg-id="" tvg-name="爱自然" tvg-logo="https://epg.112114.eu.org/logo/爱自然.png" group-title="纪录片",爱自然4k
+https://d2dw21aq0j0l5c.cloudfront.net/playlist.m3u8
+#EXTINF:-1,tvg-id="FASHIONTV" tvg-name="FASHIONTV" tvg-logo="https://epg.112114.eu.org/logo/FASHIONTV.png" group-title="纪录片",FASHIONTV
+https://iptv.2151512.com/FASHION-4K
+
+
+
+
+#EXTINF:-1,tvg-id="香港有線新聞" tvg-name="香港有線新聞" tvg-logo="" group-title="香港",香港有線新聞
+http://61.10.2.141/live_freedirect/hd110_h.live/playlist.m3u8
+
+#EXTINF:-1,tvg-id="AXNTaiwan" tvg-name="AXNTaiwan" tvg-logo="" group-title="台湾",AXNTaiwan
+http://50.7.238.114:8278/axn_twn/playlist.m3u8?tid=MC6C9875939098759390&ct=19254&tsum=5a6772e6e852b06c1b5741eeb4002a1a
+#EXTINF:-1,tvg-id="tvbs 新闻台" tvg-name="tvbs 新闻台" tvg-logo="" group-title="台湾",tvbs 新闻台
+http://38.64.72.148:80/hls/modn/list/4006/chunklist1.m3u8
+#EXTINF:-1,tvg-id="民视新闻台" tvg-name="民视新闻台" tvg-logo="https://epg.112114.eu.org/logo/民视新闻台.png" group-title="台湾",民视新闻
 http://38.64.72.148/hls/modn/list/4012/chunklist0.m3u8
-#EXTINF:-1,tvg-id="SkySports" tvg-name="天空体育" tvg-logo="https://imgtg.i555.xyz/file/4be8a1a1a77195e91b241.png" group-title="体育",SkySports 直连
+#EXTINF:-1,tvg-id="AsiaTravel" tvg-name="亚洲旅游" tvg-logo="" group-title="台湾",亚洲旅游
+http://50.7.238.114:8278/asiatravel_twn/playlist.m3u8?tid=ma9ec30da9ef3&ct=18335&tsum=ff0bd9207f2c72a8c9bf38464433dc7d
+#EXTINF:-1,tvg-id="WildAsia" tvg-name="国家地理野生" tvg-logo="" group-title="台湾",国家地理野生
+http://198.16.100.90:8278/natgeowild_twn/playlist.m3u8?tid=mc9d789e8a1bb12836354&ct=17877&tsum=82c5ce1596dc364c112c79b239c3f5e8
+#EXTINF:-1,tvg-id="东森财经新闻" tvg-name="东森财经新闻" tvg-logo="" group-title="台湾",东森财经新闻
+http://50.7.238.114:8278/ettvcaijing_twn/playlist.m3u8?tid=MB8B2069463920694639&ct=19249&tsum=05ff51a1b274ce7d31d05bbf11df18ad
+
+
+
+#EXTINF:-1,tvg-id="KTV" tvg-name="Korean TV" tvg-logo="https://imgtg.i555.xyz/file/6432767e0e95d5e3c2c61.png" group-title="韩国",KTV
+https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
+#EXTINF:-1,tvg-id="KBS News" tvg-name="KBS News" tvg-logo="" group-title="韩国",KBS News
+http://ye23.vip/z7z8/2021/kbs2020.php?id=4
+#EXTINF:-1,tvg-id="KBS World" tvg-name="KBS World" tvg-logo="" group-title="韩国",KBS World
+https://kbsworld-ott.akamaized.net/hls/live/2002341/kbsworld/master.m3u8
+
+
+#EXTINF:-1,tvg-id="TBS" tvg-name="TBS" tvg-logo="" group-title="日本",TBS
+http://58.234.158.60:1935/catvlive/myStream/playlist.m3u8
+#EXTINF:-1,tvg-id="BS-TBS" tvg-name="BS-TBS" tvg-logo="" group-title="日本",BS-TBS
+http://cdn-th136.cloudrsst.com/live/bstbs_720/playlist.m3u8
+#EXTINF:-1,tvg-id="TBS" tvg-name="TBS" tvg-logo="" group-title="日本",TBS News23
+https://cdn-th136.cloudrsst.com/live/kanto_tbs_720/playlist.m3u8
+#EXTINF:-1,tvg-id="FujiTV" tvg-name="FujiTV" tvg-logo="" group-title="日本",FujiTV
+http://203.162.235.41:15094/
+#EXTINF:-1,tvg-id="WOWOWシネマ" tvg-name="WOWOWシネマ" tvg-logo="" group-title="日本",WOWOW Cinema
+https://stream01.willfonk.com/live_playlist.m3u8?cid=BS193&r=FHD&ccode=JP&m=d0:20:20:04:35:cc&t=0d6938cb3dcf4b79848bc1753a59daf1
+#EXTINF:-1,tvg-id="WOWOWシネマ" tvg-name="WOWOWシネマ" tvg-logo="" group-title="日本",WOWOW Cinema 加速
+https://iptv.2151512.com/WOWOW-Cinema
+#EXTINF:-1,tvg-id="TV Asahi" tvg-name="テレビ朝日" tvg-logo="" group-title="日本",TV Asahi
+https://cdn-th136.cloudrsst.com/live/kanto_tv_asahi_720/playlist.m3u8
+#EXTINF:-1,tvg-id="ABC Asahi" tvg-name="ABC Asahi" tvg-logo="" group-title="日本",ABC Asahi
+https://cdn-th136.cloudrsst.com/live/kansi_abc_asahi_720/playlist.m3u8
+#EXTINF:-1,tvg-id="BS朝日" tvg-name="BS朝日" tvg-logo="" group-title="日本",BS朝日
+http://cdn-th136.cloudrsst.com/live/bsasahi_720/playlist.m3u8
+
+#EXTINF:-1,tvg-id="CNN全球新聞" tvg-name="CNN全球新聞" tvg-logo="" group-title="国际新闻",CNN全球新聞
+http://ip2121.com:8081/live/cnn/playlist.m3u8
+#EXTINF:-1,tvg-id="CBS Reality" tvg-name="CBS Reality" tvg-logo="" group-title="国际新闻",CBS Reality
+https://edge-f.swagit.com/live/carlsbadca/live-3-a-1/playlist.m3u8
+#EXTINF:-1,tvg-id="CBS Drama" tvg-name="CBS Drama" tvg-logo="" group-title="国际新闻",CBS Drama
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1,tvg-id="CBSN" tvg-name="CBSN" tvg-logo="" group-title="国际新闻",CBSN
+http://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_7.m3u8
+#EXTINF:-1,tvg-id="CBSHD" tvg-name="CBSHD" tvg-logo="" group-title="国际新闻",CBSHD
+http://198.16.100.90:8278/cbshd_glo/playlist.m3u8?tid=MA1A7337105773371057&ct=19254&tsum=89d432f03b1b50b68b7bace382dc13ac
+#EXTINF:-1,tvg-id="FoxNews" tvg-name="FoxNews" tvg-logo="" group-title="国际新闻",FoxNews
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
+
+#EXTINF:-1,tvg-id="浙江体育" tvg-name="浙江体育" tvg-logo="" group-title="体育",浙江体育
+http://183.129.242.178:3333/tsfile/live/1019_1.m3u8
+#EXTINF:-1,tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://epg.112114.eu.org/logo/广东体育.png" group-title="体育",广东体育
+http://218.17.196.234:9901/tsfile/live/1001_1.m3u8
+#EXTINF:-1,tvg-id="SkySports" tvg-name="天空体育" tvg-logo="https://imgtg.i555.xyz/file/4be8a1a1a77195e91b241.png" group-title="体育",SkySports
 http://a16e00c6.ucomist.net/iptv/UPKY3Y8BF6KNX8/7336/index.m3u8
+#EXTINF:-1,tvg-id="纬来体育" tvg-name="纬来体育" tvg-logo="https://epg.112114.eu.org/logo/纬来体育.png" group-title="体育",纬来体育
+http://50.7.238.114:8278/videolandsport/playlist.m3u8?tid=MD2D5343800653438006&ct=19234&tsum=1be724fb8246abfedaf2bd088ec98f03
+#EXTINF:-1,tvg-id="博斯运动2" tvg-name="博斯运动2" tvg-logo="https://epg.112114.eu.org/logo/博斯运动.png" group-title="体育",博斯运动2
+http://198.16.100.90:8278/bosisport2_twn/playlist.m3u8?tid=ME9E7698135376981353&ct=19249&tsum=9eadcc8585f74357f09f1465844024c9
+
+
+
+#EXTINF:-1,tvg-id="MTV" tvg-name="MTV" tvg-logo="https://epg.112114.eu.org/logo/MTV.png" group-title="音乐",MTV
+https://iptv.2151512.com/MTV-HD
+#EXTINF:-1,tvg-id="KYTV" tvg-name="KYTV" tvg-logo="https://epg.112114.eu.org/logo/KYTV.png" group-title="音乐",KYTV
+http://live.kytv.co.kr:8080/hls/stream.m3u8
+#EXTINF:-1,tvg-id="CMC" tvg-name="CMC" tvg-logo="https://epg.112114.eu.org/logo/CMC.png" group-title="音乐",CMC 加州音乐频道
+https://iptv.2151512.com/CMC
