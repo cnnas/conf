@@ -291,6 +291,10 @@ http://198.16.100.90:8278/cbshd_glo/playlist.m3u8?tid=MA1A7337105773371057&ct=19
 #EXTINF:-1,tvg-id="FoxNews" tvg-name="FoxNews" tvg-logo="" group-title="国际新闻",FoxNews
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 
+
+
+#EXTINF:-1,tvg-id="咪咕体育" tvg-name="咪咕体育" tvg-logo="https://epg.112114.eu.org/logo/咪咕体育.png" group-title="体育",咪咕体育 IPV6
+http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225895/index.m3u8
 #EXTINF:-1,tvg-id="浙江体育" tvg-name="浙江体育" tvg-logo="" group-title="体育",浙江体育
 http://183.129.242.178:3333/tsfile/live/1019_1.m3u8
 #EXTINF:-1,tvg-id="广东体育" tvg-name="广东体育" tvg-logo="https://epg.112114.eu.org/logo/广东体育.png" group-title="体育",广东体育
