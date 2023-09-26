@@ -227,7 +227,7 @@ http://50.7.238.114:8278/xingwei_movie/playlist.m3u8?tid=MBAB2096754620967546&ct
 https://iptv.2151512.com/LoveNature-4K
 #EXTINF:-1,tvg-id="" tvg-name="爱自然" tvg-logo="https://epg.112114.eu.org/logo/爱自然.png" group-title="纪录片",爱自然4k
 https://d2dw21aq0j0l5c.cloudfront.net/playlist.m3u8
-#EXTINF:-1,tvg-id="FASHIONTV" tvg-name="FASHIONTV" tvg-logo="https://epg.112114.eu.org/logo/FASHIONTV.png" group-title="纪录片",FASHIONTV
+#EXTINF:-1,tvg-id="FASHIONTV" tvg-name="FASHIONTV" tvg-logo="https://epg.112114.eu.org/logo/FASHIONTV.png" group-title="纪录片",FASHIONTV 加速
 https://iptv.2151512.com/FASHION-4K
 
 
@@ -304,9 +304,9 @@ http://198.16.100.90:8278/bosisport2_twn/playlist.m3u8?tid=ME9E7698135376981353&
 
 
 
-#EXTINF:-1,tvg-id="MTV" tvg-name="MTV" tvg-logo="https://epg.112114.eu.org/logo/MTV.png" group-title="音乐",MTV
+#EXTINF:-1,tvg-id="MTV" tvg-name="MTV" tvg-logo="https://epg.112114.eu.org/logo/MTV.png" group-title="音乐",MTV 加速
 https://iptv.2151512.com/MTV-HD
 #EXTINF:-1,tvg-id="KYTV" tvg-name="KYTV" tvg-logo="https://epg.112114.eu.org/logo/KYTV.png" group-title="音乐",KYTV
 http://live.kytv.co.kr:8080/hls/stream.m3u8
-#EXTINF:-1,tvg-id="CMC" tvg-name="CMC" tvg-logo="https://epg.112114.eu.org/logo/CMC.png" group-title="音乐",CMC 加州音乐频道
+#EXTINF:-1,tvg-id="CMC" tvg-name="CMC" tvg-logo="https://epg.112114.eu.org/logo/CMC.png" group-title="音乐",CMC加州音乐频道 加速
 https://iptv.2151512.com/CMC
