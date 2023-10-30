@@ -222,6 +222,9 @@ DOMAIN-SUFFIX,kanalabs.io,PROXY
 DOMAIN-SUFFIX,mirror.xyz,PROXY
 DOMAIN-SUFFIX,walletconnect.org,PROXY
 DOMAIN-SUFFIX,walletlink.org,PROXY
+DOMAIN-SUFFIX,walletconnect.com,PROXY
+DOMAIN-SUFFIX,web3modal.org,PROXY
+
 
 # #----- Miner ----- 
 DOMAIN-SUFFIX,f2pool.com,PROXY
@@ -240,6 +243,10 @@ DOMAIN-SUFFIX,appsflyer.com,PROXY
 # #----- sc -----
 DOMAIN-SUFFIX,sc.com,PROXY
 DOMAIN-SUFFIX,scdn.com,PROXY
+# #----- credit card -----
+DOMAIN-SUFFIX,dupay.one,PROXY
+DOMAIN-SUFFIX,onekey.so,PROXY
+
 
 
 # ---------- Group ----------
@@ -575,6 +582,8 @@ DOMAIN-SUFFIX,telegram.org,PROXY
 DOMAIN-SUFFIX,telegramdownload.com,PROXY
 DOMAIN-SUFFIX,telesco.pe,PROXY
 DOMAIN-SUFFIX,telegra.ph,PROXY
+# #----- Telegram ext -----
+DOMAIN-SUFFIX,telegram-store.com,PROXY
 
 # #----- Line -----
 DOMAIN-SUFFIX,line.me,PROXY
@@ -646,6 +655,8 @@ DOMAIN-SUFFIX,spreadsheet.dev,PROXY
 DOMAIN-SUFFIX,archive.org,PROXY
 DOMAIN-SUFFIX,ytscribe.com,PROXY
 DOMAIN-SUFFIX,aapanel.com,PROXY
+DOMAIN-SUFFIX,aptvapp.com,PROXY
+DOMAIN-SUFFIX,webpkgcache.com,PROXY
 # #----- OPENAI & ChatGPT -----
 DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,auth0.com,PROXY
@@ -698,6 +709,11 @@ DOMAIN-SUFFIX,postman.com,PROXY
 # #----- GEO Tools -----
 DOMAIN-SUFFIX,organicmaps.app,PROXY
 DOMAIN-SUFFIX,openstreetmap.org,PROXY
+# #----- Pic Tools -----
+DOMAIN-SUFFIX,imgur.com,PROXY
+# #----- App Store Tools -----
+DOMAIN-SUFFIX,aptoide.com,PROXY
+
 
 # ---------- Edu ----------
 # #----- EDX -----
@@ -788,3 +804,8 @@ DOMAIN-SUFFIX,hackmd.io,PROXY
 DOMAIN-SUFFIX,antipodesmap.com,PROXY
 DOMAIN-SUFFIX,gamehacking.academy,PROXY
 DOMAIN-SUFFIX,lg.jp,PROXY
+
+
+# ---------- tmp ----------
+DOMAIN-SUFFIX,phncdn.com,PROXY
+DOMAIN-SUFFIX,phprcdn.com,PROXY
