@@ -240,12 +240,15 @@ DOMAIN-SUFFIX,stocktwits.com,PROXY
 # #----- tipranks -----
 DOMAIN-SUFFIX,tipranks.com,PROXY
 DOMAIN-SUFFIX,appsflyer.com,PROXY
+# #----- SeekingAlpha -----
+DOMAIN-SUFFIX,seekingalpha.com,PROXY
 # #----- sc -----
 DOMAIN-SUFFIX,sc.com,PROXY
 DOMAIN-SUFFIX,scdn.com,PROXY
 # #----- credit card -----
 DOMAIN-SUFFIX,dupay.one,PROXY
 DOMAIN-SUFFIX,onekey.so,PROXY
+
 
 
 
@@ -475,7 +478,6 @@ DOMAIN-SUFFIX,nflxsearch.net,PROXY
 DOMAIN-SUFFIX,nflxso.net,PROXY
 
 
-
 # ---------- News ----------
 DOMAIN-SUFFIX,cnyes.com,PROXY
 # #----- VOA -----
@@ -584,6 +586,7 @@ DOMAIN-SUFFIX,telesco.pe,PROXY
 DOMAIN-SUFFIX,telegra.ph,PROXY
 # #----- Telegram ext -----
 DOMAIN-SUFFIX,telegram-store.com,PROXY
+DOMAIN-SUFFIX,tgcng.com,PROXY
 
 # #----- Line -----
 DOMAIN-SUFFIX,line.me,PROXY
@@ -626,6 +629,9 @@ DOMAIN-SUFFIX,cloudfunctions.net,PROXY
 # #----- Heroku -----
 DOMAIN-SUFFIX,herokuapp.com,PROXY
 DOMAIN-SUFFIX,heroku.com,PROXY
+
+# #----- docker -----
+DOMAIN-SUFFIX,docker.com,PROXY
 
 # #----- OpenWRT -----
 DOMAIN-SUFFIX,openwrt.org,PROXY
@@ -765,7 +771,7 @@ DOMAIN-SUFFIX,2047.one,PROXY
 DOMAIN-SUFFIX,freewechat.com,PROXY
 
 
-# ---------- AV ----------
+# ---------- AV / Porn ----------
 DOMAIN-SUFFIX,missav.com,PROXY
 DOMAIN-SUFFIX,jable.tv,PROXY
 DOMAIN-SUFFIX,avgle.com,PROXY
@@ -777,6 +783,8 @@ DOMAIN-SUFFIX,avgle.com,PROXY
 DOMAIN-SUFFIX,haijiao.com,PROXY
 DOMAIN-SUFFIX,mm4now.com,PROXY
 DOMAIN-SUFFIX,asiantolick.com,PROXY
+# #----- Porn Nav guide -----
+DOMAIN-SUFFIX,theporndude.com,PROXY
 # #----- PornHub -----
 DOMAIN-SUFFIX,pornhub.com,PROXY
 DOMAIN-SUFFIX,pornhubpremium.com,PROXY
@@ -787,6 +795,9 @@ DOMAIN-SUFFIX,bhc348.top,PROXY
 DOMAIN-SUFFIX,bhc521.com,PROXY
 DOMAIN-SUFFIX,bhc346.top,PROXY
 DOMAIN-SUFFIX,t66y.com,PROXY
+DOMAIN-SUFFIX,gooldenxxx.com,PROXY
+DOMAIN-SUFFIX,91porn.com,PROXY
+DOMAIN-SUFFIX,huashequ.net,PROXY
 
 # ---------- ENT ----------
 DOMAIN-SUFFIX,vimeo.com,PROXY
