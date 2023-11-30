@@ -259,6 +259,14 @@ DOMAIN-SUFFIX,sharepoint.com,PROXY
 DOMAIN-SUFFIX,live.com,PROXY
 DOMAIN-SUFFIX,office.net,PROXY
 DOMAIN-SUFFIX,microsoftonline.com,PROXY
+# #----- Microsoft New Bing ----- 
+DOMAIN-SUFFIX,bing.com,PROXY
+DOMAIN-SUFFIX,bingapis.com,PROXY
+DOMAIN-SUFFIX,microsoftapp.net,PROXY
+DOMAIN-SUFFIX,microsoft-falcon.io,PROXY
+DOMAIN-SUFFIX,msn.com,PROXY
+DOMAIN-SUFFIX,akamaized.net,PROXY
+DOMAIN-SUFFIX,appcenter.ms,PROXY
 # ##----- microsoftTools -----
 DOMAIN-SUFFIX,visualstudio.com,PROXY
 # #----- Facebook ----- 
@@ -790,6 +798,8 @@ DOMAIN-SUFFIX,theporndude.com,PROXY
 DOMAIN-SUFFIX,pornhub.com,PROXY
 DOMAIN-SUFFIX,pornhubpremium.com,PROXY
 DOMAIN-SUFFIX,phprcdn.com,PROXY
+# #----- 91 -----
+DOMAIN-SUFFIX,91porn.com,PROXY
 # #----- china-porn-----
 DOMAIN-SUFFIX,xl5688.com,PROXY
 DOMAIN-SUFFIX,bhc348.top,PROXY
@@ -797,12 +807,13 @@ DOMAIN-SUFFIX,bhc521.com,PROXY
 DOMAIN-SUFFIX,bhc346.top,PROXY
 DOMAIN-SUFFIX,t66y.com,PROXY
 DOMAIN-SUFFIX,gooldenxxx.com,PROXY
-DOMAIN-SUFFIX,91porn.com,PROXY
 DOMAIN-SUFFIX,huashequ.net,PROXY
 
 # ---------- ENT ----------
 DOMAIN-SUFFIX,vimeo.com,PROXY
 DOMAIN-SUFFIX,vimeocdn.com,PROXY
+# #----- Download -----
+DOMAIN-SUFFIX,thepiratebay.org,PROXY
 
 # ----- Blog -----
 DOMAIN-SUFFIX,bulianglin.com,PROXY
