@@ -649,6 +649,7 @@ DOMAIN-SUFFIX,wakatime.com,PROXY
 DOMAIN-SUFFIX,jetbrains.com,PROXY
 DOMAIN-SUFFIX,bootcdn.net,PROXY
 DOMAIN-SUFFIX,jsdelivr.com,PROXY
+DOMAIN-SUFFIX,jsdelivr.net,PROXY
 DOMAIN-SUFFIX,gitbook.com,PROXY
 
 
