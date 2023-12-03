@@ -267,6 +267,7 @@ DOMAIN-SUFFIX,microsoft-falcon.io,PROXY
 DOMAIN-SUFFIX,msn.com,PROXY
 DOMAIN-SUFFIX,akamaized.net,PROXY
 DOMAIN-SUFFIX,appcenter.ms,PROXY
+DOMAIN-SUFFIX,clarity.ms,PROXY
 # ##----- microsoftTools -----
 DOMAIN-SUFFIX,visualstudio.com,PROXY
 # #----- Facebook ----- 
@@ -814,6 +815,7 @@ DOMAIN-SUFFIX,vimeo.com,PROXY
 DOMAIN-SUFFIX,vimeocdn.com,PROXY
 # #----- Download -----
 DOMAIN-SUFFIX,thepiratebay.org,PROXY
+DOMAIN-SUFFIX,torrentgalaxy.to,PROXY
 
 # ----- Blog -----
 DOMAIN-SUFFIX,bulianglin.com,PROXY
