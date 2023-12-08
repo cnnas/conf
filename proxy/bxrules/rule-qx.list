@@ -596,6 +596,8 @@ DOMAIN-SUFFIX,telegra.ph,PROXY
 # #----- Telegram ext -----
 DOMAIN-SUFFIX,telegram-store.com,PROXY
 DOMAIN-SUFFIX,tgcng.com,PROXY
+DOMAIN-SUFFIX,tgstat.com,PROXY
+DOMAIN-SUFFIX,telemetr.me,PROXY
 
 # #----- Line -----
 DOMAIN-SUFFIX,line.me,PROXY
@@ -820,6 +822,8 @@ DOMAIN-SUFFIX,torrentgalaxy.to,PROXY
 # ----- Blog -----
 DOMAIN-SUFFIX,bulianglin.com,PROXY
 DOMAIN-SUFFIX,merlinblog.xyz,PROXY
+DOMAIN-SUFFIX,wordpress.com,PROXY
+DOMAIN-SUFFIX,gravatar.com,PROXY
 # ---------- Other Blog ----------
 
 # ---------- Other ----------
