@@ -233,6 +233,9 @@ DOMAIN-SUFFIX,f2pool.com,PROXY
 DOMAIN-SUFFIX,nicehash.com,PROXY
 DOMAIN-SUFFIX,minerstat.com,PROXY
 DOMAIN-SUFFIX,hiveon.com,PROXY
+DOMAIN-SUFFIX,rplant.xyz,PROXY
+DOMAIN-SUFFIX,herominers.com,PROXY
+DOMAIN-SUFFIX,ycombinator.com,PROXY
 
 # ---------- Invest/Trade/Market ----------
 # #----- Invest Media -----
