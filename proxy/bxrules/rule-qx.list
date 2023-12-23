@@ -218,6 +218,8 @@ DOMAIN-SUFFIX,blocktempo.com,PROXY
 DOMAIN-SUFFIX,wizardia.co,PROXY
 DOMAIN-SUFFIX,kanalabs.io,PROXY
 
+DOMAIN-SUFFIX,bitcointalk.org,PROXY
+
 # ##----- mirror -----
 DOMAIN-SUFFIX,mirror.xyz,PROXY
 DOMAIN-SUFFIX,walletconnect.org,PROXY
