@@ -237,6 +237,11 @@ DOMAIN-SUFFIX,rplant.xyz,PROXY
 DOMAIN-SUFFIX,herominers.com,PROXY
 DOMAIN-SUFFIX,ycombinator.com,PROXY
 
+DOMAIN-SUFFIX,getgrass.io,PROXY
+
+DOMAIN-SUFFIX,altcoinspool.com,PROXY
+DOMAIN-SUFFIX,obscuritycoin.com,PROXY
+
 # ---------- Invest/Trade/Market ----------
 # #----- Invest Media -----
 DOMAIN-SUFFIX,stocktwits.com,PROXY
