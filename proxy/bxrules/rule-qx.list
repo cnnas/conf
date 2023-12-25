@@ -698,6 +698,11 @@ DOMAIN-SUFFIX,invoice.stripe.com,PROXY
 DOMAIN-SUFFIX,stripe.com,PROXY
 DOMAIN-SUFFIX,poe.com,PROXY
 DOMAIN-SUFFIX,bard.google.com,PROXY
+
+DOMAIN-SUFFIX,ideasip.com,PROXY
+DOMAIN-SUFFIX,browser-intake-datadoghq.com,PROXY
+DOMAIN-SUFFIX,livekit.cloud,PROXY
+
 # #----- Note -----
 DOMAIN-SUFFIX,evernote.com,PROXY
 # #----- RSS -----
