@@ -699,6 +699,7 @@ DOMAIN-SUFFIX,stripe.com,PROXY
 DOMAIN-SUFFIX,poe.com,PROXY
 DOMAIN-SUFFIX,bard.google.com,PROXY
 
+# ##----- ChatGPT ext -----
 DOMAIN-SUFFIX,ideasip.com,PROXY
 DOMAIN-SUFFIX,browser-intake-datadoghq.com,PROXY
 DOMAIN-SUFFIX,livekit.cloud,PROXY
