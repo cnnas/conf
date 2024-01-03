@@ -499,6 +499,7 @@ DOMAIN-SUFFIX,nflxso.net,PROXY
 
 # ---------- News ----------
 DOMAIN-SUFFIX,cnyes.com,PROXY
+DOMAIN-SUFFIX,wsj.com,PROXY
 # #----- VOA -----
 DOMAIN-SUFFIX,voa.mobi,PROXY
 DOMAIN-SUFFIX,voacambodia.com,PROXY
