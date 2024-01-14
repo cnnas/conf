@@ -468,6 +468,7 @@ DOMAIN-SUFFIX,blogspot.com,PROXY
 DOMAIN-SUFFIX,blogspot.hk,PROXY
 DOMAIN-SUFFIX,blogspot.jp,PROXY
 DOMAIN-SUFFIX,blogspot.tw,PROXY
+DOMAIN-SUFFIX,blogger.com,PROXY
 # ##----- Youtube -----
 DOMAIN-SUFFIX,youtu.be,PROXY
 DOMAIN-SUFFIX,youtube.com,PROXY
