@@ -643,6 +643,7 @@ DOMAIN-SUFFIX,github.io,PROXY
 DOMAIN-SUFFIX,github.dev,PROXY
 DOMAIN-SUFFIX,githubusercontent.com,PROXY
 DOMAIN-SUFFIX,githubassets.com,PROXY
+DOMAIN-SUFFIX,git.io,PROXY
 
 # #----- CloudFront/Cloudflare -----
 DOMAIN-SUFFIX,cloudfront.net,PROXY
@@ -814,6 +815,7 @@ DOMAIN-SUFFIX,avgle.com,PROXY
 DOMAIN-SUFFIX,haijiao.com,PROXY
 DOMAIN-SUFFIX,mm4now.com,PROXY
 DOMAIN-SUFFIX,asiantolick.com,PROXY
+DOMAIN-SUFFIX,javdb.com,PROXY
 # #----- Porn Nav guide -----
 DOMAIN-SUFFIX,theporndude.com,PROXY
 # #----- PornHub -----
@@ -837,6 +839,7 @@ DOMAIN-SUFFIX,vimeocdn.com,PROXY
 # #----- Download -----
 DOMAIN-SUFFIX,thepiratebay.org,PROXY
 DOMAIN-SUFFIX,torrentgalaxy.to,PROXY
+DOMAIN-SUFFIX,torrentkitty.tv,PROXY
 
 # ----- Blog -----
 DOMAIN-SUFFIX,bulianglin.com,PROXY
