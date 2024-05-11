@@ -181,6 +181,8 @@ DOMAIN-SUFFIX,metamask.io,PROXY
 DOMAIN-SUFFIX,anyswap.exchange,PROXY
 DOMAIN-SUFFIX,cex.io,PROXY
 DOMAIN-SUFFIX,wizardia.io,PROXY
+DOMAIN-SUFFIX,dflow.net,PROXY
+DOMAIN-SUFFIX,ethena.fi,PROXY
 # ##----- Opensea seadn.io-----
 DOMAIN-SUFFIX,opensea.io,PROXY
 # ##----- safepal -----
@@ -321,6 +323,11 @@ DOMAIN-SUFFIX,amazonaws.com,PROXY
 
 # #----- Google -----
 DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-SUFFIX,google.co.jp,PROXY
+DOMAIN-SUFFIX,google.com.hk,PROXY
+DOMAIN-SUFFIX,google.co.kr,PROXY
+DOMAIN-SUFFIX,google.com.sg,PROXY
+
 DOMAIN-SUFFIX,abc.xyz,PROXY
 DOMAIN-SUFFIX,about.google,PROXY
 DOMAIN-SUFFIX,admob.com,PROXY
@@ -502,6 +509,7 @@ DOMAIN-SUFFIX,nflxso.net,PROXY
 DOMAIN-SUFFIX,cnyes.com,PROXY
 DOMAIN-SUFFIX,wsj.com,PROXY
 DOMAIN-SUFFIX,wsj.net,PROXY
+DOMAIN-SUFFIX,dw.com,PROXY
 # #----- VOA -----
 DOMAIN-SUFFIX,voa.mobi,PROXY
 DOMAIN-SUFFIX,voacambodia.com,PROXY
@@ -660,10 +668,18 @@ DOMAIN-SUFFIX,docker.com,PROXY
 
 # #----- OpenWRT -----
 DOMAIN-SUFFIX,openwrt.org,PROXY
-# #----- Payment stripe�ɲ��� -----
+# #----- Payment -----
 # stripe.network
 # stripe.com
 DOMAIN-SUFFIX,censys.io,PROXY
+
+# #----- VPS/Server -----
+DOMAIN-SUFFIX,cloudcone.com,PROXY
+DOMAIN-SUFFIX,xtom.com,PROXY
+DOMAIN-SUFFIX,hax.co.id,PROXY
+
+# #----- domain / NS -----
+DOMAIN-SUFFIX,eu.org,PROXY
 
 
 # #----- other server -----
@@ -744,6 +760,9 @@ DOMAIN-SUFFIX,laravel-admin.org,PROXY
 DOMAIN-SUFFIX,travis-ci.org,PROXY
 DOMAIN-SUFFIX,evozi.com,PROXY
 DOMAIN-SUFFIX,postman.com,PROXY
+DOMAIN-SUFFIX,codecogs.com,PROXY
+DOMAIN-SUFFIX,readwise.io,PROXY
+
 # #----- GEO Tools -----
 DOMAIN-SUFFIX,organicmaps.app,PROXY
 DOMAIN-SUFFIX,openstreetmap.org,PROXY
@@ -751,6 +770,9 @@ DOMAIN-SUFFIX,openstreetmap.org,PROXY
 DOMAIN-SUFFIX,imgur.com,PROXY
 # #----- App Store Tools -----
 DOMAIN-SUFFIX,aptoide.com,PROXY
+# #----- Fuck GFW Tools -----
+DOMAIN-SUFFIX,v2ray.com,PROXY
+
 
 
 # ---------- Edu ----------
@@ -811,7 +833,6 @@ DOMAIN-SUFFIX,avmoo.com,PROXY
 DOMAIN-SUFFIX,porntrex.com,PROXY
 DOMAIN-SUFFIX,javgg.net,PROXY
 DOMAIN-SUFFIX,hpjav.tv,PROXY
-DOMAIN-SUFFIX,avgle.com,PROXY
 DOMAIN-SUFFIX,haijiao.com,PROXY
 DOMAIN-SUFFIX,mm4now.com,PROXY
 DOMAIN-SUFFIX,asiantolick.com,PROXY
@@ -846,6 +867,7 @@ DOMAIN-SUFFIX,bulianglin.com,PROXY
 DOMAIN-SUFFIX,merlinblog.xyz,PROXY
 DOMAIN-SUFFIX,wordpress.com,PROXY
 DOMAIN-SUFFIX,gravatar.com,PROXY
+DOMAIN-SUFFIX,wp.com,PROXY
 # ---------- Other Blog ----------
 
 # ---------- Other ----------
