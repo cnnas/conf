@@ -317,9 +317,21 @@ DOMAIN-SUFFIX,instagram.com,PROXY
 DOMAIN-SUFFIX,cdninstagram.com,PROXY
 
 # #----- Amazon -----
+DOMAIN-SUFFIX,a2z.com,PROXY
 DOMAIN-SUFFIX,amazon.co.jp,PROXY
 DOMAIN-SUFFIX,amazon.com,PROXY
 DOMAIN-SUFFIX,amazonaws.com,PROXY
+DOMAIN-SUFFIX,aboutamazon.com,PROXY
+DOMAIN-SUFFIX,acmvalidations.com,PROXY
+DOMAIN-SUFFIX,acmvalidationsaws.com,PROXY
+DOMAIN-SUFFIX,aesworkshops.com,PROXY
+DOMAIN-SUFFIX,aiv-cdn.net,PROXY
+DOMAIN-SUFFIX,aiv-delivery.net,PROXY
+DOMAIN-SUFFIX,alexa.com,PROXY
+DOMAIN-SUFFIX,kindle.com,PROXY
+DOMAIN-SUFFIX,kindleoasis.com,PROXY
+DOMAIN-SUFFIX,kindleoasis.info,PROXY
+
 
 # #----- Google -----
 DOMAIN-SUFFIX,google.com,PROXY
@@ -510,6 +522,11 @@ DOMAIN-SUFFIX,cnyes.com,PROXY
 DOMAIN-SUFFIX,wsj.com,PROXY
 DOMAIN-SUFFIX,wsj.net,PROXY
 DOMAIN-SUFFIX,dw.com,PROXY
+DOMAIN-SUFFIX,tedcdn.com,PROXY
+DOMAIN-SUFFIX,appledaily.tw,PROXY
+DOMAIN-SUFFIX,dowjones.com,PROXY
+DOMAIN-SUFFIX,mendeley.com,PROXY
+DOMAIN-SUFFIX,vox.com,PROXY
 # #----- VOA -----
 DOMAIN-SUFFIX,voa.mobi,PROXY
 DOMAIN-SUFFIX,voacambodia.com,PROXY
@@ -772,8 +789,8 @@ DOMAIN-SUFFIX,imgur.com,PROXY
 DOMAIN-SUFFIX,aptoide.com,PROXY
 # #----- Fuck GFW Tools -----
 DOMAIN-SUFFIX,v2ray.com,PROXY
-
-
+# #----- AI Tools -----
+DOMAIN-SUFFIX,forefront.ai,PROXY
 
 # ---------- Edu ----------
 # #----- EDX -----

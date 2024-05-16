@@ -78,6 +78,29 @@ skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, e.cr
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
 dns-server = https://1.12.12.12/dns-query, https://223.5.5.5/dns-query
 [Rule]
+
+#tg ip
+IP-CIDR,91.108.56.0/22,Proxy
+IP-CIDR,91.108.4.0/22,Proxy
+IP-CIDR,91.108.8.0/22,Proxy
+IP-CIDR,91.108.16.0/22,Proxy
+IP-CIDR,91.108.12.0/22,Proxy
+IP-CIDR,149.154.160.0/20,Proxy
+IP-CIDR,91.105.192.0/23,Proxy
+IP-CIDR,91.108.20.0/22,Proxy
+IP-CIDR,185.76.151.0/24,Proxy
+IP-CIDR,2001:b28:f23d::/48,Proxy
+IP-CIDR,2001:b28:f23f::/48,Proxy
+IP-CIDR,2001:67c:4e8::/48,Proxy
+IP-CIDR,2001:b28:f23c::/48,Proxy
+IP-CIDR,2a0a:f280::/32,Proxy
+
+#50 whatsapp
+IP-CIDR,18.194.0.0/15,Proxy
+IP-CIDR,34.224.0.0/12,Proxy
+
+#72 #112 Google Voice
+IP-CIDR,74.125.0.0/16,Proxy
 '''
 
 def str_sw_end():
