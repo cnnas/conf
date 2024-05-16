@@ -53,6 +53,13 @@ def conv_loon_str(str):
         str = "DOMAIN-SUFFIX," + str.replace('\n', '') + "\n"
     return str
 
+def conv_shadowrocket_str(str):
+    if str[0:1] == '#':
+        return ''
+    elif str[0:1]  not in ['\t','\n', ''] :
+        str = "DOMAIN-SUFFIX," + str.replace('\n', '') + ",Proxy\n"
+    return str
+
 
 def conv_ss_str(str):
     if str[0:1] == '#':
@@ -62,6 +69,28 @@ def conv_ss_str(str):
         str = "server=/." + str.replace('\n', '') + "/127.0.0.1#7913\nipset=/." + str.replace('\n', '') + "/gfwlist\n"
     return str
 
+def str_sw_start():
+    return '''
+[General]
+ipv6 = true
+bypass-system = true
+skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, e.crashlytics.com, captive.apple.com, sequoia.apple.com, seed-sequoia.siri.apple.com
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
+dns-server = https://1.12.12.12/dns-query, https://223.5.5.5/dns-query
+[Rule]
+'''
+
+def str_sw_end():
+    return '''
+GEOIP,CN,DIRECT
+FINAL,proxy
+
+[URL Rewrite]
+^https?://(www.)?(g|google)\.cn https://www.google.com 302
+
+[MITM]
+hostname = *.google.cn,*.googlevideo.com
+'''
 
 def get_conf():
     CONF_RULE_SITE = RUN_DIR + "/rule-sites.conf"
@@ -70,6 +99,7 @@ def get_conf():
         rule_str_qx = ''
         rule_str_ss = ''
         rule_str_loon = ''
+        rule_str_shadowrocket = str_sw_start()
 
         with open(CONF_RULE_SITE, 'r', errors='ignore') as f:
             lines = f.readlines()
@@ -83,6 +113,7 @@ def get_conf():
             rule_str_qx = rule_str_qx + conv_qx_str(line)
             rule_str_ss = rule_str_ss + conv_ss_str(line)
             rule_str_loon = rule_str_loon + conv_loon_str(line)
+            rule_str_shadowrocket = rule_str_shadowrocket + conv_shadowrocket_str(line)
 
 
         f.close()
@@ -91,6 +122,9 @@ def get_conf():
         gen_qx_file(rule_str_qx)
         gen_file(rule_str_ss, RUN_DIR + '/' + 'rule-ss.conf')
         gen_file(rule_str_loon, RUN_DIR + '/' + 'rule-loon.conf')
+
+        rule_str_shadowrocket = rule_str_shadowrocket + str_sw_end()
+        gen_file(rule_str_shadowrocket, RUN_DIR + '/' + 'rule-sw.conf')
         # line = f.readline()               # 调用文件的 readline()方法 
         # while line: 
         #     # print line,                   # 后面跟 ',' 将忽略换行符 
