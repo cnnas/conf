@@ -723,6 +723,7 @@ DOMAIN-SUFFIX,aapanel.com,PROXY
 DOMAIN-SUFFIX,aptvapp.com,PROXY
 DOMAIN-SUFFIX,webpkgcache.com,PROXY
 # #----- OPENAI & ChatGPT -----
+DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,auth0.com,PROXY
 DOMAIN-SUFFIX,sentry.io,PROXY
@@ -791,6 +792,9 @@ DOMAIN-SUFFIX,aptoide.com,PROXY
 DOMAIN-SUFFIX,v2ray.com,PROXY
 # #----- AI Tools -----
 DOMAIN-SUFFIX,forefront.ai,PROXY
+# #----- Player Tools -----
+DOMAIN-SUFFIX,daum.net,PROXY
+DOMAIN-SUFFIX,daumcdn.net,PROXY
 
 # ---------- Edu ----------
 # #----- EDX -----
@@ -899,3 +903,9 @@ DOMAIN-SUFFIX,lg.jp,PROXY
 # ---------- tmp ----------
 DOMAIN-SUFFIX,phncdn.com,PROXY
 DOMAIN-SUFFIX,phprcdn.com,PROXY
+
+
+# ---------- quora ----------
+DOMAIN-SUFFIX,quora.com,PROXY
+DOMAIN-SUFFIX,quoracdn.net,PROXY
+
