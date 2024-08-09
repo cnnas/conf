@@ -722,6 +722,7 @@ DOMAIN-SUFFIX,ytscribe.com,PROXY
 DOMAIN-SUFFIX,aapanel.com,PROXY
 DOMAIN-SUFFIX,aptvapp.com,PROXY
 DOMAIN-SUFFIX,webpkgcache.com,PROXY
+DOMAIN-SUFFIX,cmder.app,PROXY
 # #----- OPENAI & ChatGPT -----
 DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY

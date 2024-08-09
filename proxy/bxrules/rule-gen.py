@@ -103,8 +103,9 @@ IP-CIDR,34.224.0.0/12,Proxy
 IP-CIDR,74.125.0.0/16,Proxy
 '''
 
+
 def str_sw_end():
-    return '''
+    return r'''
 GEOIP,CN,DIRECT
 FINAL,proxy
 
