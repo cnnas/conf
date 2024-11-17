@@ -743,6 +743,13 @@ DOMAIN-SUFFIX,ideasip.com,PROXY
 DOMAIN-SUFFIX,browser-intake-datadoghq.com,PROXY
 DOMAIN-SUFFIX,livekit.cloud,PROXY
 
+# ##----- Claude -----
+DOMAIN-SUFFIX,claude.ai,PROXY
+DOMAIN-SUFFIX,anthropic.com,PROXY
+DOMAIN-SUFFIX,cdn.usefathom.com,PROXY
+DOMAIN-SUFFIX,claudeusercontent.com,PROXY
+
+
 # #----- Note -----
 DOMAIN-SUFFIX,evernote.com,PROXY
 # #----- RSS -----
