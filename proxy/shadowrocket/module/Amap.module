@@ -5,7 +5,7 @@
 #!Version=V1.0.22
 #使用前请卸载高德地图，挂载脚本然后使用
 # source: https://raw.githubusercontent.com/garywah/Shadowrocket/main/module/Amap.module
-# usage: https://down.2151512.com/https://raw.githubusercontent.com/cnnas/conf/main/proxy/shadowrocket/module/Amap.module
+# usage: https://down.2151512.com/https://raw.githubusercontent.com/cnnas/conf/refs/heads/master/proxy/shadowrocket/module/Amap.module
 
 [URL Rewrite]
 
