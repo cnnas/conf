@@ -71,6 +71,8 @@ def conv_ss_str(str):
 
 def str_sw_start():
     return '''
+# update source: https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/sr_top500_banlist.conf
+# usage link: https://down.2151512.com/https://raw.githubusercontent.com/cnnas/conf/refs/heads/master/proxy/bxrules/rule-sw.confrule-gen.py
 [General]
 ipv6 = true
 bypass-system = true
