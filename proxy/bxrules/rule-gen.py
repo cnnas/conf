@@ -74,9 +74,9 @@ def str_sw_start():
 [General]
 ipv6 = true
 bypass-system = true
-skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, localhost, *.local, e.crashlytics.com, captive.apple.com, sequoia.apple.com, seed-sequoia.siri.apple.com
-bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
-dns-server = https://1.12.12.12/dns-query, https://223.5.5.5/dns-query
+skip-proxy = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, fe80::/10, fc00::/7, localhost, *.local, *.lan, *.internal, e.crashlytics.com, captive.apple.com, sequoia.apple.com, seed-sequoia.siri.apple.com, *.ls.apple.com
+bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,233.252.0.0/24,224.0.0.0/4,255.255.255.255/32,::1/128,::ffff:0:0/96,::ffff:0:0:0/96,64:ff9b::/96,64:ff9b:1::/48,100::/64,2001::/32,2001:20::/28,2001:db8::/32,2002::/16,3fff::/20,5f00::/16,fc00::/7,fe80::/10,ff00::/8
+dns-server = https://dns.alidns.com/dns-query, https://doh.pub/dns-query
 [Rule]
 
 #tg ip
@@ -99,13 +99,43 @@ IP-CIDR,2a0a:f280::/32,Proxy
 IP-CIDR,18.194.0.0/15,Proxy
 IP-CIDR,34.224.0.0/12,Proxy
 
+# other
+IP-CIDR,67.220.91.23/32,Proxy
+IP-CIDR,14.102.250.18/32,Proxy
+IP-CIDR,72.52.81.22/32,Proxy
+IP-CIDR,85.17.73.31/32,Proxy
+IP-CIDR,14.102.250.19/32,Proxy
+IP-CIDR,174.142.105.153/32,Proxy
+IP-CIDR,67.220.91.18/32,Proxy
+IP-CIDR,69.65.19.160/32,Proxy
+IP-CIDR,67.220.91.15/32,Proxy
+IP-CIDR,50.7.31.230/32,Proxy
+
+
 #72 #112 Google Voice
 IP-CIDR,74.125.0.0/16,Proxy
+
+# 修复 Telegram #105
+IP-CIDR,67.198.55.0/24,Proxy
+IP-CIDR,91.108.4.0/22,Proxy
+IP-CIDR,91.108.8.0/22,Proxy
+IP-CIDR,91.108.12.0/22,Proxy
+IP-CIDR,91.108.16.0/22,Proxy
+IP-CIDR,91.108.56.0/22,Proxy
+IP-CIDR,109.239.140.0/24,Proxy
+IP-CIDR,149.154.160.0/20,Proxy
+IP-CIDR,149.154.164.0/22,Proxy
+IP-CIDR,149.154.168.0/22,Proxy
+IP-CIDR,149.154.172.0/22,Proxy
+# 修复 google voice #112
+IP-CIDR,74.125.23.127/32,Proxy
+
 '''
 
 
 def str_sw_end():
     return r'''
+RULE-SET,https://down.2151512.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AppleNews/AppleNews.list,PROXY
 GEOIP,CN,DIRECT
 FINAL,proxy
 

@@ -592,6 +592,7 @@ DOMAIN-SUFFIX,twitpic.com,PROXY
 DOMAIN-SUFFIX,twitter.com,PROXY
 DOMAIN-SUFFIX,twitter.jp,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
+DOMAIN-SUFFIX,x.ai,PROXY
 
 # ---------- Drive ----------
 DOMAIN-SUFFIX,terabox.com,PROXY
