@@ -148,6 +148,18 @@ FINAL,proxy
 hostname = *.google.cn,*.googlevideo.com
 '''
 
+def str_sw_diy_end():
+    return r'''
+RULE-SET,https://down.2151512.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AppleNews/AppleNews.list,PROXY
+FINAL,DIRECT
+
+[URL Rewrite]
+^https?://(www.)?(g|google)\.cn https://www.google.com 302
+
+[MITM]
+hostname = *.google.cn,*.googlevideo.com
+'''
+
 def get_conf():
     CONF_RULE_SITE = RUN_DIR + "/rule-sites.conf"
     if os.path.exists(CONF_RULE_SITE):
@@ -178,6 +190,9 @@ def get_conf():
         gen_qx_file(rule_str_qx)
         gen_file(rule_str_ss, RUN_DIR + '/' + 'rule-ss.conf')
         gen_file(rule_str_loon, RUN_DIR + '/' + 'rule-loon.conf')
+
+        rule_str_shadowrocket_diy = rule_str_shadowrocket + str_sw_diy_end()
+        gen_file(rule_str_shadowrocket_diy, RUN_DIR + '/' + 'rule-sw-diy.conf')
 
         rule_str_shadowrocket = rule_str_shadowrocket + str_sw_end()
         gen_file(rule_str_shadowrocket, RUN_DIR + '/' + 'rule-sw.conf')
