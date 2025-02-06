@@ -34,7 +34,7 @@ DOMAIN-SUFFIX,gateio.ws,PROXY
 DOMAIN-SUFFIX,oex.com,PROXY
 DOMAIN-SUFFIX,okex.com,PROXY
 DOMAIN-SUFFIX,okx.com,PROXY
-# ##----- MEXCĨ�� -----
+# ##----- MEXC -----
 DOMAIN-SUFFIX,mexc.com,PROXY
 DOMAIN-SUFFIX,mexc.link,PROXY
 DOMAIN-SUFFIX,fpjs.io,PROXY
@@ -122,7 +122,7 @@ DOMAIN-SUFFIX,onfinality.io,PROXY
 DOMAIN-SUFFIX,solana.com,PROXY
 DOMAIN-SUFFIX,poocoin.app,PROXY
 DOMAIN-SUFFIX,fantom.network,PROXY
-
+DOMAIN-SUFFIX,manta.network,PROXY
 
 # #----- imtoken -----
 DOMAIN-SUFFIX,imtoken.fans,PROXY
@@ -677,6 +677,8 @@ DOMAIN-SUFFIX,cloudflare-ipfs.com,PROXY
 DOMAIN-SUFFIX,cloudflareinsights.com,PROXY
 DOMAIN-SUFFIX,cloudfunctions.net,PROXY
 
+DOMAIN-SUFFIX,replit.com,PROXY
+
 # #----- Heroku -----
 DOMAIN-SUFFIX,herokuapp.com,PROXY
 DOMAIN-SUFFIX,heroku.com,PROXY
@@ -789,10 +791,12 @@ DOMAIN-SUFFIX,evozi.com,PROXY
 DOMAIN-SUFFIX,postman.com,PROXY
 DOMAIN-SUFFIX,codecogs.com,PROXY
 DOMAIN-SUFFIX,readwise.io,PROXY
+DOMAIN-SUFFIX,bitwarden.com,PROXY
 
 # #----- GEO Tools -----
 DOMAIN-SUFFIX,organicmaps.app,PROXY
 DOMAIN-SUFFIX,openstreetmap.org,PROXY
+DOMAIN-SUFFIX,mapcustomizer.com,PROXY
 # #----- Pic Tools -----
 DOMAIN-SUFFIX,imgur.com,PROXY
 # #----- App Store Tools -----
@@ -801,9 +805,14 @@ DOMAIN-SUFFIX,aptoide.com,PROXY
 DOMAIN-SUFFIX,v2ray.com,PROXY
 # #----- AI Tools -----
 DOMAIN-SUFFIX,forefront.ai,PROXY
+DOMAIN-SUFFIX,huggingface.co,PROXY
 # #----- Player Tools -----
 DOMAIN-SUFFIX,daum.net,PROXY
 DOMAIN-SUFFIX,daumcdn.net,PROXY
+# #----- Online Tools -----
+DOMAIN-SUFFIX,genyoutube.online,PROXY
+DOMAIN-SUFFIX,yt1s.ltd,PROXY
+
 
 # ---------- Edu ----------
 # #----- EDX -----
@@ -853,6 +862,7 @@ DOMAIN-SUFFIX,pincong.rocks,PROXY
 DOMAIN-SUFFIX,hostloc.com,PROXY
 DOMAIN-SUFFIX,2047.one,PROXY
 DOMAIN-SUFFIX,freewechat.com,PROXY
+DOMAIN-SUFFIX,mobile01.com,PROXY
 
 
 # ---------- AV / Porn ----------
@@ -867,6 +877,10 @@ DOMAIN-SUFFIX,haijiao.com,PROXY
 DOMAIN-SUFFIX,mm4now.com,PROXY
 DOMAIN-SUFFIX,asiantolick.com,PROXY
 DOMAIN-SUFFIX,javdb.com,PROXY
+DOMAIN-SUFFIX,3xplanet.net,PROXY
+DOMAIN-SUFFIX,jwpcdn.com,PROXY
+DOMAIN-SUFFIX,caribbeancom.com,PROXY
+DOMAIN-SUFFIX,jdbstatic.com,PROXY
 # #----- Porn Nav guide -----
 DOMAIN-SUFFIX,theporndude.com,PROXY
 # #----- PornHub -----
@@ -886,6 +900,7 @@ DOMAIN-SUFFIX,bhc346.top,PROXY
 DOMAIN-SUFFIX,t66y.com,PROXY
 DOMAIN-SUFFIX,gooldenxxx.com,PROXY
 DOMAIN-SUFFIX,huashequ.net,PROXY
+DOMAIN-SUFFIX,mm4now.com,PROXY
 
 # ---------- ENT ----------
 DOMAIN-SUFFIX,vimeo.com,PROXY
@@ -895,12 +910,14 @@ DOMAIN-SUFFIX,thepiratebay.org,PROXY
 DOMAIN-SUFFIX,torrentgalaxy.to,PROXY
 DOMAIN-SUFFIX,torrentkitty.tv,PROXY
 
+
 # ----- Blog -----
 DOMAIN-SUFFIX,bulianglin.com,PROXY
 DOMAIN-SUFFIX,merlinblog.xyz,PROXY
 DOMAIN-SUFFIX,wordpress.com,PROXY
 DOMAIN-SUFFIX,gravatar.com,PROXY
 DOMAIN-SUFFIX,wp.com,PROXY
+DOMAIN-SUFFIX,frepai.com,PROXY
 # ---------- Other Blog ----------
 
 # ---------- Other ----------
