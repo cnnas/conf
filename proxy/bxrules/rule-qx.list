@@ -751,6 +751,8 @@ DOMAIN-SUFFIX,claude.ai,PROXY
 DOMAIN-SUFFIX,anthropic.com,PROXY
 DOMAIN-SUFFIX,cdn.usefathom.com,PROXY
 DOMAIN-SUFFIX,claudeusercontent.com,PROXY
+# ##----- Other AI Tools -----
+DOMAIN-SUFFIX,perplexity.ai,PROXY
 
 
 # #----- Note -----
@@ -813,6 +815,9 @@ DOMAIN-SUFFIX,daumcdn.net,PROXY
 DOMAIN-SUFFIX,genyoutube.online,PROXY
 DOMAIN-SUFFIX,yt1s.ltd,PROXY
 
+# #----- App Market Tools -----
+DOMAIN-SUFFIX,f-droid.org,PROXY
+
 
 # ---------- Edu ----------
 # #----- EDX -----
@@ -864,6 +869,20 @@ DOMAIN-SUFFIX,2047.one,PROXY
 DOMAIN-SUFFIX,freewechat.com,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
 
+
+
+# ---------- Movie / Music ----------
+# #----- 独播库/海外电影资源 -----
+DOMAIN-SUFFIX,duboku.tv,PROXY
+DOMAIN-SUFFIX,duboku.net,PROXY
+DOMAIN-SUFFIX,gboku.com,PROXY
+DOMAIN-SUFFIX,kdubo.com,PROXY
+DOMAIN-SUFFIX,tdubo.com,PROXY
+DOMAIN-SUFFIX,vdubo.com,PROXY
+DOMAIN-SUFFIX,xdubo.com,PROXY
+DOMAIN-SUFFIX,ydubo.com,PROXY
+DOMAIN-SUFFIX,wdubo.com,PROXY
+DOMAIN-SUFFIX,qboku.com,PROXY
 
 # ---------- AV / Porn ----------
 DOMAIN-SUFFIX,missav.com,PROXY
