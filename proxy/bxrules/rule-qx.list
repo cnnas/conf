@@ -875,6 +875,7 @@ DOMAIN-SUFFIX,mobile01.com,PROXY
 # #----- 独播库/海外电影资源 -----
 DOMAIN-SUFFIX,duboku.tv,PROXY
 DOMAIN-SUFFIX,duboku.net,PROXY
+DOMAIN-SUFFIX,duboku.co,PROXY
 
 DOMAIN-SUFFIX,cboku.com,PROXY
 DOMAIN-SUFFIX,gboku.com,PROXY
