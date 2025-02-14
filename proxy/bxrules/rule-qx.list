@@ -875,14 +875,22 @@ DOMAIN-SUFFIX,mobile01.com,PROXY
 # #----- 独播库/海外电影资源 -----
 DOMAIN-SUFFIX,duboku.tv,PROXY
 DOMAIN-SUFFIX,duboku.net,PROXY
+
+DOMAIN-SUFFIX,cboku.com,PROXY
 DOMAIN-SUFFIX,gboku.com,PROXY
+DOMAIN-SUFFIX,kboku.com,PROXY
+DOMAIN-SUFFIX,nboku.com,PROXY
+DOMAIN-SUFFIX,pboku.com,PROXY
+DOMAIN-SUFFIX,qboku.com,PROXY
+
 DOMAIN-SUFFIX,kdubo.com,PROXY
 DOMAIN-SUFFIX,tdubo.com,PROXY
 DOMAIN-SUFFIX,vdubo.com,PROXY
 DOMAIN-SUFFIX,xdubo.com,PROXY
 DOMAIN-SUFFIX,ydubo.com,PROXY
 DOMAIN-SUFFIX,wdubo.com,PROXY
-DOMAIN-SUFFIX,qboku.com,PROXY
+
+DOMAIN-SUFFIX,uhibo.com,PROXY
 
 # ---------- AV / Porn ----------
 DOMAIN-SUFFIX,missav.com,PROXY
