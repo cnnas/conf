@@ -767,6 +767,8 @@ DOMAIN-SUFFIX,rsshub.app,PROXY
 DOMAIN-SUFFIX,singlelogin.re,PROXY
 DOMAIN-SUFFIX,zlibcdn.com,PROXY
 DOMAIN-SUFFIX,z-lib.org,PROXY
+DOMAIN-SUFFIX,z-lib.gs,PROXY
+DOMAIN-SUFFIX,z-lib.fm,PROXY
 DOMAIN-SUFFIX,hk1lib.org,PROXY
 DOMAIN-SUFFIX,usa1lib.org,PROXY
 # #----- AnaConda -----
