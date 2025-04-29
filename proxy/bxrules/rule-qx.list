@@ -261,6 +261,11 @@ DOMAIN-SUFFIX,scdn.com,PROXY
 DOMAIN-SUFFIX,dupay.one,PROXY
 DOMAIN-SUFFIX,onekey.so,PROXY
 
+# #----- stock market -----
+DOMAIN-SUFFIX,longportapp.com,PROXY
+DOMAIN-SUFFIX,longbridge.hk,PROXY
+DOMAIN-SUFFIX,longbridge.com,PROXY
+
 
 
 
@@ -662,6 +667,7 @@ DOMAIN-SUFFIX,vk.com,PROXY
 
 # ---------- IT Server ----------
 DOMAIN-SUFFIX,digitalocean.com,PROXY
+DOMAIN-SUFFIX,zerotier.com,PROXY
 # #----- Github -----
 DOMAIN-SUFFIX,github.blog,PROXY
 DOMAIN-SUFFIX,github.com,PROXY
@@ -700,6 +706,9 @@ DOMAIN-SUFFIX,hax.co.id,PROXY
 
 # #----- domain / NS -----
 DOMAIN-SUFFIX,eu.org,PROXY
+# #----- Files / Disk -----
+DOMAIN-SUFFIX,filestore.app,PROXY
+DOMAIN-SUFFIX,tezfiles.com,PROXY
 
 
 # #----- other server -----
@@ -753,6 +762,7 @@ DOMAIN-SUFFIX,cdn.usefathom.com,PROXY
 DOMAIN-SUFFIX,claudeusercontent.com,PROXY
 # ##----- Other AI Tools -----
 DOMAIN-SUFFIX,perplexity.ai,PROXY
+DOMAIN-SUFFIX,cursor.com,PROXY
 
 
 # #----- Note -----
@@ -769,8 +779,13 @@ DOMAIN-SUFFIX,zlibcdn.com,PROXY
 DOMAIN-SUFFIX,z-lib.org,PROXY
 DOMAIN-SUFFIX,z-lib.gs,PROXY
 DOMAIN-SUFFIX,z-lib.fm,PROXY
+DOMAIN-SUFFIX,z-lib.help,PROXY
+DOMAIN-SUFFIX,1lib.sk,PROXY
+DOMAIN-SUFFIX,cnlib.icu,PROXY
 DOMAIN-SUFFIX,hk1lib.org,PROXY
 DOMAIN-SUFFIX,usa1lib.org,PROXY
+DOMAIN-SUFFIX,z-lib.gs,PROXY
+DOMAIN-SUFFIX,z-library.sk,PROXY
 # #----- AnaConda -----
 DOMAIN-SUFFIX,anaconda.cloud,PROXY
 # #----- Andriod Tools -----
@@ -796,6 +811,8 @@ DOMAIN-SUFFIX,postman.com,PROXY
 DOMAIN-SUFFIX,codecogs.com,PROXY
 DOMAIN-SUFFIX,readwise.io,PROXY
 DOMAIN-SUFFIX,bitwarden.com,PROXY
+# #----- Tor Tools -----
+DOMAIN-SUFFIX,torproject.org,PROXY
 
 # #----- GEO Tools -----
 DOMAIN-SUFFIX,organicmaps.app,PROXY
@@ -861,6 +878,7 @@ DOMAIN-SUFFIX,amnesty.org,PROXY
 DOMAIN-SUFFIX,rfa.org,PROXY
 # #----- Tech Forum -----
 DOMAIN-SUFFIX,stackoverflow.com,PROXY
+DOMAIN-SUFFIX,nodeseek.com,PROXY
 
 # ----- China Forum -----
 DOMAIN-SUFFIX,v2ex.com,PROXY
@@ -874,6 +892,12 @@ DOMAIN-SUFFIX,mobile01.com,PROXY
 
 
 # ---------- Movie / Music ----------
+# #----- Musics -----
+DOMAIN-SUFFIX,spotify.com,PROXY
+DOMAIN-SUFFIX,soundcloud.com,PROXY
+DOMAIN-SUFFIX,musicbrainz.org,PROXY
+DOMAIN-SUFFIX,soundcloud.cloud,PROXY
+
 # #----- 独播库/海外电影资源 -----
 DOMAIN-SUFFIX,duboku.tv,PROXY
 DOMAIN-SUFFIX,duboku.net,PROXY
@@ -903,6 +927,7 @@ DOMAIN-SUFFIX,uhibo.com,PROXY
 DOMAIN-SUFFIX,missav.com,PROXY
 DOMAIN-SUFFIX,jable.tv,PROXY
 DOMAIN-SUFFIX,avgle.com,PROXY
+DOMAIN-SUFFIX,av.gl,PROXY
 DOMAIN-SUFFIX,avmoo.com,PROXY
 DOMAIN-SUFFIX,porntrex.com,PROXY
 DOMAIN-SUFFIX,javgg.net,PROXY
@@ -943,6 +968,8 @@ DOMAIN-SUFFIX,vimeocdn.com,PROXY
 DOMAIN-SUFFIX,thepiratebay.org,PROXY
 DOMAIN-SUFFIX,torrentgalaxy.to,PROXY
 DOMAIN-SUFFIX,torrentkitty.tv,PROXY
+DOMAIN-SUFFIX,torrentgalaxy.hair,PROXY
+DOMAIN-SUFFIX,torrentgalaxy.to,PROXY
 
 
 # ----- Blog -----
