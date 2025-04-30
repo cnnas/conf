@@ -716,7 +716,6 @@ DOMAIN-SUFFIX,jsfiddle.net,PROXY
 DOMAIN-SUFFIX,airexplorer.net,PROXY
 DOMAIN-SUFFIX,rclone.org,PROXY
 DOMAIN-SUFFIX,wakatime.com,PROXY
-DOMAIN-SUFFIX,jetbrains.com,PROXY
 DOMAIN-SUFFIX,bootcdn.net,PROXY
 DOMAIN-SUFFIX,jsdelivr.com,PROXY
 DOMAIN-SUFFIX,jsdelivr.net,PROXY
@@ -735,6 +734,7 @@ DOMAIN-SUFFIX,aapanel.com,PROXY
 DOMAIN-SUFFIX,aptvapp.com,PROXY
 DOMAIN-SUFFIX,webpkgcache.com,PROXY
 DOMAIN-SUFFIX,cmder.app,PROXY
+DOMAIN-SUFFIX,pdfpen.com,PROXY
 # #----- OPENAI & ChatGPT -----
 DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY
@@ -763,6 +763,7 @@ DOMAIN-SUFFIX,claudeusercontent.com,PROXY
 # ##----- Other AI Tools -----
 DOMAIN-SUFFIX,perplexity.ai,PROXY
 DOMAIN-SUFFIX,cursor.com,PROXY
+DOMAIN-SUFFIX,trancy.org,PROXY
 
 
 # #----- Note -----
@@ -786,6 +787,9 @@ DOMAIN-SUFFIX,hk1lib.org,PROXY
 DOMAIN-SUFFIX,usa1lib.org,PROXY
 DOMAIN-SUFFIX,z-lib.gs,PROXY
 DOMAIN-SUFFIX,z-library.sk,PROXY
+# #----- free book download -----
+DOMAIN-SUFFIX,dokumen.pub,PROXY
+DOMAIN-SUFFIX,obar.info,PROXY
 # #----- AnaConda -----
 DOMAIN-SUFFIX,anaconda.cloud,PROXY
 # #----- Andriod Tools -----
@@ -799,6 +803,9 @@ DOMAIN-SUFFIX,flaticon.com,PROXY
 DOMAIN-SUFFIX,icons8.com,PROXY
 DOMAIN-SUFFIX,iconfinder.com,PROXY
 DOMAIN-SUFFIX,iconscout.com,PROXY
+DOMAIN-SUFFIX,fotor.com,PROXY
+DOMAIN-SUFFIX,pexels.com,PROXY
+DOMAIN-SUFFIX,sagernet.org,PROXY
 # #----- Dev Tools -----
 DOMAIN-SUFFIX,sublimetext.com,PROXY
 DOMAIN-SUFFIX,jetbrains.com,PROXY
@@ -811,6 +818,7 @@ DOMAIN-SUFFIX,postman.com,PROXY
 DOMAIN-SUFFIX,codecogs.com,PROXY
 DOMAIN-SUFFIX,readwise.io,PROXY
 DOMAIN-SUFFIX,bitwarden.com,PROXY
+
 # #----- Tor Tools -----
 DOMAIN-SUFFIX,torproject.org,PROXY
 
@@ -888,7 +896,9 @@ DOMAIN-SUFFIX,hostloc.com,PROXY
 DOMAIN-SUFFIX,2047.one,PROXY
 DOMAIN-SUFFIX,freewechat.com,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
-
+# ----- 华侨 Forum -----
+DOMAIN-SUFFIX,bcbay.com,PROXY
+DOMAIN-SUFFIX,epochtimes.com,PROXY
 
 
 # ---------- Movie / Music ----------
@@ -897,6 +907,7 @@ DOMAIN-SUFFIX,spotify.com,PROXY
 DOMAIN-SUFFIX,soundcloud.com,PROXY
 DOMAIN-SUFFIX,musicbrainz.org,PROXY
 DOMAIN-SUFFIX,soundcloud.cloud,PROXY
+DOMAIN-SUFFIX,bose.com,PROXY
 
 # #----- 独播库/海外电影资源 -----
 DOMAIN-SUFFIX,duboku.tv,PROXY
@@ -940,6 +951,7 @@ DOMAIN-SUFFIX,3xplanet.net,PROXY
 DOMAIN-SUFFIX,jwpcdn.com,PROXY
 DOMAIN-SUFFIX,caribbeancom.com,PROXY
 DOMAIN-SUFFIX,jdbstatic.com,PROXY
+DOMAIN-SUFFIX,tokyohot.party,PROXY
 # #----- Porn Nav guide -----
 DOMAIN-SUFFIX,theporndude.com,PROXY
 # #----- PornHub -----
@@ -979,6 +991,7 @@ DOMAIN-SUFFIX,wordpress.com,PROXY
 DOMAIN-SUFFIX,gravatar.com,PROXY
 DOMAIN-SUFFIX,wp.com,PROXY
 DOMAIN-SUFFIX,frepai.com,PROXY
+DOMAIN-SUFFIX,lala.im,PROXY
 # ---------- Other Blog ----------
 
 # ---------- Other ----------
@@ -988,11 +1001,15 @@ DOMAIN-SUFFIX,hackmd.io,PROXY
 DOMAIN-SUFFIX,antipodesmap.com,PROXY
 DOMAIN-SUFFIX,gamehacking.academy,PROXY
 DOMAIN-SUFFIX,lg.jp,PROXY
+DOMAIN-SUFFIX,ganjingworld.com,PROXY
 
+# ---------- Learn / Skills ----------
+DOMAIN-SUFFIX,cambridgeenglish.org,PROXY
 
 # ---------- tmp ----------
 DOMAIN-SUFFIX,phncdn.com,PROXY
 DOMAIN-SUFFIX,phprcdn.com,PROXY
+DOMAIN-SUFFIX,1888.com.mo,PROXY
 
 
 # ---------- quora ----------
