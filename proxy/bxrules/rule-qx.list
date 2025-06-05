@@ -503,6 +503,8 @@ DOMAIN-SUFFIX,youtubekids.com,PROXY
 DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
 DOMAIN-SUFFIX,zynamics.com,PROXY
+# ##----- Gemini -----
+DOMAIN-SUFFIX,gemini.google,PROXY
 # ##----- Golang -----
 DOMAIN-SUFFIX,gmodules.com,PROXY
 DOMAIN-SUFFIX,godoc.org,PROXY
@@ -790,6 +792,7 @@ DOMAIN-SUFFIX,z-library.sk,PROXY
 # #----- free book download -----
 DOMAIN-SUFFIX,dokumen.pub,PROXY
 DOMAIN-SUFFIX,obar.info,PROXY
+DOMAIN-SUFFIX,calibre-ebook.com,PROXY
 # #----- AnaConda -----
 DOMAIN-SUFFIX,anaconda.cloud,PROXY
 # #----- Andriod Tools -----
@@ -841,9 +844,14 @@ DOMAIN-SUFFIX,daumcdn.net,PROXY
 # #----- Online Tools -----
 DOMAIN-SUFFIX,genyoutube.online,PROXY
 DOMAIN-SUFFIX,yt1s.ltd,PROXY
+# #----- Proxy Tools -----
+DOMAIN-SUFFIX,openvpn.net,PROXY
+DOMAIN-SUFFIX,nextpanel.dev,PROXY
+DOMAIN-SUFFIX,crisp.help,PROXY
 
 # #----- App Market Tools -----
 DOMAIN-SUFFIX,f-droid.org,PROXY
+
 
 
 # ---------- Edu ----------
@@ -981,7 +989,8 @@ DOMAIN-SUFFIX,thepiratebay.org,PROXY
 DOMAIN-SUFFIX,torrentgalaxy.to,PROXY
 DOMAIN-SUFFIX,torrentkitty.tv,PROXY
 DOMAIN-SUFFIX,torrentgalaxy.hair,PROXY
-DOMAIN-SUFFIX,torrentgalaxy.to,PROXY
+DOMAIN-SUFFIX,rarbg.to,PROXY
+DOMAIN-SUFFIX,onehack.us,PROXY
 
 
 # ----- Blog -----
