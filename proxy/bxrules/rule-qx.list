@@ -600,6 +600,7 @@ DOMAIN-SUFFIX,twitter.com,PROXY
 DOMAIN-SUFFIX,twitter.jp,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
 DOMAIN-SUFFIX,x.ai,PROXY
+DOMAIN-SUFFIX,gork.com,PROXY
 
 # ---------- Drive ----------
 DOMAIN-SUFFIX,terabox.com,PROXY
@@ -737,6 +738,7 @@ DOMAIN-SUFFIX,aptvapp.com,PROXY
 DOMAIN-SUFFIX,webpkgcache.com,PROXY
 DOMAIN-SUFFIX,cmder.app,PROXY
 DOMAIN-SUFFIX,pdfpen.com,PROXY
+DOMAIN-SUFFIX,greasyfork.org,PROXY
 # #----- OPENAI & ChatGPT -----
 DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY
