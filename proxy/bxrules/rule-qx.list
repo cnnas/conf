@@ -601,6 +601,9 @@ DOMAIN-SUFFIX,twitter.jp,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
 DOMAIN-SUFFIX,x.ai,PROXY
 DOMAIN-SUFFIX,gork.com,PROXY
+# #----- Other Social Media -----
+DOMAIN-SUFFIX,pinterest.com,PROXY
+# pinimg.com
 
 # ---------- Drive ----------
 DOMAIN-SUFFIX,terabox.com,PROXY
@@ -837,6 +840,7 @@ DOMAIN-SUFFIX,imgur.com,PROXY
 DOMAIN-SUFFIX,aptoide.com,PROXY
 # #----- Fuck GFW Tools -----
 DOMAIN-SUFFIX,v2ray.com,PROXY
+DOMAIN-SUFFIX,v2rayssr.com,PROXY
 # #----- AI Tools -----
 DOMAIN-SUFFIX,forefront.ai,PROXY
 DOMAIN-SUFFIX,huggingface.co,PROXY
