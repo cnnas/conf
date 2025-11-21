@@ -25,6 +25,13 @@ def gen_qx_file(str):
     f.write(str)
     f.close()
 
+def gen_sw_list_file(str):
+    # 打开文件,不存在则创建
+    QX_RULE_NAME = RUN_DIR + '/' + 'rule-sw.list'
+    f = open(QX_RULE_NAME, 'w')
+    f.write(str)
+    f.close()
+
 def gen_file(str, file_name=''):
     # 打开文件,不存在则创建
     f = open(file_name, 'w')
@@ -44,6 +51,14 @@ def conv_qx_str(str):
         # str = '!'+str[1:]
     elif str[0:1]  not in ['\t','\n', ''] :
         str = "DOMAIN-SUFFIX," + str.replace('\n', '') + ",PROXY\n"
+    return str
+
+def conv_sw_list_str(str):
+    if str[0:1] == '#':
+        pass
+        # str = '!'+str[1:]
+    elif str[0:1]  not in ['\t','\n', ''] :
+        str = "DOMAIN-SUFFIX," + str.replace('\n', '') + "\n"
     return str
 
 def conv_loon_str(str):
@@ -161,7 +176,25 @@ RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/r
 RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/XiaoHongShu/XiaoHongShu.list,DIRECT
 
 RULE-SET,https://down.2151512.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/AppleNews/AppleNews.list,PROXY
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/China/China.list,DIRECT
+# 本地局域网地址的规则集。
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Lan/Lan.list,DIRECT
+GEOIP,CN,DIRECT
 FINAL,DIRECT
+
+[Host]
+# 域名指定本地值：
+# example.com = 1.2.3.4
+
+# 域名指定 DNS 服务器：
+# example.com = server:1.2.3.4
+
+# wifi名称指定 DNS 服务器，如需指定多个 DNS，可用逗号分隔：
+# ssid:wifi名称 = server:1.2.3.4
+
+*.apple.com = server:system
+*.icloud.com = server:system
+localhost = 127.0.0.1
 
 [URL Rewrite]
 ^https?://(www.)?(g|google)\.cn https://www.google.com 302
@@ -176,6 +209,7 @@ def get_conf():
         rule_str_gfw = ''
         rule_str_qx = ''
         rule_str_ss = ''
+        rule_str_sw_list = ''
         rule_str_loon = ''
         rule_str_shadowrocket = str_sw_start()
 
@@ -189,6 +223,7 @@ def get_conf():
             # print(line, end = '')
             rule_str_gfw = rule_str_gfw + conv_gfw_str(line)
             rule_str_qx = rule_str_qx + conv_qx_str(line)
+            rule_str_sw_list = rule_str_sw_list + conv_sw_list_str(line)
             rule_str_ss = rule_str_ss + conv_ss_str(line)
             rule_str_loon = rule_str_loon + conv_loon_str(line)
             rule_str_shadowrocket = rule_str_shadowrocket + conv_shadowrocket_str(line)
@@ -198,6 +233,7 @@ def get_conf():
         
         gen_gfw_file(rule_str_gfw)
         gen_qx_file(rule_str_qx)
+        gen_sw_list_file(rule_str_sw_list)
         gen_file(rule_str_ss, RUN_DIR + '/' + 'rule-ss.conf')
         gen_file(rule_str_loon, RUN_DIR + '/' + 'rule-loon.conf')
 
