@@ -3,17 +3,17 @@
 
 # #----- EX -----
 # ##----- Binance -----
-DOMAIN-SUFFIX,binance.com,PROXY
-DOMAIN-SUFFIX,bnbstatic.com,PROXY
-DOMAIN-SUFFIX,binance.cloud,PROXY
-DOMAIN-SUFFIX,binancezh.biz,PROXY
-DOMAIN-SUFFIX,binancezh.com,PROXY
-DOMAIN-SUFFIX,binancezh.cz,PROXY
-DOMAIN-SUFFIX,binancefuture.com,PROXY
-DOMAIN-SUFFIX,binance.vision,PROXY
-DOMAIN-SUFFIX,bnbzh.info,PROXY
-DOMAIN-SUFFIX,bntrace.com,PROXY
-DOMAIN-SUFFIX,saasexch.com,PROXY
+# binance.com
+# bnbstatic.com
+# binance.cloud
+# binancezh.biz
+# binancezh.com
+# binancezh.cz
+# binancefuture.com
+# binance.vision
+# bnbzh.info
+# bntrace.com
+# saasexch.com
 # ##----- Huobi -----
 DOMAIN-SUFFIX,huobi.co,PROXY
 DOMAIN-SUFFIX,huobi.com,PROXY
