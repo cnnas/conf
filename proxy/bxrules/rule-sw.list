@@ -771,6 +771,9 @@ DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,trancy.org
+# ### intercom
+DOMAIN-SUFFIX,intercom.com
+DOMAIN-SUFFIX,intercom.help
 
 
 # #----- Note -----
@@ -826,6 +829,8 @@ DOMAIN-SUFFIX,postman.com
 DOMAIN-SUFFIX,codecogs.com
 DOMAIN-SUFFIX,readwise.io
 DOMAIN-SUFFIX,bitwarden.com
+# #----- Document Tools -----
+DOMAIN-SUFFIX,gitbook.io
 
 # #----- Tor Tools -----
 DOMAIN-SUFFIX,torproject.org
@@ -1031,3 +1036,7 @@ DOMAIN-SUFFIX,1888.com.mo
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
 
+# ---------- Bloger/Sites ----------
+DOMAIN-SUFFIX,vpsv.net
+## 网盘
+DOMAIN-SUFFIX,pansearch.me
