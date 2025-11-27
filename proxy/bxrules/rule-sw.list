@@ -928,31 +928,6 @@ DOMAIN-SUFFIX,musicbrainz.org
 DOMAIN-SUFFIX,soundcloud.cloud
 DOMAIN-SUFFIX,bose.com
 
-# #----- 独播库/海外电影资源 -----
-DOMAIN-SUFFIX,duboku.tv
-DOMAIN-SUFFIX,duboku.net
-DOMAIN-SUFFIX,duboku.co
-
-DOMAIN-SUFFIX,cboku.com
-DOMAIN-SUFFIX,gboku.com
-DOMAIN-SUFFIX,hboku.com
-DOMAIN-SUFFIX,kboku.com
-DOMAIN-SUFFIX,nboku.com
-DOMAIN-SUFFIX,pboku.com
-DOMAIN-SUFFIX,qboku.com
-DOMAIN-SUFFIX,vboku.com
-
-DOMAIN-SUFFIX,kdubo.com
-DOMAIN-SUFFIX,mdubo.com
-DOMAIN-SUFFIX,ndubo.com
-DOMAIN-SUFFIX,tdubo.com
-DOMAIN-SUFFIX,vdubo.com
-DOMAIN-SUFFIX,xdubo.com
-DOMAIN-SUFFIX,ydubo.com
-DOMAIN-SUFFIX,wdubo.com
-
-DOMAIN-SUFFIX,uhibo.com
-
 # ---------- AV / Porn ----------
 DOMAIN-SUFFIX,missav.com
 DOMAIN-SUFFIX,jable.tv
