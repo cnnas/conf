@@ -1,3 +1,55 @@
+
+# ---------- AI ----------
+DOMAIN-SUFFIX,sora.com,PROXY
+DOMAIN-SUFFIX,meta.ai,PROXY
+DOMAIN-SUFFIX,meta.com,PROXY
+DOMAIN-SUFFIX,api.githubcopilot.com,PROXY
+DOMAIN-SUFFIX,api.app.prod.grazie.aws.intellij.net,PROXY
+DOMAIN-SUFFIX,files.oaiusercontent.com,PROXY
+DOMAIN-SUFFIX,prod.grazie.aws.intellij.net,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,poe.com,PROXY
+DOMAIN-SUFFIX,grazie.ai,PROXY
+DOMAIN-SUFFIX,chatgpt.livekit.cloud,PROXY
+DOMAIN-SUFFIX,gemini.google.com,PROXY
+DOMAIN-SUFFIX,aistudio.google.com,PROXY
+DOMAIN-SUFFIX,trae.ai,PROXY
+# #----- Other AI Tools -----
+DOMAIN-SUFFIX,forefront.ai,PROXY
+DOMAIN-SUFFIX,huggingface.co,PROXY
+# #----- X.AI -----
+DOMAIN-SUFFIX,grok.com,PROXY
+DOMAIN-SUFFIX,grokipedia.com,PROXY
+# #----- OPENAI & ChatGPT -----
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,auth0.com,PROXY
+DOMAIN-SUFFIX,sentry.io,PROXY
+DOMAIN-SUFFIX,pay.openai.com,PROXY
+DOMAIN-SUFFIX,identrust.com,PROXY
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net,PROXY
+DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
+DOMAIN-SUFFIX,ai.com,PROXY
+DOMAIN-SUFFIX,invoice.stripe.com,PROXY
+DOMAIN-SUFFIX,stripe.com,PROXY
+DOMAIN-SUFFIX,bard.google.com,PROXY
+# ##----- ChatGPT ext -----
+DOMAIN-SUFFIX,ideasip.com,PROXY
+DOMAIN-SUFFIX,browser-intake-datadoghq.com,PROXY
+DOMAIN-SUFFIX,livekit.cloud,PROXY
+# ##----- Claude -----
+DOMAIN-SUFFIX,claude.ai,PROXY
+DOMAIN-SUFFIX,anthropic.com,PROXY
+DOMAIN-SUFFIX,cdn.usefathom.com,PROXY
+DOMAIN-SUFFIX,claudeusercontent.com,PROXY
+# ##----- Other AI Tools -----
+DOMAIN-SUFFIX,perplexity.ai,PROXY
+DOMAIN-SUFFIX,cursor.com,PROXY
+DOMAIN-SUFFIX,trancy.org,PROXY
+# ### intercom
+DOMAIN-SUFFIX,intercom.com,PROXY
+DOMAIN-SUFFIX,intercom.help,PROXY
+
 # ---------- BlockChain ----------
 
 
@@ -193,6 +245,8 @@ DOMAIN-SUFFIX,pvcliping.com,PROXY
 DOMAIN-SUFFIX,pancakeswap.finance,PROXY
 DOMAIN-SUFFIX,pancakeswap.com,PROXY
 DOMAIN-SUFFIX,pancakeswap.info,PROXY
+# ##----- Dex -----
+DOMAIN-SUFFIX,dexscreener.com,PROXY
 
 # #----- CRYPTO NEWS ----- 
 DOMAIN-SUFFIX,ccn.com,PROXY
@@ -599,8 +653,7 @@ DOMAIN-SUFFIX,twitpic.com,PROXY
 DOMAIN-SUFFIX,twitter.com,PROXY
 DOMAIN-SUFFIX,twitter.jp,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
-DOMAIN-SUFFIX,x.ai,PROXY
-DOMAIN-SUFFIX,gork.com,PROXY
+
 # #----- Other Social Media -----
 DOMAIN-SUFFIX,pinterest.com,PROXY
 # pinimg.com
@@ -742,38 +795,7 @@ DOMAIN-SUFFIX,webpkgcache.com,PROXY
 DOMAIN-SUFFIX,cmder.app,PROXY
 DOMAIN-SUFFIX,pdfpen.com,PROXY
 DOMAIN-SUFFIX,greasyfork.org,PROXY
-# #----- OPENAI & ChatGPT -----
-DOMAIN-SUFFIX,chatgpt.com,PROXY
-DOMAIN-SUFFIX,openai.com,PROXY
-DOMAIN-SUFFIX,auth0.com,PROXY
-DOMAIN-SUFFIX,sentry.io,PROXY
-DOMAIN-SUFFIX,pay.openai.com,PROXY
-DOMAIN-SUFFIX,identrust.com,PROXY
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net,PROXY
-DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
-DOMAIN-SUFFIX,ai.com,PROXY
-DOMAIN-SUFFIX,invoice.stripe.com,PROXY
-DOMAIN-SUFFIX,stripe.com,PROXY
-DOMAIN-SUFFIX,poe.com,PROXY
-DOMAIN-SUFFIX,bard.google.com,PROXY
 
-# ##----- ChatGPT ext -----
-DOMAIN-SUFFIX,ideasip.com,PROXY
-DOMAIN-SUFFIX,browser-intake-datadoghq.com,PROXY
-DOMAIN-SUFFIX,livekit.cloud,PROXY
-
-# ##----- Claude -----
-DOMAIN-SUFFIX,claude.ai,PROXY
-DOMAIN-SUFFIX,anthropic.com,PROXY
-DOMAIN-SUFFIX,cdn.usefathom.com,PROXY
-DOMAIN-SUFFIX,claudeusercontent.com,PROXY
-# ##----- Other AI Tools -----
-DOMAIN-SUFFIX,perplexity.ai,PROXY
-DOMAIN-SUFFIX,cursor.com,PROXY
-DOMAIN-SUFFIX,trancy.org,PROXY
-# ### intercom
-DOMAIN-SUFFIX,intercom.com,PROXY
-DOMAIN-SUFFIX,intercom.help,PROXY
 
 
 # #----- Note -----
@@ -846,9 +868,7 @@ DOMAIN-SUFFIX,aptoide.com,PROXY
 # #----- Fuck GFW Tools -----
 DOMAIN-SUFFIX,v2ray.com,PROXY
 DOMAIN-SUFFIX,v2rayssr.com,PROXY
-# #----- AI Tools -----
-DOMAIN-SUFFIX,forefront.ai,PROXY
-DOMAIN-SUFFIX,huggingface.co,PROXY
+
 # #----- Player Tools -----
 DOMAIN-SUFFIX,daum.net,PROXY
 DOMAIN-SUFFIX,daumcdn.net,PROXY

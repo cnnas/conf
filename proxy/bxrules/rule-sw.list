@@ -1,3 +1,55 @@
+
+# ---------- AI ----------
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,api.githubcopilot.com
+DOMAIN-SUFFIX,api.app.prod.grazie.aws.intellij.net
+DOMAIN-SUFFIX,files.oaiusercontent.com
+DOMAIN-SUFFIX,prod.grazie.aws.intellij.net
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,trae.ai
+# #----- Other AI Tools -----
+DOMAIN-SUFFIX,forefront.ai
+DOMAIN-SUFFIX,huggingface.co
+# #----- X.AI -----
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokipedia.com
+# #----- OPENAI & ChatGPT -----
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,pay.openai.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,invoice.stripe.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,bard.google.com
+# ##----- ChatGPT ext -----
+DOMAIN-SUFFIX,ideasip.com
+DOMAIN-SUFFIX,browser-intake-datadoghq.com
+DOMAIN-SUFFIX,livekit.cloud
+# ##----- Claude -----
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,cdn.usefathom.com
+DOMAIN-SUFFIX,claudeusercontent.com
+# ##----- Other AI Tools -----
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,trancy.org
+# ### intercom
+DOMAIN-SUFFIX,intercom.com
+DOMAIN-SUFFIX,intercom.help
+
 # ---------- BlockChain ----------
 
 
@@ -193,6 +245,8 @@ DOMAIN-SUFFIX,pvcliping.com
 DOMAIN-SUFFIX,pancakeswap.finance
 DOMAIN-SUFFIX,pancakeswap.com
 DOMAIN-SUFFIX,pancakeswap.info
+# ##----- Dex -----
+DOMAIN-SUFFIX,dexscreener.com
 
 # #----- CRYPTO NEWS ----- 
 DOMAIN-SUFFIX,ccn.com
@@ -599,8 +653,7 @@ DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,gork.com
+
 # #----- Other Social Media -----
 DOMAIN-SUFFIX,pinterest.com
 # pinimg.com
@@ -742,38 +795,7 @@ DOMAIN-SUFFIX,webpkgcache.com
 DOMAIN-SUFFIX,cmder.app
 DOMAIN-SUFFIX,pdfpen.com
 DOMAIN-SUFFIX,greasyfork.org
-# #----- OPENAI & ChatGPT -----
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,pay.openai.com
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,invoice.stripe.com
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,poe.com
-DOMAIN-SUFFIX,bard.google.com
 
-# ##----- ChatGPT ext -----
-DOMAIN-SUFFIX,ideasip.com
-DOMAIN-SUFFIX,browser-intake-datadoghq.com
-DOMAIN-SUFFIX,livekit.cloud
-
-# ##----- Claude -----
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,cdn.usefathom.com
-DOMAIN-SUFFIX,claudeusercontent.com
-# ##----- Other AI Tools -----
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,trancy.org
-# ### intercom
-DOMAIN-SUFFIX,intercom.com
-DOMAIN-SUFFIX,intercom.help
 
 
 # #----- Note -----
@@ -846,9 +868,7 @@ DOMAIN-SUFFIX,aptoide.com
 # #----- Fuck GFW Tools -----
 DOMAIN-SUFFIX,v2ray.com
 DOMAIN-SUFFIX,v2rayssr.com
-# #----- AI Tools -----
-DOMAIN-SUFFIX,forefront.ai
-DOMAIN-SUFFIX,huggingface.co
+
 # #----- Player Tools -----
 DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,daumcdn.net
