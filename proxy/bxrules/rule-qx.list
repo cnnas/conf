@@ -1,5 +1,6 @@
 
 # ---------- AI ----------
+## from：https://github.com/alanhe421/surge-config/blob/main/rules/AI.rule
 DOMAIN-SUFFIX,sora.com,PROXY
 DOMAIN-SUFFIX,meta.ai,PROXY
 DOMAIN-SUFFIX,meta.com,PROXY
@@ -49,6 +50,9 @@ DOMAIN-SUFFIX,trancy.org,PROXY
 # ### intercom
 DOMAIN-SUFFIX,intercom.com,PROXY
 DOMAIN-SUFFIX,intercom.help,PROXY
+
+# ---------- ESIM ----------
+DOMAIN-SUFFIX,esimplus.me,PROXY
 
 # ---------- BlockChain ----------
 
@@ -916,9 +920,13 @@ DOMAIN-SUFFIX,ssrn.com,PROXY
 # #----- Reddit -----
 DOMAIN-SUFFIX,redd.it,PROXY
 DOMAIN-SUFFIX,reddit.com,PROXY
+DOMAIN-SUFFIX,redditmail.com,PROXY
 DOMAIN-SUFFIX,redditlist.com,PROXY
 DOMAIN-SUFFIX,redditmedia.com,PROXY
 DOMAIN-SUFFIX,redditstatic.com,PROXY
+DOMAIN-SUFFIX,reddituploads.com,PROXY
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net,PROXY
+DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com,PROXY
 
 
 DOMAIN-SUFFIX,amnesty.org,PROXY
@@ -935,6 +943,7 @@ DOMAIN-SUFFIX,hostloc.com,PROXY
 DOMAIN-SUFFIX,2047.one,PROXY
 DOMAIN-SUFFIX,freewechat.com,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
+DOMAIN-SUFFIX,linux.do,PROXY
 # ----- 华侨 Forum -----
 DOMAIN-SUFFIX,bcbay.com,PROXY
 DOMAIN-SUFFIX,epochtimes.com,PROXY
