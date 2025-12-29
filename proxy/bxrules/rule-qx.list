@@ -799,7 +799,7 @@ DOMAIN-SUFFIX,webpkgcache.com,PROXY
 DOMAIN-SUFFIX,cmder.app,PROXY
 DOMAIN-SUFFIX,pdfpen.com,PROXY
 DOMAIN-SUFFIX,greasyfork.org,PROXY
-
+DOMAIN-SUFFIX,xslist.org,PROXY
 
 
 # #----- Note -----
@@ -886,6 +886,10 @@ DOMAIN-SUFFIX,crisp.help,PROXY
 
 # #----- App Market Tools -----
 DOMAIN-SUFFIX,f-droid.org,PROXY
+# #----- 盗版软件市场 -----
+DOMAIN-SUFFIX,monkrus.ws,PROXY
+DOMAIN-SUFFIX,torrentmac.net,PROXY
+
 
 
 
@@ -975,6 +979,22 @@ DOMAIN-SUFFIX,jwpcdn.com,PROXY
 DOMAIN-SUFFIX,caribbeancom.com,PROXY
 DOMAIN-SUFFIX,jdbstatic.com,PROXY
 DOMAIN-SUFFIX,tokyohot.party,PROXY
+
+DOMAIN-SUFFIX,tnaflix.com,PROXY
+DOMAIN-SUFFIX,ixxx.com,PROXY
+DOMAIN-SUFFIX,abxxx.com,PROXY
+DOMAIN-SUFFIX,noodlemagazine.com,PROXY
+DOMAIN-SUFFIX,javlibrary.com,PROXY
+DOMAIN-SUFFIX,javtiful.com,PROXY
+DOMAIN-SUFFIX,javxxx.me,PROXY
+DOMAIN-SUFFIX,njavtv.com,PROXY
+DOMAIN-SUFFIX,g-avstar.com,PROXY
+# #----- SpankBang -----
+DOMAIN-SUFFIX,spankbang.com,PROXY
+DOMAIN-SUFFIX,sb-cd.com,PROXY
+# #----- Porntrex -----
+DOMAIN-SUFFIX,porntrex.com,PROXY
+DOMAIN-SUFFIX,cdntrex.com,PROXY
 # #----- Porn Nav guide -----
 DOMAIN-SUFFIX,theporndude.com,PROXY
 # #----- PornHub -----

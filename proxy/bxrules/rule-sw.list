@@ -799,7 +799,7 @@ DOMAIN-SUFFIX,webpkgcache.com
 DOMAIN-SUFFIX,cmder.app
 DOMAIN-SUFFIX,pdfpen.com
 DOMAIN-SUFFIX,greasyfork.org
-
+DOMAIN-SUFFIX,xslist.org
 
 
 # #----- Note -----
@@ -886,6 +886,10 @@ DOMAIN-SUFFIX,crisp.help
 
 # #----- App Market Tools -----
 DOMAIN-SUFFIX,f-droid.org
+# #----- 盗版软件市场 -----
+DOMAIN-SUFFIX,monkrus.ws
+DOMAIN-SUFFIX,torrentmac.net
+
 
 
 
@@ -975,6 +979,22 @@ DOMAIN-SUFFIX,jwpcdn.com
 DOMAIN-SUFFIX,caribbeancom.com
 DOMAIN-SUFFIX,jdbstatic.com
 DOMAIN-SUFFIX,tokyohot.party
+
+DOMAIN-SUFFIX,tnaflix.com
+DOMAIN-SUFFIX,ixxx.com
+DOMAIN-SUFFIX,abxxx.com
+DOMAIN-SUFFIX,noodlemagazine.com
+DOMAIN-SUFFIX,javlibrary.com
+DOMAIN-SUFFIX,javtiful.com
+DOMAIN-SUFFIX,javxxx.me
+DOMAIN-SUFFIX,njavtv.com
+DOMAIN-SUFFIX,g-avstar.com
+# #----- SpankBang -----
+DOMAIN-SUFFIX,spankbang.com
+DOMAIN-SUFFIX,sb-cd.com
+# #----- Porntrex -----
+DOMAIN-SUFFIX,porntrex.com
+DOMAIN-SUFFIX,cdntrex.com
 # #----- Porn Nav guide -----
 DOMAIN-SUFFIX,theporndude.com
 # #----- PornHub -----
