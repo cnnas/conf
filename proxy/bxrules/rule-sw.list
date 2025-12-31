@@ -979,6 +979,7 @@ DOMAIN-SUFFIX,jwpcdn.com
 DOMAIN-SUFFIX,caribbeancom.com
 DOMAIN-SUFFIX,jdbstatic.com
 DOMAIN-SUFFIX,tokyohot.party
+DOMAIN-SUFFIX,javhd.com
 
 DOMAIN-SUFFIX,tnaflix.com
 DOMAIN-SUFFIX,ixxx.com
@@ -1004,6 +1005,9 @@ DOMAIN-SUFFIX,phprcdn.com
 # #----- xvideos -----
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,xvideos-cdn.com
+# #----- aebn -----
+DOMAIN-SUFFIX,aebn.com
+DOMAIN-SUFFIX,aebn.net
 # #----- 91 -----
 DOMAIN-SUFFIX,91porn.com
 # #----- china-porn-----

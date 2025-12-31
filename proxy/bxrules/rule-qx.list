@@ -979,6 +979,7 @@ DOMAIN-SUFFIX,jwpcdn.com,PROXY
 DOMAIN-SUFFIX,caribbeancom.com,PROXY
 DOMAIN-SUFFIX,jdbstatic.com,PROXY
 DOMAIN-SUFFIX,tokyohot.party,PROXY
+DOMAIN-SUFFIX,javhd.com,PROXY
 
 DOMAIN-SUFFIX,tnaflix.com,PROXY
 DOMAIN-SUFFIX,ixxx.com,PROXY
@@ -1004,6 +1005,9 @@ DOMAIN-SUFFIX,phprcdn.com,PROXY
 # #----- xvideos -----
 DOMAIN-SUFFIX,xvideos.com,PROXY
 DOMAIN-SUFFIX,xvideos-cdn.com,PROXY
+# #----- aebn -----
+DOMAIN-SUFFIX,aebn.com,PROXY
+DOMAIN-SUFFIX,aebn.net,PROXY
 # #----- 91 -----
 DOMAIN-SUFFIX,91porn.com,PROXY
 # #----- china-porn-----
