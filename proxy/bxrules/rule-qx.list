@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,huggingface.co,PROXY
 # #----- X.AI -----
 DOMAIN-SUFFIX,grok.com,PROXY
 DOMAIN-SUFFIX,grokipedia.com,PROXY
+DOMAIN-SUFFIX,x.ai,PROXY
 # #----- OPENAI & ChatGPT -----
 DOMAIN-SUFFIX,chatgpt.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY
@@ -844,6 +845,7 @@ DOMAIN-SUFFIX,iconscout.com,PROXY
 DOMAIN-SUFFIX,fotor.com,PROXY
 DOMAIN-SUFFIX,pexels.com,PROXY
 DOMAIN-SUFFIX,sagernet.org,PROXY
+DOMAIN-SUFFIX,svgviewer.dev,PROXY
 # #----- Dev Tools -----
 DOMAIN-SUFFIX,sublimetext.com,PROXY
 DOMAIN-SUFFIX,jetbrains.com,PROXY
@@ -961,6 +963,8 @@ DOMAIN-SUFFIX,soundcloud.com,PROXY
 DOMAIN-SUFFIX,musicbrainz.org,PROXY
 DOMAIN-SUFFIX,soundcloud.cloud,PROXY
 DOMAIN-SUFFIX,bose.com,PROXY
+DOMAIN-SUFFIX,last.fm,PROXY
+DOMAIN-SUFFIX,lastfm.freetls.fastly.net,PROXY
 
 # ---------- AV / Porn ----------
 DOMAIN-SUFFIX,missav.com,PROXY
@@ -1019,6 +1023,7 @@ DOMAIN-SUFFIX,t66y.com,PROXY
 DOMAIN-SUFFIX,gooldenxxx.com,PROXY
 DOMAIN-SUFFIX,huashequ.net,PROXY
 DOMAIN-SUFFIX,mm4now.com,PROXY
+DOMAIN-SUFFIX,51fengliu.com,PROXY
 
 # ---------- ENT ----------
 DOMAIN-SUFFIX,vimeo.com,PROXY
@@ -1040,6 +1045,8 @@ DOMAIN-SUFFIX,gravatar.com,PROXY
 DOMAIN-SUFFIX,wp.com,PROXY
 DOMAIN-SUFFIX,frepai.com,PROXY
 DOMAIN-SUFFIX,lala.im,PROXY
+DOMAIN-SUFFIX,yitianshijie.net,PROXY
+
 # ---------- Other Blog ----------
 
 # ---------- Other ----------
@@ -1059,6 +1066,8 @@ DOMAIN-SUFFIX,phncdn.com,PROXY
 DOMAIN-SUFFIX,phprcdn.com,PROXY
 DOMAIN-SUFFIX,1888.com.mo,PROXY
 
+# ---------- Sport ----------
+DOMAIN-SUFFIX,livescore.com,PROXY
 
 # ---------- quora ----------
 DOMAIN-SUFFIX,quora.com,PROXY
@@ -1066,5 +1075,12 @@ DOMAIN-SUFFIX,quoracdn.net,PROXY
 
 # ---------- Bloger/Sites ----------
 DOMAIN-SUFFIX,vpsv.net,PROXY
+DOMAIN-SUFFIX,pixnet.net,PROXY
+DOMAIN-SUFFIX,com.tw,PROXY
+DOMAIN-SUFFIX,ivonblog.com,PROXY
+DOMAIN-SUFFIX,musilon.com,PROXY
+DOMAIN-SUFFIX,ai.studio,PROXY
+DOMAIN-SUFFIX,google.dev,PROXY
 ## 网盘
 DOMAIN-SUFFIX,pansearch.me,PROXY
+DOMAIN-SUFFIX,dlpanda.com,PROXY

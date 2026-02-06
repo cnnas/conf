@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,huggingface.co
 # #----- X.AI -----
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,x.ai
 # #----- OPENAI & ChatGPT -----
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
@@ -844,6 +845,7 @@ DOMAIN-SUFFIX,iconscout.com
 DOMAIN-SUFFIX,fotor.com
 DOMAIN-SUFFIX,pexels.com
 DOMAIN-SUFFIX,sagernet.org
+DOMAIN-SUFFIX,svgviewer.dev
 # #----- Dev Tools -----
 DOMAIN-SUFFIX,sublimetext.com
 DOMAIN-SUFFIX,jetbrains.com
@@ -961,6 +963,8 @@ DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,musicbrainz.org
 DOMAIN-SUFFIX,soundcloud.cloud
 DOMAIN-SUFFIX,bose.com
+DOMAIN-SUFFIX,last.fm
+DOMAIN-SUFFIX,lastfm.freetls.fastly.net
 
 # ---------- AV / Porn ----------
 DOMAIN-SUFFIX,missav.com
@@ -1019,6 +1023,7 @@ DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,gooldenxxx.com
 DOMAIN-SUFFIX,huashequ.net
 DOMAIN-SUFFIX,mm4now.com
+DOMAIN-SUFFIX,51fengliu.com
 
 # ---------- ENT ----------
 DOMAIN-SUFFIX,vimeo.com
@@ -1040,6 +1045,8 @@ DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,wp.com
 DOMAIN-SUFFIX,frepai.com
 DOMAIN-SUFFIX,lala.im
+DOMAIN-SUFFIX,yitianshijie.net
+
 # ---------- Other Blog ----------
 
 # ---------- Other ----------
@@ -1059,6 +1066,8 @@ DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
 DOMAIN-SUFFIX,1888.com.mo
 
+# ---------- Sport ----------
+DOMAIN-SUFFIX,livescore.com
 
 # ---------- quora ----------
 DOMAIN-SUFFIX,quora.com
@@ -1066,5 +1075,12 @@ DOMAIN-SUFFIX,quoracdn.net
 
 # ---------- Bloger/Sites ----------
 DOMAIN-SUFFIX,vpsv.net
+DOMAIN-SUFFIX,pixnet.net
+DOMAIN-SUFFIX,com.tw
+DOMAIN-SUFFIX,ivonblog.com
+DOMAIN-SUFFIX,musilon.com
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,google.dev
 ## 网盘
 DOMAIN-SUFFIX,pansearch.me
+DOMAIN-SUFFIX,dlpanda.com
